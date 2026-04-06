@@ -1,0 +1,2001 @@
+customer_id,segment,city,age,gender,join_date,email_subscribed,preferred_device,preferred_category
+CUST00001,New,Medan,19,Male,2024-05-05,0,Desktop,Food & Drink
+CUST00002,Champions,Jakarta,45,Male,2024-02-17,1,Mobile,Electronics
+CUST00003,New,Bali,52,Female,2024-08-17,0,Mobile,Books
+CUST00004,New,Jakarta,39,Female,2024-04-20,1,Mobile,Electronics
+CUST00005,New,Yogyakarta,34,Female,2024-08-23,0,Mobile,Beauty
+CUST00006,New,Bandung,41,Male,2024-02-05,1,Mobile,Electronics
+CUST00007,Loyal,Bali,24,Female,2024-08-20,1,Mobile,Apparel
+CUST00008,Loyal,Bandung,22,Female,2024-03-28,1,Mobile,Apparel
+CUST00009,Lost,Jakarta,53,Female,2024-06-15,0,Mobile,Electronics
+CUST00010,Loyal,Jakarta,35,Female,2024-10-17,1,Desktop,Home & Garden
+CUST00011,Lost,Jakarta,47,Male,2024-03-12,1,Mobile,Beauty
+CUST00012,Lost,Bali,43,Female,2024-03-11,1,Mobile,Electronics
+CUST00013,New,Bandung,45,Male,2024-07-16,0,Mobile,Food & Drink
+CUST00014,Lost,Bandung,18,Female,2024-02-28,1,Mobile,Beauty
+CUST00015,Champions,Jakarta,45,Female,2024-01-02,0,Mobile,Home & Garden
+CUST00016,Loyal,Semarang,24,Female,2024-06-01,1,Mobile,Apparel
+CUST00017,Loyal,Makassar,51,Female,2024-06-14,1,Mobile,Food & Drink
+CUST00018,New,Jakarta,33,Female,2024-10-17,1,Mobile,Electronics
+CUST00019,New,Jakarta,26,Female,2024-08-31,1,Mobile,Beauty
+CUST00020,Lost,Medan,52,Female,2024-04-12,1,Desktop,Apparel
+CUST00021,Lost,Jakarta,46,Male,2024-04-25,1,Mobile,Beauty
+CUST00022,Champions,Jakarta,21,Female,2024-01-17,1,Mobile,Sports
+CUST00023,Loyal,Medan,26,Female,2024-10-19,1,Mobile,Home & Garden
+CUST00024,Champions,Bali,45,Female,2024-07-29,0,Desktop,Food & Drink
+CUST00025,Champions,Medan,43,Male,2024-02-25,1,Mobile,Home & Garden
+CUST00026,Loyal,Semarang,33,Female,2024-02-08,0,Mobile,Electronics
+CUST00027,Lost,Palembang,18,Male,2024-05-01,1,Mobile,Home & Garden
+CUST00028,Champions,Jakarta,42,Male,2024-07-18,0,Mobile,Home & Garden
+CUST00029,Lost,Bandung,53,Male,2024-09-06,1,Tablet,Beauty
+CUST00030,At Risk,Jakarta,38,Female,2024-10-26,0,Mobile,Electronics
+CUST00031,At Risk,Jakarta,29,Female,2024-02-04,1,Mobile,Food & Drink
+CUST00032,Loyal,Bandung,20,Female,2024-08-02,1,Mobile,Apparel
+CUST00033,New,Jakarta,38,Male,2024-07-21,1,Mobile,Food & Drink
+CUST00034,Lost,Surabaya,18,Prefer not to say,2024-10-15,1,Mobile,Apparel
+CUST00035,Lost,Semarang,22,Male,2024-07-08,1,Mobile,Apparel
+CUST00036,Lost,Jakarta,51,Male,2024-10-10,1,Tablet,Electronics
+CUST00037,Champions,Medan,24,Male,2024-03-20,1,Desktop,Apparel
+CUST00038,New,Surabaya,34,Female,2024-05-08,0,Mobile,Home & Garden
+CUST00039,Loyal,Bali,18,Female,2024-03-07,1,Desktop,Beauty
+CUST00040,At Risk,Jakarta,18,Female,2024-03-17,0,Mobile,Electronics
+CUST00041,Champions,Bali,37,Female,2024-01-21,1,Mobile,Electronics
+CUST00042,New,Depok,44,Female,2024-03-20,1,Mobile,Books
+CUST00043,Loyal,Jakarta,44,Female,2024-06-19,1,Desktop,Sports
+CUST00044,Loyal,Yogyakarta,28,Male,2024-02-25,1,Mobile,Electronics
+CUST00045,Lost,Bali,40,Male,2024-04-26,1,Mobile,Apparel
+CUST00046,Champions,Bali,35,Male,2024-09-17,0,Mobile,Food & Drink
+CUST00047,Champions,Jakarta,34,Male,2024-05-15,1,Mobile,Books
+CUST00048,At Risk,Jakarta,50,Male,2024-10-22,1,Mobile,Home & Garden
+CUST00049,New,Bali,30,Female,2024-02-05,0,Desktop,Sports
+CUST00050,Champions,Surabaya,37,Male,2024-07-28,1,Mobile,Electronics
+CUST00051,New,Bandung,42,Female,2024-03-30,1,Mobile,Electronics
+CUST00052,Loyal,Yogyakarta,45,Female,2024-06-13,1,Mobile,Home & Garden
+CUST00053,Lost,Bandung,28,Female,2024-05-25,1,Mobile,Books
+CUST00054,New,Jakarta,37,Male,2024-04-11,1,Tablet,Beauty
+CUST00055,New,Bali,47,Male,2024-10-21,1,Mobile,Apparel
+CUST00056,New,Semarang,18,Female,2024-02-24,1,Desktop,Sports
+CUST00057,At Risk,Jakarta,53,Female,2024-03-03,0,Desktop,Food & Drink
+CUST00058,At Risk,Bandung,46,Male,2024-09-15,0,Mobile,Electronics
+CUST00059,Lost,Jakarta,46,Female,2024-05-06,1,Desktop,Home & Garden
+CUST00060,Loyal,Jakarta,46,Male,2024-05-26,1,Desktop,Electronics
+CUST00061,Loyal,Medan,42,Male,2024-04-19,1,Mobile,Home & Garden
+CUST00062,Loyal,Bali,44,Female,2024-10-26,1,Desktop,Beauty
+CUST00063,At Risk,Jakarta,40,Female,2024-07-18,0,Mobile,Sports
+CUST00064,At Risk,Surabaya,32,Male,2024-05-19,1,Mobile,Sports
+CUST00065,At Risk,Semarang,28,Prefer not to say,2024-03-06,1,Desktop,Beauty
+CUST00066,New,Bandung,23,Female,2024-03-10,1,Mobile,Apparel
+CUST00067,At Risk,Medan,39,Male,2024-07-13,0,Mobile,Books
+CUST00068,At Risk,Jakarta,52,Male,2024-06-28,1,Tablet,Electronics
+CUST00069,Champions,Jakarta,33,Female,2024-01-11,1,Mobile,Electronics
+CUST00070,Lost,Medan,47,Male,2024-07-07,1,Desktop,Electronics
+CUST00071,New,Jakarta,37,Female,2024-01-14,1,Desktop,Apparel
+CUST00072,Lost,Jakarta,30,Male,2024-05-04,0,Desktop,Beauty
+CUST00073,Champions,Yogyakarta,54,Female,2024-06-26,1,Mobile,Beauty
+CUST00074,Champions,Yogyakarta,44,Male,2024-02-24,1,Desktop,Home & Garden
+CUST00075,Loyal,Medan,29,Female,2024-05-18,0,Desktop,Home & Garden
+CUST00076,New,Jakarta,55,Female,2024-05-05,1,Desktop,Apparel
+CUST00077,At Risk,Bali,42,Female,2024-09-10,1,Mobile,Books
+CUST00078,Loyal,Surabaya,35,Female,2024-09-21,1,Desktop,Home & Garden
+CUST00079,New,Bandung,48,Female,2024-09-08,1,Mobile,Home & Garden
+CUST00080,Loyal,Bali,55,Female,2024-10-10,1,Desktop,Apparel
+CUST00081,New,Bali,35,Male,2024-04-28,1,Mobile,Beauty
+CUST00082,New,Jakarta,29,Male,2024-09-04,1,Desktop,Beauty
+CUST00083,Lost,Jakarta,30,Male,2024-07-03,1,Mobile,Apparel
+CUST00084,Lost,Jakarta,53,Female,2024-03-05,0,Mobile,Electronics
+CUST00085,Loyal,Surabaya,48,Prefer not to say,2024-04-04,1,Desktop,Electronics
+CUST00086,Champions,Jakarta,49,Male,2024-01-28,0,Tablet,Electronics
+CUST00087,Loyal,Medan,53,Female,2024-04-25,1,Desktop,Apparel
+CUST00088,At Risk,Bali,45,Female,2024-01-31,0,Tablet,Apparel
+CUST00089,Loyal,Jakarta,23,Female,2024-03-29,1,Mobile,Sports
+CUST00090,At Risk,Jakarta,20,Female,2024-05-24,1,Desktop,Food & Drink
+CUST00091,New,Bandung,55,Male,2024-04-11,1,Desktop,Food & Drink
+CUST00092,New,Jakarta,22,Female,2024-06-06,0,Tablet,Home & Garden
+CUST00093,At Risk,Medan,37,Female,2024-05-19,1,Mobile,Electronics
+CUST00094,At Risk,Bandung,38,Male,2024-01-14,0,Desktop,Beauty
+CUST00095,Lost,Bandung,35,Female,2024-03-30,1,Desktop,Electronics
+CUST00096,At Risk,Palembang,49,Male,2024-08-28,1,Desktop,Books
+CUST00097,Loyal,Jakarta,49,Female,2024-07-24,1,Mobile,Apparel
+CUST00098,Loyal,Semarang,43,Female,2024-01-01,1,Mobile,Electronics
+CUST00099,Loyal,Bandung,49,Male,2024-01-27,1,Tablet,Home & Garden
+CUST00100,New,Jakarta,25,Female,2024-05-02,1,Mobile,Home & Garden
+CUST00101,Loyal,Surabaya,25,Female,2024-03-01,1,Tablet,Apparel
+CUST00102,New,Yogyakarta,44,Male,2024-08-29,1,Mobile,Food & Drink
+CUST00103,At Risk,Semarang,26,Female,2024-05-21,0,Mobile,Books
+CUST00104,Loyal,Jakarta,18,Female,2024-06-01,1,Desktop,Books
+CUST00105,At Risk,Bali,48,Female,2024-10-09,1,Tablet,Books
+CUST00106,Lost,Bandung,33,Female,2024-04-29,1,Mobile,Home & Garden
+CUST00107,Lost,Bali,42,Female,2024-03-18,1,Mobile,Beauty
+CUST00108,Lost,Jakarta,46,Male,2024-08-21,1,Desktop,Food & Drink
+CUST00109,Champions,Bali,34,Female,2024-07-22,0,Desktop,Books
+CUST00110,Loyal,Bandung,38,Female,2024-09-06,1,Mobile,Beauty
+CUST00111,Lost,Medan,32,Prefer not to say,2024-08-10,0,Desktop,Electronics
+CUST00112,Loyal,Makassar,37,Male,2024-01-24,1,Mobile,Home & Garden
+CUST00113,Loyal,Surabaya,44,Male,2024-04-02,1,Desktop,Beauty
+CUST00114,Loyal,Jakarta,55,Female,2024-08-24,1,Desktop,Food & Drink
+CUST00115,At Risk,Bandung,36,Male,2024-03-21,0,Tablet,Apparel
+CUST00116,Lost,Surabaya,34,Male,2024-06-03,1,Mobile,Apparel
+CUST00117,At Risk,Jakarta,54,Male,2024-05-31,0,Mobile,Electronics
+CUST00118,Lost,Makassar,21,Female,2024-09-11,0,Desktop,Apparel
+CUST00119,New,Bandung,32,Female,2024-05-08,0,Desktop,Books
+CUST00120,New,Bali,20,Male,2024-08-13,1,Mobile,Food & Drink
+CUST00121,Loyal,Jakarta,44,Female,2024-03-08,0,Mobile,Home & Garden
+CUST00122,Loyal,Jakarta,28,Prefer not to say,2024-09-03,1,Desktop,Books
+CUST00123,At Risk,Jakarta,22,Female,2024-04-25,0,Tablet,Food & Drink
+CUST00124,New,Jakarta,41,Male,2024-07-21,1,Mobile,Sports
+CUST00125,New,Bali,55,Male,2024-07-09,1,Mobile,Food & Drink
+CUST00126,At Risk,Bandung,32,Female,2024-08-25,1,Mobile,Electronics
+CUST00127,Lost,Depok,37,Male,2024-02-29,0,Mobile,Home & Garden
+CUST00128,New,Bali,52,Female,2024-03-20,1,Desktop,Beauty
+CUST00129,Lost,Jakarta,35,Male,2024-07-08,1,Mobile,Apparel
+CUST00130,Lost,Surabaya,41,Male,2024-07-02,1,Tablet,Food & Drink
+CUST00131,New,Bandung,23,Male,2024-01-11,1,Tablet,Books
+CUST00132,Loyal,Jakarta,53,Female,2024-04-20,1,Desktop,Books
+CUST00133,At Risk,Semarang,35,Prefer not to say,2024-03-15,1,Desktop,Electronics
+CUST00134,Lost,Jakarta,26,Female,2024-05-01,1,Mobile,Electronics
+CUST00135,At Risk,Medan,25,Female,2024-08-31,1,Mobile,Home & Garden
+CUST00136,Loyal,Medan,20,Male,2024-09-23,1,Mobile,Food & Drink
+CUST00137,New,Bandung,45,Female,2024-09-08,1,Desktop,Apparel
+CUST00138,Champions,Jakarta,26,Female,2024-10-26,1,Tablet,Beauty
+CUST00139,At Risk,Jakarta,45,Female,2024-02-28,1,Desktop,Sports
+CUST00140,Loyal,Semarang,46,Male,2024-07-30,1,Mobile,Electronics
+CUST00141,At Risk,Bali,34,Female,2024-03-19,1,Mobile,Electronics
+CUST00142,At Risk,Yogyakarta,41,Male,2024-10-11,0,Mobile,Sports
+CUST00143,At Risk,Semarang,45,Prefer not to say,2024-01-27,1,Mobile,Beauty
+CUST00144,Loyal,Jakarta,48,Male,2024-02-25,1,Mobile,Apparel
+CUST00145,Loyal,Semarang,45,Male,2024-10-12,0,Desktop,Apparel
+CUST00146,Loyal,Makassar,37,Male,2024-06-28,0,Mobile,Home & Garden
+CUST00147,Champions,Jakarta,19,Male,2024-09-28,1,Mobile,Apparel
+CUST00148,New,Bandung,54,Male,2024-01-27,0,Mobile,Electronics
+CUST00149,At Risk,Surabaya,45,Male,2024-08-14,1,Mobile,Apparel
+CUST00150,Champions,Surabaya,55,Male,2024-06-06,1,Mobile,Electronics
+CUST00151,Loyal,Medan,31,Male,2024-05-10,1,Mobile,Home & Garden
+CUST00152,Champions,Medan,52,Female,2024-09-13,1,Mobile,Home & Garden
+CUST00153,New,Jakarta,45,Female,2024-02-09,1,Mobile,Sports
+CUST00154,At Risk,Bali,25,Male,2024-06-15,0,Mobile,Sports
+CUST00155,Loyal,Semarang,45,Male,2024-05-04,1,Mobile,Books
+CUST00156,New,Bali,32,Male,2024-03-27,1,Mobile,Electronics
+CUST00157,New,Medan,40,Male,2024-03-16,1,Mobile,Beauty
+CUST00158,New,Jakarta,22,Female,2024-09-09,1,Mobile,Sports
+CUST00159,Lost,Semarang,38,Male,2024-06-10,1,Mobile,Apparel
+CUST00160,Loyal,Bali,21,Male,2024-02-07,1,Mobile,Books
+CUST00161,Champions,Bandung,23,Male,2024-09-16,1,Tablet,Sports
+CUST00162,Champions,Bandung,54,Female,2024-06-13,1,Tablet,Home & Garden
+CUST00163,New,Depok,39,Female,2024-02-13,1,Mobile,Home & Garden
+CUST00164,At Risk,Bandung,51,Male,2024-07-05,1,Mobile,Apparel
+CUST00165,At Risk,Jakarta,39,Female,2024-02-18,1,Mobile,Books
+CUST00166,Lost,Bali,27,Female,2024-10-25,0,Mobile,Sports
+CUST00167,New,Bandung,26,Male,2024-02-13,1,Desktop,Books
+CUST00168,New,Jakarta,51,Female,2024-08-04,1,Mobile,Food & Drink
+CUST00169,Loyal,Jakarta,49,Male,2024-03-11,1,Desktop,Home & Garden
+CUST00170,At Risk,Jakarta,51,Female,2024-06-21,1,Mobile,Electronics
+CUST00171,Loyal,Medan,28,Male,2024-01-23,1,Mobile,Home & Garden
+CUST00172,Loyal,Jakarta,46,Male,2024-05-02,0,Mobile,Books
+CUST00173,Loyal,Depok,54,Female,2024-08-24,0,Mobile,Home & Garden
+CUST00174,Loyal,Yogyakarta,30,Female,2024-03-11,1,Mobile,Apparel
+CUST00175,Lost,Semarang,51,Male,2024-05-25,1,Mobile,Home & Garden
+CUST00176,New,Palembang,23,Female,2024-04-23,0,Tablet,Home & Garden
+CUST00177,Loyal,Jakarta,41,Male,2024-02-11,1,Tablet,Books
+CUST00178,New,Jakarta,27,Female,2024-05-26,1,Desktop,Sports
+CUST00179,At Risk,Makassar,18,Male,2024-01-10,0,Mobile,Sports
+CUST00180,At Risk,Yogyakarta,25,Male,2024-05-01,1,Mobile,Books
+CUST00181,At Risk,Yogyakarta,25,Female,2024-09-12,1,Mobile,Apparel
+CUST00182,Champions,Jakarta,45,Male,2024-06-29,1,Desktop,Electronics
+CUST00183,Lost,Palembang,22,Female,2024-10-05,0,Mobile,Home & Garden
+CUST00184,At Risk,Depok,42,Female,2024-05-09,1,Mobile,Apparel
+CUST00185,New,Yogyakarta,24,Male,2024-06-19,1,Mobile,Beauty
+CUST00186,New,Depok,47,Female,2024-09-02,0,Mobile,Books
+CUST00187,At Risk,Jakarta,36,Female,2024-04-12,1,Mobile,Home & Garden
+CUST00188,New,Jakarta,48,Male,2024-04-07,0,Mobile,Sports
+CUST00189,Loyal,Surabaya,41,Female,2024-07-23,0,Mobile,Food & Drink
+CUST00190,At Risk,Bali,49,Male,2024-09-22,1,Mobile,Home & Garden
+CUST00191,Lost,Surabaya,29,Male,2024-06-13,1,Mobile,Home & Garden
+CUST00192,New,Bandung,28,Female,2024-06-28,0,Desktop,Beauty
+CUST00193,At Risk,Jakarta,21,Male,2024-07-26,0,Desktop,Food & Drink
+CUST00194,Champions,Jakarta,46,Male,2024-02-04,1,Mobile,Food & Drink
+CUST00195,Champions,Bandung,27,Male,2024-07-08,0,Mobile,Beauty
+CUST00196,Loyal,Jakarta,35,Male,2024-02-28,1,Mobile,Food & Drink
+CUST00197,Champions,Medan,34,Prefer not to say,2024-04-19,1,Desktop,Home & Garden
+CUST00198,Champions,Surabaya,22,Prefer not to say,2024-08-15,0,Tablet,Food & Drink
+CUST00199,New,Surabaya,22,Female,2024-05-28,0,Desktop,Food & Drink
+CUST00200,New,Surabaya,41,Prefer not to say,2024-03-03,0,Mobile,Home & Garden
+CUST00201,Loyal,Bali,54,Male,2024-10-09,0,Mobile,Home & Garden
+CUST00202,New,Surabaya,48,Female,2024-07-28,1,Tablet,Beauty
+CUST00203,At Risk,Bali,51,Female,2024-10-09,1,Tablet,Home & Garden
+CUST00204,Lost,Yogyakarta,21,Male,2024-09-22,1,Mobile,Sports
+CUST00205,Loyal,Semarang,51,Male,2024-02-10,1,Mobile,Electronics
+CUST00206,Loyal,Jakarta,52,Female,2024-03-27,1,Mobile,Beauty
+CUST00207,Lost,Semarang,39,Male,2024-10-15,0,Mobile,Food & Drink
+CUST00208,New,Bandung,34,Male,2024-10-19,1,Mobile,Beauty
+CUST00209,Loyal,Surabaya,37,Male,2024-07-26,1,Mobile,Home & Garden
+CUST00210,At Risk,Bali,31,Male,2024-03-14,1,Desktop,Books
+CUST00211,Lost,Medan,26,Female,2024-09-20,1,Mobile,Apparel
+CUST00212,Loyal,Jakarta,24,Female,2024-07-15,1,Tablet,Food & Drink
+CUST00213,New,Medan,54,Female,2024-04-07,1,Mobile,Home & Garden
+CUST00214,Loyal,Jakarta,19,Female,2024-07-20,0,Mobile,Apparel
+CUST00215,Champions,Bandung,49,Male,2024-08-28,1,Mobile,Electronics
+CUST00216,Loyal,Medan,41,Male,2024-07-06,1,Mobile,Apparel
+CUST00217,Loyal,Surabaya,42,Male,2024-10-08,0,Desktop,Electronics
+CUST00218,Lost,Bali,43,Female,2024-06-22,1,Mobile,Beauty
+CUST00219,At Risk,Jakarta,20,Female,2024-03-11,0,Mobile,Electronics
+CUST00220,Lost,Bali,26,Male,2024-06-12,0,Desktop,Apparel
+CUST00221,Loyal,Surabaya,50,Male,2024-10-15,0,Mobile,Sports
+CUST00222,Lost,Bali,55,Female,2024-01-14,1,Desktop,Food & Drink
+CUST00223,At Risk,Medan,32,Female,2024-10-25,1,Desktop,Books
+CUST00224,Loyal,Jakarta,33,Male,2024-02-26,1,Mobile,Home & Garden
+CUST00225,Loyal,Yogyakarta,50,Female,2024-08-29,0,Mobile,Electronics
+CUST00226,Loyal,Depok,38,Female,2024-09-01,1,Mobile,Food & Drink
+CUST00227,Loyal,Bandung,40,Female,2024-05-15,1,Mobile,Beauty
+CUST00228,Loyal,Yogyakarta,37,Female,2024-04-16,1,Mobile,Beauty
+CUST00229,Lost,Jakarta,35,Female,2024-10-20,1,Tablet,Books
+CUST00230,Lost,Jakarta,27,Female,2024-05-27,1,Tablet,Sports
+CUST00231,New,Jakarta,31,Male,2024-10-02,1,Mobile,Electronics
+CUST00232,New,Jakarta,33,Male,2024-09-28,1,Mobile,Apparel
+CUST00233,At Risk,Jakarta,26,Prefer not to say,2024-10-08,1,Desktop,Food & Drink
+CUST00234,At Risk,Medan,30,Male,2024-05-27,1,Desktop,Electronics
+CUST00235,At Risk,Medan,52,Female,2024-01-20,1,Desktop,Electronics
+CUST00236,Lost,Yogyakarta,43,Female,2024-04-05,0,Tablet,Books
+CUST00237,Champions,Bandung,54,Male,2024-06-20,0,Mobile,Home & Garden
+CUST00238,Lost,Surabaya,50,Female,2024-04-08,1,Desktop,Beauty
+CUST00239,New,Medan,18,Female,2024-05-31,0,Mobile,Books
+CUST00240,Lost,Surabaya,45,Male,2024-02-14,1,Tablet,Home & Garden
+CUST00241,Lost,Jakarta,18,Female,2024-04-30,1,Mobile,Beauty
+CUST00242,At Risk,Bandung,34,Male,2024-04-30,1,Mobile,Home & Garden
+CUST00243,At Risk,Medan,37,Male,2024-05-31,1,Tablet,Home & Garden
+CUST00244,At Risk,Bali,41,Female,2024-10-08,0,Desktop,Books
+CUST00245,New,Surabaya,23,Female,2024-09-27,1,Mobile,Electronics
+CUST00246,At Risk,Jakarta,50,Male,2024-10-01,1,Mobile,Electronics
+CUST00247,Loyal,Surabaya,55,Female,2024-09-18,1,Mobile,Home & Garden
+CUST00248,At Risk,Surabaya,53,Female,2024-06-06,1,Desktop,Sports
+CUST00249,At Risk,Surabaya,20,Female,2024-02-02,1,Desktop,Food & Drink
+CUST00250,At Risk,Bali,36,Female,2024-03-10,0,Desktop,Home & Garden
+CUST00251,Lost,Surabaya,42,Male,2024-07-12,1,Desktop,Beauty
+CUST00252,New,Jakarta,40,Male,2024-10-02,1,Tablet,Books
+CUST00253,New,Surabaya,37,Male,2024-10-05,1,Mobile,Home & Garden
+CUST00254,Loyal,Makassar,30,Male,2024-02-27,1,Mobile,Food & Drink
+CUST00255,Lost,Jakarta,33,Female,2024-02-21,1,Desktop,Books
+CUST00256,Loyal,Bali,20,Female,2024-04-29,0,Desktop,Electronics
+CUST00257,Lost,Yogyakarta,32,Male,2024-10-21,1,Desktop,Apparel
+CUST00258,Loyal,Depok,27,Male,2024-09-23,1,Mobile,Food & Drink
+CUST00259,Lost,Bandung,29,Female,2024-08-06,1,Mobile,Beauty
+CUST00260,Loyal,Bali,51,Male,2024-08-01,1,Mobile,Beauty
+CUST00261,Loyal,Bali,32,Female,2024-03-14,0,Mobile,Food & Drink
+CUST00262,At Risk,Bali,26,Male,2024-05-10,1,Tablet,Books
+CUST00263,Champions,Jakarta,30,Female,2024-07-12,1,Desktop,Electronics
+CUST00264,New,Jakarta,53,Female,2024-04-16,1,Tablet,Electronics
+CUST00265,Lost,Medan,25,Female,2024-09-02,1,Desktop,Home & Garden
+CUST00266,Loyal,Yogyakarta,38,Female,2024-07-13,1,Mobile,Apparel
+CUST00267,Lost,Jakarta,47,Female,2024-08-28,1,Mobile,Apparel
+CUST00268,Champions,Medan,32,Male,2024-01-09,0,Mobile,Home & Garden
+CUST00269,Loyal,Jakarta,39,Female,2024-10-18,1,Desktop,Sports
+CUST00270,Loyal,Palembang,49,Female,2024-09-08,0,Mobile,Electronics
+CUST00271,At Risk,Makassar,29,Prefer not to say,2024-10-04,0,Mobile,Books
+CUST00272,Champions,Medan,21,Male,2024-07-30,1,Mobile,Electronics
+CUST00273,Loyal,Bali,47,Female,2024-09-04,1,Mobile,Home & Garden
+CUST00274,Champions,Surabaya,35,Male,2024-05-26,0,Desktop,Books
+CUST00275,Lost,Makassar,24,Male,2024-09-25,1,Mobile,Books
+CUST00276,Loyal,Jakarta,43,Female,2024-07-26,1,Desktop,Apparel
+CUST00277,New,Bandung,23,Male,2024-01-17,1,Mobile,Electronics
+CUST00278,Champions,Jakarta,28,Female,2024-08-10,1,Tablet,Food & Drink
+CUST00279,Lost,Jakarta,20,Female,2024-10-17,1,Mobile,Food & Drink
+CUST00280,Lost,Bandung,54,Female,2024-04-01,1,Tablet,Beauty
+CUST00281,New,Makassar,43,Male,2024-06-02,1,Desktop,Home & Garden
+CUST00282,Lost,Bali,39,Female,2024-03-12,1,Mobile,Sports
+CUST00283,Loyal,Surabaya,24,Male,2024-02-08,0,Tablet,Home & Garden
+CUST00284,New,Bandung,19,Female,2024-08-18,1,Tablet,Home & Garden
+CUST00285,New,Jakarta,42,Female,2024-05-31,1,Mobile,Electronics
+CUST00286,New,Medan,27,Male,2024-06-11,1,Tablet,Home & Garden
+CUST00287,New,Jakarta,24,Male,2024-04-05,1,Mobile,Electronics
+CUST00288,Champions,Jakarta,53,Female,2024-06-15,1,Mobile,Books
+CUST00289,New,Makassar,53,Female,2024-05-04,1,Mobile,Electronics
+CUST00290,Loyal,Jakarta,49,Male,2024-03-26,1,Mobile,Electronics
+CUST00291,Loyal,Medan,33,Female,2024-09-10,1,Mobile,Apparel
+CUST00292,Lost,Semarang,39,Female,2024-07-13,1,Mobile,Books
+CUST00293,Lost,Bali,26,Female,2024-04-12,1,Mobile,Apparel
+CUST00294,New,Palembang,49,Male,2024-05-04,1,Desktop,Apparel
+CUST00295,Lost,Bandung,30,Male,2024-10-06,0,Mobile,Sports
+CUST00296,Lost,Surabaya,31,Female,2024-05-29,1,Desktop,Books
+CUST00297,New,Bandung,26,Male,2024-05-03,1,Mobile,Apparel
+CUST00298,At Risk,Bandung,48,Female,2024-09-30,0,Desktop,Beauty
+CUST00299,New,Medan,41,Female,2024-10-01,0,Mobile,Apparel
+CUST00300,New,Bandung,28,Female,2024-01-23,1,Desktop,Food & Drink
+CUST00301,Loyal,Jakarta,45,Male,2024-02-20,1,Mobile,Beauty
+CUST00302,At Risk,Bali,46,Female,2024-08-25,1,Mobile,Apparel
+CUST00303,Champions,Jakarta,24,Male,2024-02-13,0,Mobile,Apparel
+CUST00304,At Risk,Surabaya,31,Female,2024-06-27,1,Desktop,Apparel
+CUST00305,Loyal,Jakarta,25,Female,2024-06-24,1,Mobile,Food & Drink
+CUST00306,Loyal,Surabaya,29,Female,2024-06-18,0,Mobile,Home & Garden
+CUST00307,Loyal,Bali,45,Female,2024-04-11,1,Mobile,Apparel
+CUST00308,Loyal,Bandung,22,Male,2024-10-01,1,Mobile,Apparel
+CUST00309,Lost,Palembang,51,Female,2024-06-09,1,Mobile,Apparel
+CUST00310,New,Yogyakarta,29,Female,2024-06-01,1,Desktop,Apparel
+CUST00311,Loyal,Jakarta,25,Female,2024-03-13,1,Mobile,Home & Garden
+CUST00312,Loyal,Medan,52,Female,2024-03-29,1,Mobile,Apparel
+CUST00313,At Risk,Semarang,21,Female,2024-01-05,1,Mobile,Beauty
+CUST00314,New,Bandung,44,Female,2024-07-31,1,Mobile,Beauty
+CUST00315,New,Jakarta,32,Male,2024-05-20,1,Desktop,Beauty
+CUST00316,New,Surabaya,49,Female,2024-02-27,1,Mobile,Food & Drink
+CUST00317,At Risk,Medan,20,Female,2024-08-13,0,Mobile,Books
+CUST00318,New,Semarang,37,Female,2024-01-17,1,Desktop,Home & Garden
+CUST00319,Lost,Jakarta,33,Female,2024-10-28,0,Mobile,Home & Garden
+CUST00320,New,Yogyakarta,31,Female,2024-01-31,1,Mobile,Electronics
+CUST00321,Lost,Jakarta,36,Female,2024-05-16,1,Desktop,Books
+CUST00322,Champions,Makassar,44,Female,2024-05-21,1,Desktop,Apparel
+CUST00323,New,Medan,33,Female,2024-07-20,1,Mobile,Home & Garden
+CUST00324,At Risk,Bali,23,Female,2024-05-22,0,Mobile,Home & Garden
+CUST00325,At Risk,Medan,23,Female,2024-08-22,1,Desktop,Books
+CUST00326,Loyal,Yogyakarta,45,Male,2024-09-10,0,Mobile,Beauty
+CUST00327,At Risk,Yogyakarta,49,Male,2024-01-25,1,Desktop,Electronics
+CUST00328,Lost,Surabaya,28,Prefer not to say,2024-01-01,1,Tablet,Food & Drink
+CUST00329,Lost,Jakarta,37,Male,2024-05-20,1,Mobile,Sports
+CUST00330,New,Bali,21,Female,2024-06-05,0,Mobile,Electronics
+CUST00331,Champions,Surabaya,31,Female,2024-03-08,1,Mobile,Electronics
+CUST00332,Loyal,Depok,25,Female,2024-08-04,1,Mobile,Electronics
+CUST00333,New,Bali,24,Male,2024-06-02,0,Desktop,Electronics
+CUST00334,Lost,Jakarta,27,Male,2024-10-15,1,Mobile,Sports
+CUST00335,New,Makassar,27,Female,2024-08-14,1,Mobile,Sports
+CUST00336,At Risk,Bali,42,Male,2024-08-07,1,Mobile,Electronics
+CUST00337,At Risk,Yogyakarta,36,Female,2024-01-14,1,Mobile,Home & Garden
+CUST00338,At Risk,Jakarta,43,Female,2024-01-28,0,Mobile,Home & Garden
+CUST00339,Loyal,Surabaya,22,Prefer not to say,2024-01-07,0,Mobile,Books
+CUST00340,At Risk,Surabaya,41,Female,2024-03-29,0,Desktop,Electronics
+CUST00341,Champions,Jakarta,34,Female,2024-01-31,1,Mobile,Sports
+CUST00342,New,Medan,45,Female,2024-02-12,1,Mobile,Electronics
+CUST00343,Champions,Depok,31,Female,2024-03-20,1,Desktop,Books
+CUST00344,New,Bali,22,Female,2024-08-11,0,Mobile,Electronics
+CUST00345,At Risk,Bandung,47,Male,2024-01-29,0,Desktop,Electronics
+CUST00346,New,Jakarta,18,Female,2024-06-26,0,Desktop,Electronics
+CUST00347,Champions,Medan,35,Female,2024-03-01,1,Desktop,Apparel
+CUST00348,Champions,Bandung,54,Female,2024-09-11,1,Mobile,Beauty
+CUST00349,Loyal,Yogyakarta,34,Female,2024-10-20,1,Desktop,Electronics
+CUST00350,Lost,Jakarta,18,Male,2024-08-29,0,Mobile,Food & Drink
+CUST00351,Champions,Jakarta,44,Male,2024-05-07,0,Mobile,Electronics
+CUST00352,Loyal,Bandung,50,Male,2024-01-27,0,Tablet,Food & Drink
+CUST00353,Champions,Semarang,47,Male,2024-06-08,1,Mobile,Apparel
+CUST00354,At Risk,Medan,37,Female,2024-05-04,1,Mobile,Books
+CUST00355,Loyal,Medan,52,Male,2024-05-05,0,Mobile,Beauty
+CUST00356,New,Palembang,18,Female,2024-01-01,1,Desktop,Apparel
+CUST00357,Loyal,Bali,33,Prefer not to say,2024-01-31,1,Mobile,Electronics
+CUST00358,Loyal,Bali,51,Female,2024-07-09,0,Mobile,Home & Garden
+CUST00359,New,Jakarta,43,Male,2024-10-17,1,Mobile,Apparel
+CUST00360,Lost,Medan,43,Male,2024-06-16,1,Mobile,Apparel
+CUST00361,New,Jakarta,55,Male,2024-02-24,1,Mobile,Beauty
+CUST00362,Lost,Surabaya,31,Male,2024-08-25,1,Mobile,Sports
+CUST00363,New,Jakarta,20,Male,2024-06-16,1,Tablet,Home & Garden
+CUST00364,Champions,Jakarta,37,Male,2024-03-30,1,Mobile,Sports
+CUST00365,Loyal,Jakarta,47,Male,2024-03-12,1,Desktop,Apparel
+CUST00366,Loyal,Bali,43,Female,2024-02-13,1,Desktop,Electronics
+CUST00367,Champions,Yogyakarta,46,Female,2024-02-17,0,Mobile,Electronics
+CUST00368,At Risk,Makassar,28,Female,2024-08-09,1,Mobile,Sports
+CUST00369,Loyal,Makassar,31,Male,2024-05-20,0,Mobile,Beauty
+CUST00370,Loyal,Surabaya,36,Female,2024-10-08,1,Mobile,Home & Garden
+CUST00371,New,Jakarta,51,Female,2024-10-05,0,Desktop,Apparel
+CUST00372,At Risk,Bali,49,Female,2024-10-16,1,Mobile,Apparel
+CUST00373,Loyal,Jakarta,35,Female,2024-08-29,0,Tablet,Food & Drink
+CUST00374,Champions,Jakarta,33,Female,2024-01-29,0,Mobile,Food & Drink
+CUST00375,Loyal,Jakarta,29,Male,2024-10-30,0,Mobile,Beauty
+CUST00376,New,Palembang,40,Male,2024-10-15,0,Desktop,Books
+CUST00377,Lost,Bali,52,Male,2024-09-08,1,Mobile,Electronics
+CUST00378,At Risk,Makassar,39,Female,2024-04-13,1,Mobile,Books
+CUST00379,Lost,Jakarta,21,Female,2024-10-27,1,Mobile,Beauty
+CUST00380,Loyal,Bali,22,Female,2024-07-21,1,Mobile,Food & Drink
+CUST00381,New,Yogyakarta,45,Female,2024-09-06,1,Tablet,Sports
+CUST00382,Lost,Jakarta,40,Female,2024-10-28,1,Desktop,Apparel
+CUST00383,Loyal,Palembang,18,Male,2024-10-20,0,Tablet,Electronics
+CUST00384,New,Bandung,32,Female,2024-02-23,1,Desktop,Apparel
+CUST00385,Lost,Bandung,28,Female,2024-02-15,1,Desktop,Apparel
+CUST00386,Champions,Jakarta,31,Male,2024-02-04,0,Desktop,Electronics
+CUST00387,At Risk,Palembang,44,Female,2024-07-30,1,Mobile,Electronics
+CUST00388,At Risk,Bandung,54,Male,2024-04-25,1,Desktop,Apparel
+CUST00389,Loyal,Jakarta,24,Female,2024-03-28,1,Mobile,Food & Drink
+CUST00390,Lost,Bandung,39,Female,2024-09-04,1,Desktop,Beauty
+CUST00391,At Risk,Jakarta,21,Prefer not to say,2024-04-15,1,Mobile,Food & Drink
+CUST00392,At Risk,Jakarta,36,Male,2024-02-19,1,Desktop,Electronics
+CUST00393,Loyal,Jakarta,45,Male,2024-09-02,1,Mobile,Apparel
+CUST00394,Champions,Bali,25,Female,2024-07-22,0,Mobile,Beauty
+CUST00395,Loyal,Semarang,41,Male,2024-07-08,1,Mobile,Apparel
+CUST00396,New,Jakarta,54,Male,2024-02-19,1,Mobile,Food & Drink
+CUST00397,At Risk,Jakarta,53,Female,2024-07-17,1,Mobile,Books
+CUST00398,At Risk,Surabaya,33,Male,2024-02-10,0,Mobile,Beauty
+CUST00399,At Risk,Bandung,54,Male,2024-03-16,0,Mobile,Food & Drink
+CUST00400,Lost,Jakarta,30,Male,2024-08-04,1,Mobile,Books
+CUST00401,Champions,Bali,34,Male,2024-02-04,1,Mobile,Books
+CUST00402,At Risk,Yogyakarta,18,Female,2024-10-27,1,Mobile,Electronics
+CUST00403,At Risk,Makassar,24,Female,2024-10-15,0,Desktop,Food & Drink
+CUST00404,Lost,Bali,34,Female,2024-09-05,1,Mobile,Home & Garden
+CUST00405,New,Jakarta,43,Female,2024-06-18,1,Mobile,Apparel
+CUST00406,Loyal,Yogyakarta,39,Male,2024-06-04,0,Desktop,Sports
+CUST00407,Lost,Jakarta,32,Female,2024-08-14,1,Desktop,Beauty
+CUST00408,Champions,Jakarta,46,Female,2024-07-27,0,Desktop,Books
+CUST00409,At Risk,Jakarta,28,Male,2024-09-16,0,Mobile,Beauty
+CUST00410,Loyal,Yogyakarta,30,Male,2024-05-07,1,Mobile,Electronics
+CUST00411,Loyal,Surabaya,47,Female,2024-03-04,1,Mobile,Home & Garden
+CUST00412,Lost,Bandung,48,Male,2024-06-28,0,Mobile,Books
+CUST00413,Champions,Bali,19,Female,2024-03-24,0,Mobile,Apparel
+CUST00414,Loyal,Jakarta,31,Female,2024-07-28,0,Tablet,Sports
+CUST00415,At Risk,Bandung,26,Male,2024-01-05,1,Tablet,Sports
+CUST00416,New,Surabaya,35,Female,2024-07-11,1,Mobile,Apparel
+CUST00417,At Risk,Bandung,43,Female,2024-01-04,1,Desktop,Apparel
+CUST00418,New,Jakarta,36,Female,2024-02-25,1,Mobile,Apparel
+CUST00419,Loyal,Jakarta,37,Female,2024-09-21,0,Desktop,Books
+CUST00420,New,Bandung,38,Female,2024-01-14,0,Mobile,Home & Garden
+CUST00421,Loyal,Bandung,20,Female,2024-10-19,1,Desktop,Sports
+CUST00422,New,Makassar,48,Female,2024-07-02,0,Desktop,Books
+CUST00423,Loyal,Surabaya,24,Female,2024-05-12,1,Desktop,Food & Drink
+CUST00424,Lost,Jakarta,23,Female,2024-04-24,1,Desktop,Apparel
+CUST00425,Loyal,Surabaya,36,Female,2024-03-01,0,Mobile,Food & Drink
+CUST00426,Champions,Surabaya,30,Female,2024-07-14,1,Desktop,Electronics
+CUST00427,Lost,Bali,39,Female,2024-10-18,0,Mobile,Books
+CUST00428,Loyal,Surabaya,23,Male,2024-03-31,1,Mobile,Apparel
+CUST00429,New,Medan,54,Female,2024-09-07,0,Mobile,Home & Garden
+CUST00430,At Risk,Palembang,45,Male,2024-07-15,1,Desktop,Food & Drink
+CUST00431,Lost,Jakarta,51,Female,2024-01-03,1,Desktop,Apparel
+CUST00432,Champions,Surabaya,42,Male,2024-06-05,0,Mobile,Apparel
+CUST00433,New,Bali,51,Male,2024-03-09,0,Mobile,Electronics
+CUST00434,Lost,Jakarta,43,Female,2024-04-24,1,Desktop,Beauty
+CUST00435,Loyal,Medan,41,Male,2024-01-20,1,Desktop,Beauty
+CUST00436,At Risk,Bandung,21,Male,2024-01-11,1,Mobile,Electronics
+CUST00437,Loyal,Jakarta,27,Male,2024-01-05,1,Desktop,Apparel
+CUST00438,New,Bali,26,Female,2024-02-23,1,Mobile,Books
+CUST00439,At Risk,Yogyakarta,30,Prefer not to say,2024-09-24,1,Mobile,Electronics
+CUST00440,At Risk,Bandung,31,Male,2024-09-03,1,Desktop,Food & Drink
+CUST00441,New,Jakarta,49,Female,2024-02-16,1,Desktop,Food & Drink
+CUST00442,New,Depok,47,Male,2024-05-31,1,Desktop,Books
+CUST00443,Lost,Yogyakarta,41,Male,2024-06-09,1,Desktop,Food & Drink
+CUST00444,Champions,Bandung,26,Male,2024-03-28,0,Tablet,Apparel
+CUST00445,New,Yogyakarta,41,Male,2024-04-03,1,Mobile,Books
+CUST00446,New,Yogyakarta,48,Male,2024-03-26,1,Mobile,Food & Drink
+CUST00447,Loyal,Makassar,44,Female,2024-09-04,1,Mobile,Apparel
+CUST00448,Loyal,Semarang,19,Female,2024-03-07,1,Desktop,Home & Garden
+CUST00449,Champions,Jakarta,38,Female,2024-09-25,1,Mobile,Food & Drink
+CUST00450,New,Surabaya,39,Male,2024-02-18,0,Mobile,Sports
+CUST00451,New,Yogyakarta,27,Female,2024-10-12,1,Mobile,Food & Drink
+CUST00452,At Risk,Semarang,48,Male,2024-03-25,1,Mobile,Food & Drink
+CUST00453,Champions,Surabaya,32,Male,2024-07-12,1,Mobile,Books
+CUST00454,At Risk,Surabaya,49,Prefer not to say,2024-03-01,0,Mobile,Home & Garden
+CUST00455,Champions,Jakarta,53,Female,2024-02-16,0,Desktop,Food & Drink
+CUST00456,At Risk,Palembang,47,Female,2024-07-05,0,Desktop,Apparel
+CUST00457,New,Medan,48,Female,2024-07-05,1,Desktop,Apparel
+CUST00458,Loyal,Surabaya,36,Female,2024-07-10,1,Mobile,Electronics
+CUST00459,New,Jakarta,44,Male,2024-04-10,0,Mobile,Home & Garden
+CUST00460,New,Jakarta,39,Male,2024-07-31,1,Desktop,Electronics
+CUST00461,Lost,Bandung,47,Male,2024-09-15,1,Mobile,Electronics
+CUST00462,Lost,Surabaya,55,Female,2024-09-17,0,Desktop,Electronics
+CUST00463,New,Bali,24,Female,2024-06-13,1,Tablet,Food & Drink
+CUST00464,New,Bali,35,Prefer not to say,2024-06-24,1,Mobile,Home & Garden
+CUST00465,New,Jakarta,50,Female,2024-10-07,1,Tablet,Beauty
+CUST00466,Loyal,Bandung,36,Prefer not to say,2024-03-08,1,Tablet,Home & Garden
+CUST00467,New,Medan,38,Female,2024-06-29,1,Tablet,Sports
+CUST00468,New,Jakarta,52,Female,2024-08-04,1,Mobile,Electronics
+CUST00469,New,Jakarta,30,Prefer not to say,2024-03-23,1,Mobile,Electronics
+CUST00470,New,Medan,31,Male,2024-01-17,1,Mobile,Sports
+CUST00471,At Risk,Medan,32,Male,2024-10-14,1,Desktop,Sports
+CUST00472,New,Makassar,21,Male,2024-07-17,0,Desktop,Food & Drink
+CUST00473,Champions,Jakarta,34,Female,2024-08-14,0,Desktop,Beauty
+CUST00474,New,Medan,52,Female,2024-04-10,0,Mobile,Electronics
+CUST00475,New,Palembang,29,Male,2024-09-20,1,Mobile,Apparel
+CUST00476,Loyal,Jakarta,34,Female,2024-08-26,1,Mobile,Apparel
+CUST00477,Champions,Surabaya,37,Female,2024-10-20,1,Desktop,Beauty
+CUST00478,Lost,Jakarta,51,Male,2024-09-15,1,Mobile,Apparel
+CUST00479,Lost,Bali,39,Male,2024-05-30,0,Mobile,Food & Drink
+CUST00480,New,Jakarta,18,Female,2024-06-26,0,Mobile,Beauty
+CUST00481,Lost,Bali,38,Male,2024-02-28,1,Mobile,Food & Drink
+CUST00482,New,Surabaya,41,Female,2024-09-17,1,Desktop,Electronics
+CUST00483,At Risk,Jakarta,24,Female,2024-10-02,1,Mobile,Beauty
+CUST00484,Loyal,Yogyakarta,45,Female,2024-04-15,1,Tablet,Books
+CUST00485,New,Medan,22,Male,2024-03-19,1,Mobile,Electronics
+CUST00486,Loyal,Surabaya,34,Female,2024-10-21,0,Mobile,Home & Garden
+CUST00487,At Risk,Jakarta,38,Female,2024-03-01,1,Mobile,Sports
+CUST00488,At Risk,Bali,22,Male,2024-09-14,0,Mobile,Electronics
+CUST00489,New,Bali,46,Female,2024-01-16,1,Mobile,Home & Garden
+CUST00490,New,Jakarta,52,Male,2024-03-14,0,Tablet,Books
+CUST00491,New,Surabaya,18,Male,2024-10-11,1,Mobile,Home & Garden
+CUST00492,At Risk,Bali,23,Male,2024-06-25,0,Desktop,Electronics
+CUST00493,Loyal,Jakarta,34,Female,2024-04-02,1,Mobile,Sports
+CUST00494,Lost,Surabaya,53,Male,2024-10-08,1,Mobile,Electronics
+CUST00495,At Risk,Bali,39,Male,2024-04-30,1,Desktop,Apparel
+CUST00496,At Risk,Medan,37,Female,2024-03-19,1,Mobile,Home & Garden
+CUST00497,Champions,Yogyakarta,33,Male,2024-08-11,1,Desktop,Apparel
+CUST00498,At Risk,Bali,46,Female,2024-06-05,1,Desktop,Electronics
+CUST00499,Loyal,Semarang,26,Male,2024-04-10,0,Mobile,Electronics
+CUST00500,Champions,Bandung,50,Female,2024-10-24,0,Mobile,Electronics
+CUST00501,Loyal,Surabaya,52,Male,2024-03-17,1,Desktop,Sports
+CUST00502,Loyal,Surabaya,47,Male,2024-02-16,1,Desktop,Books
+CUST00503,New,Medan,28,Female,2024-03-12,1,Tablet,Sports
+CUST00504,Lost,Makassar,48,Male,2024-01-21,1,Mobile,Apparel
+CUST00505,Champions,Surabaya,31,Male,2024-07-03,0,Desktop,Electronics
+CUST00506,New,Medan,24,Female,2024-09-23,1,Desktop,Beauty
+CUST00507,At Risk,Bandung,42,Female,2024-07-06,0,Mobile,Apparel
+CUST00508,Lost,Surabaya,32,Female,2024-06-29,1,Desktop,Food & Drink
+CUST00509,Champions,Surabaya,26,Male,2024-04-27,1,Mobile,Electronics
+CUST00510,Loyal,Bandung,25,Female,2024-07-31,0,Mobile,Home & Garden
+CUST00511,Loyal,Bandung,28,Male,2024-07-29,1,Mobile,Electronics
+CUST00512,New,Semarang,20,Male,2024-03-16,1,Mobile,Food & Drink
+CUST00513,At Risk,Bandung,54,Female,2024-05-25,1,Mobile,Home & Garden
+CUST00514,At Risk,Yogyakarta,32,Female,2024-03-14,0,Mobile,Sports
+CUST00515,Loyal,Makassar,39,Male,2024-10-29,1,Mobile,Electronics
+CUST00516,At Risk,Bandung,50,Female,2024-03-17,1,Desktop,Beauty
+CUST00517,Lost,Surabaya,52,Male,2024-03-01,1,Desktop,Beauty
+CUST00518,Champions,Surabaya,45,Female,2024-07-08,1,Mobile,Food & Drink
+CUST00519,At Risk,Bali,42,Male,2024-10-21,1,Mobile,Apparel
+CUST00520,Lost,Bandung,36,Male,2024-10-05,1,Desktop,Books
+CUST00521,At Risk,Surabaya,25,Female,2024-07-11,1,Mobile,Apparel
+CUST00522,Loyal,Jakarta,55,Male,2024-10-01,1,Mobile,Sports
+CUST00523,New,Surabaya,44,Female,2024-10-12,1,Mobile,Apparel
+CUST00524,Loyal,Yogyakarta,40,Female,2024-07-22,0,Desktop,Sports
+CUST00525,At Risk,Jakarta,28,Male,2024-09-17,1,Mobile,Sports
+CUST00526,New,Bali,28,Female,2024-01-03,0,Mobile,Beauty
+CUST00527,Champions,Jakarta,34,Female,2024-02-10,0,Tablet,Home & Garden
+CUST00528,New,Medan,36,Female,2024-01-30,0,Desktop,Home & Garden
+CUST00529,Loyal,Jakarta,51,Female,2024-01-18,1,Desktop,Beauty
+CUST00530,New,Jakarta,41,Prefer not to say,2024-01-01,1,Mobile,Home & Garden
+CUST00531,New,Bandung,43,Male,2024-09-22,1,Desktop,Beauty
+CUST00532,New,Makassar,53,Male,2024-06-27,0,Mobile,Food & Drink
+CUST00533,At Risk,Bandung,43,Male,2024-05-13,1,Mobile,Home & Garden
+CUST00534,Loyal,Yogyakarta,25,Female,2024-05-11,0,Mobile,Sports
+CUST00535,Lost,Surabaya,54,Female,2024-05-04,0,Mobile,Home & Garden
+CUST00536,At Risk,Surabaya,19,Male,2024-05-12,1,Tablet,Sports
+CUST00537,Loyal,Bali,38,Female,2024-06-29,1,Desktop,Apparel
+CUST00538,Champions,Jakarta,39,Female,2024-04-01,1,Desktop,Apparel
+CUST00539,Lost,Surabaya,30,Male,2024-04-12,1,Mobile,Apparel
+CUST00540,New,Jakarta,40,Male,2024-02-24,1,Tablet,Home & Garden
+CUST00541,Champions,Palembang,52,Male,2024-09-03,1,Desktop,Food & Drink
+CUST00542,At Risk,Surabaya,35,Male,2024-09-18,1,Mobile,Electronics
+CUST00543,New,Makassar,48,Female,2024-01-17,1,Desktop,Electronics
+CUST00544,Lost,Surabaya,51,Male,2024-01-05,1,Mobile,Apparel
+CUST00545,New,Jakarta,34,Male,2024-05-14,1,Mobile,Apparel
+CUST00546,At Risk,Bali,31,Male,2024-07-09,1,Mobile,Beauty
+CUST00547,Lost,Yogyakarta,32,Female,2024-05-18,1,Desktop,Electronics
+CUST00548,New,Surabaya,27,Male,2024-01-05,1,Tablet,Books
+CUST00549,At Risk,Yogyakarta,38,Male,2024-06-02,0,Mobile,Electronics
+CUST00550,Loyal,Yogyakarta,31,Female,2024-08-31,1,Desktop,Apparel
+CUST00551,Loyal,Makassar,53,Male,2024-05-11,1,Mobile,Sports
+CUST00552,New,Bandung,54,Male,2024-10-02,0,Mobile,Sports
+CUST00553,At Risk,Semarang,46,Female,2024-07-14,1,Tablet,Books
+CUST00554,New,Surabaya,39,Male,2024-10-19,0,Mobile,Apparel
+CUST00555,Loyal,Medan,36,Male,2024-07-21,1,Desktop,Apparel
+CUST00556,At Risk,Bali,46,Female,2024-04-04,1,Mobile,Apparel
+CUST00557,New,Jakarta,23,Male,2024-07-22,1,Desktop,Beauty
+CUST00558,Champions,Surabaya,43,Male,2024-02-12,1,Mobile,Food & Drink
+CUST00559,Loyal,Jakarta,32,Female,2024-05-25,1,Mobile,Electronics
+CUST00560,Champions,Semarang,40,Female,2024-06-15,1,Desktop,Food & Drink
+CUST00561,At Risk,Palembang,26,Male,2024-10-03,1,Desktop,Beauty
+CUST00562,At Risk,Bandung,51,Male,2024-09-30,1,Mobile,Books
+CUST00563,At Risk,Bali,41,Male,2024-03-20,1,Desktop,Books
+CUST00564,Loyal,Surabaya,48,Female,2024-09-08,1,Mobile,Home & Garden
+CUST00565,Loyal,Yogyakarta,32,Male,2024-10-07,1,Mobile,Home & Garden
+CUST00566,Loyal,Yogyakarta,42,Male,2024-04-22,1,Mobile,Sports
+CUST00567,Lost,Jakarta,35,Female,2024-09-29,1,Desktop,Electronics
+CUST00568,Loyal,Bandung,47,Female,2024-05-19,1,Mobile,Electronics
+CUST00569,Lost,Jakarta,19,Male,2024-02-22,1,Mobile,Electronics
+CUST00570,Champions,Surabaya,18,Male,2024-06-24,0,Mobile,Apparel
+CUST00571,New,Bali,20,Male,2024-03-15,0,Mobile,Home & Garden
+CUST00572,Loyal,Yogyakarta,34,Male,2024-01-07,0,Mobile,Books
+CUST00573,At Risk,Jakarta,20,Female,2024-02-18,0,Mobile,Sports
+CUST00574,Loyal,Jakarta,38,Female,2024-01-22,1,Mobile,Home & Garden
+CUST00575,Loyal,Semarang,41,Prefer not to say,2024-04-21,1,Mobile,Electronics
+CUST00576,New,Jakarta,55,Male,2024-05-04,1,Desktop,Home & Garden
+CUST00577,At Risk,Yogyakarta,41,Male,2024-05-07,1,Mobile,Food & Drink
+CUST00578,Lost,Jakarta,21,Female,2024-03-19,0,Mobile,Apparel
+CUST00579,Lost,Yogyakarta,40,Female,2024-08-12,1,Mobile,Sports
+CUST00580,Loyal,Surabaya,20,Female,2024-08-12,1,Mobile,Beauty
+CUST00581,At Risk,Medan,38,Female,2024-05-20,1,Desktop,Electronics
+CUST00582,At Risk,Jakarta,46,Female,2024-05-14,1,Desktop,Home & Garden
+CUST00583,New,Bandung,19,Female,2024-07-05,1,Desktop,Sports
+CUST00584,At Risk,Jakarta,42,Female,2024-09-11,1,Mobile,Home & Garden
+CUST00585,Loyal,Surabaya,24,Male,2024-02-04,0,Mobile,Electronics
+CUST00586,Champions,Jakarta,30,Female,2024-10-19,1,Mobile,Beauty
+CUST00587,At Risk,Bali,21,Male,2024-02-06,0,Desktop,Food & Drink
+CUST00588,New,Yogyakarta,47,Male,2024-02-01,0,Desktop,Books
+CUST00589,New,Yogyakarta,21,Female,2024-05-16,0,Desktop,Electronics
+CUST00590,Loyal,Jakarta,51,Female,2024-04-28,1,Mobile,Apparel
+CUST00591,New,Surabaya,29,Male,2024-10-12,1,Desktop,Apparel
+CUST00592,At Risk,Semarang,45,Female,2024-03-26,1,Mobile,Sports
+CUST00593,At Risk,Makassar,46,Female,2024-06-10,0,Desktop,Home & Garden
+CUST00594,New,Bandung,38,Female,2024-10-15,1,Mobile,Sports
+CUST00595,Loyal,Surabaya,46,Male,2024-07-22,1,Mobile,Electronics
+CUST00596,Champions,Jakarta,37,Male,2024-04-23,1,Desktop,Food & Drink
+CUST00597,New,Surabaya,53,Female,2024-10-19,1,Mobile,Apparel
+CUST00598,Champions,Semarang,41,Male,2024-05-07,0,Mobile,Home & Garden
+CUST00599,Lost,Medan,22,Male,2024-09-04,0,Desktop,Beauty
+CUST00600,Lost,Jakarta,37,Male,2024-10-22,0,Tablet,Apparel
+CUST00601,Lost,Bali,45,Female,2024-03-02,1,Desktop,Beauty
+CUST00602,Champions,Jakarta,42,Male,2024-09-25,1,Mobile,Home & Garden
+CUST00603,Loyal,Bandung,21,Prefer not to say,2024-07-20,0,Mobile,Electronics
+CUST00604,At Risk,Jakarta,43,Male,2024-06-21,1,Mobile,Home & Garden
+CUST00605,Champions,Surabaya,50,Female,2024-03-07,1,Mobile,Home & Garden
+CUST00606,At Risk,Bandung,53,Male,2024-09-25,1,Desktop,Apparel
+CUST00607,Lost,Jakarta,23,Male,2024-07-30,1,Mobile,Beauty
+CUST00608,Champions,Jakarta,37,Female,2024-06-28,0,Mobile,Electronics
+CUST00609,Champions,Jakarta,32,Male,2024-07-10,0,Mobile,Sports
+CUST00610,Loyal,Semarang,27,Male,2024-05-27,1,Mobile,Home & Garden
+CUST00611,Champions,Medan,31,Male,2024-04-18,1,Mobile,Home & Garden
+CUST00612,New,Medan,27,Male,2024-01-10,0,Mobile,Apparel
+CUST00613,Champions,Yogyakarta,30,Male,2024-05-18,1,Mobile,Home & Garden
+CUST00614,Loyal,Semarang,41,Male,2024-01-10,0,Mobile,Food & Drink
+CUST00615,At Risk,Makassar,24,Female,2024-09-05,1,Mobile,Home & Garden
+CUST00616,At Risk,Jakarta,19,Male,2024-09-28,1,Desktop,Electronics
+CUST00617,New,Bandung,40,Prefer not to say,2024-04-30,0,Mobile,Electronics
+CUST00618,Loyal,Semarang,42,Female,2024-01-16,0,Mobile,Apparel
+CUST00619,Loyal,Jakarta,26,Female,2024-07-14,1,Desktop,Sports
+CUST00620,At Risk,Jakarta,54,Female,2024-06-08,1,Mobile,Apparel
+CUST00621,Champions,Bandung,52,Female,2024-04-13,1,Desktop,Beauty
+CUST00622,Champions,Bandung,27,Female,2024-10-16,1,Mobile,Food & Drink
+CUST00623,Champions,Yogyakarta,38,Female,2024-03-15,0,Desktop,Home & Garden
+CUST00624,At Risk,Medan,46,Male,2024-05-20,1,Mobile,Electronics
+CUST00625,Lost,Bandung,35,Female,2024-04-28,1,Mobile,Electronics
+CUST00626,New,Surabaya,26,Female,2024-08-28,1,Desktop,Home & Garden
+CUST00627,Champions,Jakarta,30,Female,2024-07-28,1,Mobile,Home & Garden
+CUST00628,New,Medan,30,Male,2024-02-03,0,Mobile,Beauty
+CUST00629,New,Semarang,47,Male,2024-08-06,1,Desktop,Home & Garden
+CUST00630,Loyal,Bandung,54,Female,2024-09-25,1,Mobile,Electronics
+CUST00631,At Risk,Semarang,20,Female,2024-05-05,1,Desktop,Beauty
+CUST00632,At Risk,Jakarta,21,Male,2024-08-13,1,Desktop,Home & Garden
+CUST00633,At Risk,Bandung,21,Female,2024-03-13,1,Mobile,Home & Garden
+CUST00634,Loyal,Makassar,55,Male,2024-10-06,1,Mobile,Electronics
+CUST00635,At Risk,Semarang,30,Male,2024-02-16,1,Desktop,Books
+CUST00636,New,Jakarta,25,Female,2024-08-18,1,Desktop,Sports
+CUST00637,Lost,Bali,28,Male,2024-07-13,1,Mobile,Books
+CUST00638,Lost,Semarang,28,Female,2024-04-01,1,Mobile,Sports
+CUST00639,Lost,Bandung,36,Female,2024-03-01,0,Mobile,Sports
+CUST00640,Champions,Semarang,49,Female,2024-10-05,1,Mobile,Apparel
+CUST00641,New,Bali,47,Female,2024-02-10,1,Desktop,Apparel
+CUST00642,New,Jakarta,31,Male,2024-03-16,1,Mobile,Electronics
+CUST00643,At Risk,Bali,37,Male,2024-02-14,1,Mobile,Sports
+CUST00644,New,Yogyakarta,54,Prefer not to say,2024-03-31,0,Mobile,Electronics
+CUST00645,New,Bali,38,Female,2024-07-13,0,Desktop,Electronics
+CUST00646,At Risk,Medan,25,Male,2024-05-20,1,Mobile,Apparel
+CUST00647,Champions,Medan,54,Prefer not to say,2024-09-27,1,Desktop,Food & Drink
+CUST00648,Lost,Surabaya,36,Male,2024-06-11,1,Desktop,Food & Drink
+CUST00649,New,Surabaya,49,Female,2024-09-11,1,Mobile,Sports
+CUST00650,Lost,Jakarta,18,Female,2024-08-26,1,Desktop,Books
+CUST00651,Lost,Jakarta,44,Female,2024-06-28,1,Mobile,Apparel
+CUST00652,Loyal,Bali,22,Female,2024-09-16,0,Mobile,Apparel
+CUST00653,Loyal,Bandung,54,Female,2024-01-15,1,Desktop,Food & Drink
+CUST00654,At Risk,Yogyakarta,48,Female,2024-03-10,1,Desktop,Beauty
+CUST00655,Loyal,Makassar,44,Female,2024-01-29,1,Desktop,Apparel
+CUST00656,At Risk,Bandung,31,Female,2024-06-18,0,Mobile,Food & Drink
+CUST00657,Loyal,Bali,19,Female,2024-07-11,0,Mobile,Home & Garden
+CUST00658,At Risk,Medan,37,Female,2024-06-10,1,Mobile,Books
+CUST00659,Loyal,Jakarta,37,Male,2024-06-03,1,Mobile,Apparel
+CUST00660,Champions,Jakarta,50,Female,2024-09-04,1,Mobile,Home & Garden
+CUST00661,Lost,Yogyakarta,37,Female,2024-03-14,1,Tablet,Home & Garden
+CUST00662,Lost,Medan,31,Male,2024-08-23,0,Mobile,Apparel
+CUST00663,Champions,Bali,23,Male,2024-01-24,0,Desktop,Electronics
+CUST00664,New,Bali,31,Male,2024-04-08,1,Desktop,Sports
+CUST00665,Loyal,Jakarta,28,Female,2024-01-08,1,Mobile,Beauty
+CUST00666,At Risk,Jakarta,35,Female,2024-05-25,1,Mobile,Food & Drink
+CUST00667,At Risk,Jakarta,21,Female,2024-08-29,1,Mobile,Electronics
+CUST00668,Loyal,Bandung,55,Female,2024-08-16,1,Desktop,Sports
+CUST00669,New,Jakarta,52,Female,2024-08-26,1,Desktop,Sports
+CUST00670,Champions,Bandung,37,Female,2024-08-26,0,Mobile,Food & Drink
+CUST00671,Loyal,Bali,41,Female,2024-06-18,0,Mobile,Electronics
+CUST00672,At Risk,Surabaya,40,Male,2024-03-28,1,Mobile,Home & Garden
+CUST00673,At Risk,Bali,24,Female,2024-02-06,1,Mobile,Home & Garden
+CUST00674,New,Jakarta,53,Male,2024-09-03,1,Desktop,Beauty
+CUST00675,New,Surabaya,45,Female,2024-06-24,1,Desktop,Electronics
+CUST00676,Lost,Yogyakarta,54,Female,2024-02-28,1,Mobile,Books
+CUST00677,Loyal,Jakarta,43,Female,2024-02-25,1,Desktop,Apparel
+CUST00678,New,Jakarta,21,Female,2024-03-12,0,Desktop,Electronics
+CUST00679,Champions,Surabaya,27,Male,2024-05-29,1,Mobile,Sports
+CUST00680,Loyal,Yogyakarta,54,Female,2024-06-04,0,Desktop,Food & Drink
+CUST00681,Lost,Jakarta,55,Male,2024-09-18,1,Mobile,Apparel
+CUST00682,At Risk,Jakarta,21,Female,2024-10-13,1,Desktop,Books
+CUST00683,Loyal,Bali,55,Female,2024-06-11,1,Mobile,Apparel
+CUST00684,Loyal,Jakarta,26,Female,2024-07-15,1,Mobile,Apparel
+CUST00685,Lost,Jakarta,26,Female,2024-02-06,1,Desktop,Sports
+CUST00686,Lost,Jakarta,26,Female,2024-07-31,0,Desktop,Food & Drink
+CUST00687,New,Surabaya,47,Female,2024-10-09,1,Mobile,Home & Garden
+CUST00688,Champions,Semarang,49,Female,2024-05-01,1,Tablet,Beauty
+CUST00689,Champions,Surabaya,20,Male,2024-07-07,1,Desktop,Electronics
+CUST00690,New,Surabaya,35,Female,2024-02-10,1,Mobile,Beauty
+CUST00691,New,Bandung,22,Female,2024-10-03,1,Mobile,Apparel
+CUST00692,New,Surabaya,48,Female,2024-08-28,1,Mobile,Food & Drink
+CUST00693,Loyal,Jakarta,28,Female,2024-06-04,1,Mobile,Home & Garden
+CUST00694,Loyal,Bandung,21,Female,2024-05-29,1,Mobile,Electronics
+CUST00695,At Risk,Jakarta,35,Male,2024-05-23,1,Desktop,Beauty
+CUST00696,Lost,Bandung,27,Female,2024-07-08,1,Desktop,Home & Garden
+CUST00697,New,Bali,20,Prefer not to say,2024-02-13,1,Desktop,Books
+CUST00698,New,Yogyakarta,44,Female,2024-05-01,0,Mobile,Beauty
+CUST00699,New,Bandung,21,Male,2024-02-29,1,Mobile,Home & Garden
+CUST00700,Lost,Jakarta,52,Female,2024-07-18,1,Desktop,Electronics
+CUST00701,Lost,Bali,46,Prefer not to say,2024-06-10,1,Mobile,Food & Drink
+CUST00702,New,Bandung,45,Male,2024-05-19,1,Mobile,Sports
+CUST00703,Loyal,Medan,33,Female,2024-10-28,1,Desktop,Food & Drink
+CUST00704,Loyal,Bandung,18,Male,2024-02-04,1,Mobile,Home & Garden
+CUST00705,Loyal,Jakarta,36,Male,2024-01-18,1,Tablet,Sports
+CUST00706,New,Medan,25,Male,2024-03-02,1,Mobile,Sports
+CUST00707,New,Semarang,29,Male,2024-04-04,1,Tablet,Beauty
+CUST00708,Lost,Medan,35,Male,2024-06-14,0,Mobile,Electronics
+CUST00709,Loyal,Jakarta,21,Male,2024-05-15,1,Tablet,Apparel
+CUST00710,Loyal,Jakarta,49,Female,2024-10-03,1,Desktop,Food & Drink
+CUST00711,New,Jakarta,24,Female,2024-02-06,1,Mobile,Food & Drink
+CUST00712,Champions,Makassar,18,Male,2024-07-18,1,Desktop,Beauty
+CUST00713,At Risk,Surabaya,49,Female,2024-07-25,0,Desktop,Beauty
+CUST00714,Champions,Jakarta,48,Female,2024-10-01,1,Desktop,Home & Garden
+CUST00715,New,Bali,23,Male,2024-06-23,1,Desktop,Beauty
+CUST00716,Loyal,Palembang,20,Male,2024-04-07,1,Mobile,Sports
+CUST00717,At Risk,Medan,46,Male,2024-03-12,1,Tablet,Apparel
+CUST00718,Loyal,Bandung,52,Female,2024-09-12,0,Mobile,Food & Drink
+CUST00719,Champions,Bali,21,Male,2024-01-22,1,Desktop,Beauty
+CUST00720,Lost,Jakarta,52,Male,2024-10-23,1,Desktop,Home & Garden
+CUST00721,Champions,Jakarta,20,Male,2024-03-07,1,Desktop,Books
+CUST00722,Champions,Yogyakarta,28,Female,2024-02-02,1,Mobile,Books
+CUST00723,Loyal,Surabaya,30,Male,2024-07-24,0,Mobile,Electronics
+CUST00724,New,Medan,31,Male,2024-10-30,1,Mobile,Sports
+CUST00725,Loyal,Surabaya,41,Male,2024-08-12,1,Mobile,Books
+CUST00726,New,Yogyakarta,42,Female,2024-01-09,1,Mobile,Food & Drink
+CUST00727,New,Semarang,55,Female,2024-08-01,0,Mobile,Electronics
+CUST00728,Champions,Surabaya,35,Male,2024-07-29,1,Desktop,Beauty
+CUST00729,New,Bandung,23,Male,2024-06-03,1,Mobile,Electronics
+CUST00730,At Risk,Bandung,24,Female,2024-10-03,1,Desktop,Apparel
+CUST00731,Champions,Yogyakarta,25,Female,2024-08-30,1,Tablet,Electronics
+CUST00732,Loyal,Surabaya,31,Female,2024-06-20,0,Mobile,Electronics
+CUST00733,Champions,Jakarta,52,Female,2024-01-15,1,Desktop,Sports
+CUST00734,At Risk,Bali,38,Male,2024-06-15,1,Mobile,Apparel
+CUST00735,At Risk,Bali,30,Male,2024-04-22,1,Mobile,Home & Garden
+CUST00736,Loyal,Jakarta,47,Male,2024-07-10,1,Desktop,Food & Drink
+CUST00737,Loyal,Jakarta,26,Male,2024-10-18,1,Desktop,Home & Garden
+CUST00738,Loyal,Jakarta,39,Female,2024-05-31,0,Desktop,Beauty
+CUST00739,Loyal,Semarang,53,Male,2024-02-14,1,Desktop,Apparel
+CUST00740,At Risk,Jakarta,47,Female,2024-08-07,1,Mobile,Beauty
+CUST00741,Lost,Palembang,55,Female,2024-10-20,1,Mobile,Food & Drink
+CUST00742,New,Jakarta,50,Male,2024-09-28,0,Desktop,Electronics
+CUST00743,At Risk,Surabaya,23,Female,2024-01-07,1,Mobile,Apparel
+CUST00744,Loyal,Jakarta,23,Male,2024-06-05,1,Mobile,Beauty
+CUST00745,Lost,Yogyakarta,47,Male,2024-07-26,0,Desktop,Sports
+CUST00746,Champions,Bali,22,Female,2024-06-19,1,Desktop,Sports
+CUST00747,New,Yogyakarta,54,Female,2024-02-11,1,Tablet,Home & Garden
+CUST00748,Lost,Semarang,41,Male,2024-02-26,1,Mobile,Apparel
+CUST00749,New,Surabaya,22,Male,2024-04-14,1,Mobile,Beauty
+CUST00750,New,Semarang,55,Female,2024-04-17,0,Mobile,Food & Drink
+CUST00751,At Risk,Jakarta,45,Male,2024-02-02,1,Mobile,Books
+CUST00752,At Risk,Bandung,52,Female,2024-09-29,1,Mobile,Sports
+CUST00753,New,Jakarta,22,Male,2024-08-22,1,Mobile,Food & Drink
+CUST00754,Champions,Jakarta,28,Female,2024-03-16,0,Mobile,Beauty
+CUST00755,Loyal,Makassar,52,Male,2024-08-30,1,Desktop,Apparel
+CUST00756,Champions,Yogyakarta,32,Female,2024-09-23,1,Mobile,Beauty
+CUST00757,Loyal,Bandung,55,Female,2024-09-28,1,Mobile,Electronics
+CUST00758,New,Yogyakarta,28,Female,2024-04-26,0,Desktop,Electronics
+CUST00759,Loyal,Palembang,47,Female,2024-03-23,1,Tablet,Books
+CUST00760,New,Jakarta,27,Male,2024-02-29,1,Mobile,Apparel
+CUST00761,Loyal,Medan,53,Prefer not to say,2024-06-11,1,Mobile,Food & Drink
+CUST00762,At Risk,Makassar,25,Female,2024-07-26,0,Tablet,Food & Drink
+CUST00763,Loyal,Depok,52,Female,2024-06-18,1,Desktop,Food & Drink
+CUST00764,New,Bandung,54,Female,2024-10-16,0,Mobile,Electronics
+CUST00765,At Risk,Jakarta,20,Male,2024-10-09,1,Mobile,Apparel
+CUST00766,Loyal,Jakarta,38,Female,2024-04-09,1,Tablet,Apparel
+CUST00767,Champions,Semarang,52,Prefer not to say,2024-02-14,1,Mobile,Beauty
+CUST00768,At Risk,Makassar,21,Male,2024-07-03,1,Mobile,Home & Garden
+CUST00769,Champions,Bali,40,Female,2024-08-16,1,Desktop,Home & Garden
+CUST00770,Lost,Jakarta,46,Female,2024-08-05,1,Desktop,Beauty
+CUST00771,Champions,Surabaya,37,Prefer not to say,2024-09-25,1,Tablet,Sports
+CUST00772,Champions,Bandung,44,Male,2024-05-19,1,Desktop,Sports
+CUST00773,Champions,Yogyakarta,29,Female,2024-05-28,1,Desktop,Books
+CUST00774,Loyal,Medan,53,Male,2024-04-24,1,Mobile,Food & Drink
+CUST00775,New,Jakarta,48,Male,2024-05-27,1,Desktop,Apparel
+CUST00776,Champions,Surabaya,35,Female,2024-02-04,1,Mobile,Home & Garden
+CUST00777,Loyal,Depok,48,Male,2024-03-02,0,Mobile,Apparel
+CUST00778,At Risk,Bali,27,Male,2024-03-10,1,Mobile,Beauty
+CUST00779,Lost,Jakarta,21,Female,2024-09-28,1,Mobile,Beauty
+CUST00780,New,Surabaya,28,Female,2024-06-10,1,Mobile,Sports
+CUST00781,New,Surabaya,24,Female,2024-06-29,1,Mobile,Apparel
+CUST00782,At Risk,Makassar,39,Male,2024-03-24,1,Mobile,Electronics
+CUST00783,Lost,Semarang,51,Female,2024-10-09,0,Mobile,Food & Drink
+CUST00784,Champions,Makassar,26,Male,2024-09-02,1,Mobile,Home & Garden
+CUST00785,Lost,Medan,51,Male,2024-06-24,1,Desktop,Electronics
+CUST00786,Champions,Bandung,27,Male,2024-06-06,1,Mobile,Sports
+CUST00787,New,Jakarta,22,Female,2024-09-04,1,Mobile,Books
+CUST00788,At Risk,Surabaya,21,Male,2024-05-09,1,Mobile,Electronics
+CUST00789,Champions,Bandung,31,Male,2024-04-12,1,Mobile,Books
+CUST00790,Lost,Bali,55,Female,2024-03-23,0,Mobile,Home & Garden
+CUST00791,Champions,Medan,55,Male,2024-09-27,1,Mobile,Food & Drink
+CUST00792,At Risk,Makassar,24,Female,2024-09-15,1,Desktop,Electronics
+CUST00793,New,Jakarta,24,Prefer not to say,2024-06-30,1,Mobile,Home & Garden
+CUST00794,New,Jakarta,38,Female,2024-02-26,1,Mobile,Apparel
+CUST00795,New,Bali,23,Male,2024-02-29,1,Desktop,Sports
+CUST00796,New,Surabaya,32,Prefer not to say,2024-05-28,1,Desktop,Food & Drink
+CUST00797,New,Jakarta,41,Female,2024-09-08,1,Mobile,Sports
+CUST00798,Champions,Bali,43,Prefer not to say,2024-10-29,0,Desktop,Electronics
+CUST00799,Loyal,Bali,30,Female,2024-10-31,1,Mobile,Home & Garden
+CUST00800,At Risk,Bandung,55,Male,2024-07-23,1,Tablet,Food & Drink
+CUST00801,At Risk,Medan,27,Male,2024-02-25,1,Mobile,Food & Drink
+CUST00802,Champions,Yogyakarta,21,Female,2024-09-12,0,Mobile,Sports
+CUST00803,Loyal,Medan,24,Female,2024-09-23,0,Mobile,Sports
+CUST00804,At Risk,Surabaya,34,Female,2024-10-03,0,Mobile,Home & Garden
+CUST00805,Lost,Surabaya,42,Female,2024-07-11,1,Mobile,Sports
+CUST00806,New,Surabaya,28,Male,2024-03-09,1,Desktop,Beauty
+CUST00807,At Risk,Bandung,53,Female,2024-10-19,1,Mobile,Electronics
+CUST00808,Loyal,Depok,55,Female,2024-06-29,1,Mobile,Beauty
+CUST00809,Champions,Bali,41,Male,2024-10-25,0,Mobile,Electronics
+CUST00810,Loyal,Bali,40,Female,2024-01-29,1,Desktop,Beauty
+CUST00811,Lost,Semarang,22,Male,2024-02-28,1,Mobile,Home & Garden
+CUST00812,Lost,Surabaya,54,Male,2024-08-03,1,Mobile,Food & Drink
+CUST00813,Loyal,Bali,42,Female,2024-02-20,1,Desktop,Apparel
+CUST00814,At Risk,Jakarta,39,Male,2024-06-02,1,Mobile,Books
+CUST00815,New,Jakarta,52,Male,2024-05-15,0,Mobile,Apparel
+CUST00816,New,Medan,23,Male,2024-10-23,1,Mobile,Books
+CUST00817,At Risk,Bali,31,Female,2024-02-09,1,Desktop,Home & Garden
+CUST00818,At Risk,Bali,30,Female,2024-05-08,1,Desktop,Electronics
+CUST00819,Champions,Semarang,51,Female,2024-10-22,1,Desktop,Food & Drink
+CUST00820,Loyal,Yogyakarta,52,Female,2024-08-10,0,Mobile,Apparel
+CUST00821,At Risk,Jakarta,33,Female,2024-06-02,1,Desktop,Food & Drink
+CUST00822,New,Jakarta,44,Female,2024-05-26,1,Mobile,Home & Garden
+CUST00823,Champions,Jakarta,30,Female,2024-06-07,1,Mobile,Beauty
+CUST00824,Champions,Jakarta,28,Male,2024-01-15,0,Desktop,Electronics
+CUST00825,Lost,Yogyakarta,49,Female,2024-01-29,1,Mobile,Books
+CUST00826,Lost,Semarang,44,Male,2024-02-16,0,Desktop,Apparel
+CUST00827,At Risk,Makassar,50,Female,2024-09-24,1,Desktop,Beauty
+CUST00828,At Risk,Jakarta,23,Female,2024-03-03,1,Desktop,Sports
+CUST00829,New,Makassar,33,Male,2024-04-21,1,Tablet,Home & Garden
+CUST00830,Loyal,Jakarta,55,Male,2024-09-30,0,Mobile,Home & Garden
+CUST00831,New,Semarang,35,Male,2024-03-15,1,Desktop,Electronics
+CUST00832,Lost,Semarang,20,Female,2024-01-28,0,Mobile,Beauty
+CUST00833,Loyal,Makassar,41,Female,2024-03-03,1,Mobile,Electronics
+CUST00834,Lost,Bali,34,Male,2024-04-30,0,Mobile,Home & Garden
+CUST00835,Loyal,Yogyakarta,44,Female,2024-05-20,0,Tablet,Home & Garden
+CUST00836,At Risk,Medan,39,Female,2024-02-21,1,Mobile,Apparel
+CUST00837,New,Medan,53,Female,2024-08-20,0,Desktop,Electronics
+CUST00838,At Risk,Jakarta,26,Female,2024-04-12,1,Mobile,Electronics
+CUST00839,At Risk,Semarang,26,Female,2024-07-29,1,Mobile,Sports
+CUST00840,Loyal,Yogyakarta,55,Male,2024-05-24,1,Mobile,Books
+CUST00841,Lost,Jakarta,54,Female,2024-01-12,1,Desktop,Food & Drink
+CUST00842,Lost,Jakarta,30,Male,2024-03-27,1,Mobile,Electronics
+CUST00843,Lost,Palembang,28,Male,2024-03-01,1,Desktop,Food & Drink
+CUST00844,New,Jakarta,49,Male,2024-04-14,0,Desktop,Apparel
+CUST00845,At Risk,Surabaya,26,Female,2024-04-15,0,Mobile,Sports
+CUST00846,At Risk,Yogyakarta,44,Male,2024-01-15,1,Mobile,Food & Drink
+CUST00847,Loyal,Jakarta,47,Male,2024-08-28,1,Desktop,Sports
+CUST00848,New,Medan,45,Male,2024-05-11,1,Mobile,Food & Drink
+CUST00849,At Risk,Depok,40,Male,2024-01-24,1,Mobile,Food & Drink
+CUST00850,New,Palembang,26,Male,2024-10-13,1,Mobile,Home & Garden
+CUST00851,Loyal,Jakarta,47,Female,2024-06-11,1,Mobile,Apparel
+CUST00852,Lost,Semarang,49,Female,2024-05-23,0,Mobile,Books
+CUST00853,New,Surabaya,34,Female,2024-08-11,1,Tablet,Sports
+CUST00854,Loyal,Jakarta,46,Male,2024-03-17,1,Mobile,Electronics
+CUST00855,At Risk,Depok,25,Male,2024-09-10,1,Desktop,Home & Garden
+CUST00856,At Risk,Jakarta,27,Male,2024-02-17,1,Desktop,Sports
+CUST00857,New,Semarang,54,Male,2024-10-26,0,Mobile,Sports
+CUST00858,Loyal,Jakarta,22,Female,2024-09-12,0,Mobile,Sports
+CUST00859,New,Bali,43,Female,2024-02-24,1,Mobile,Books
+CUST00860,New,Bandung,47,Female,2024-05-17,1,Tablet,Sports
+CUST00861,Lost,Palembang,38,Male,2024-10-18,0,Desktop,Apparel
+CUST00862,New,Surabaya,22,Male,2024-07-14,1,Mobile,Books
+CUST00863,Loyal,Semarang,19,Male,2024-03-24,1,Desktop,Food & Drink
+CUST00864,Loyal,Surabaya,37,Female,2024-08-09,0,Desktop,Beauty
+CUST00865,Loyal,Yogyakarta,24,Male,2024-09-19,1,Mobile,Apparel
+CUST00866,New,Medan,23,Female,2024-07-07,1,Mobile,Electronics
+CUST00867,Loyal,Bandung,47,Female,2024-03-20,1,Desktop,Electronics
+CUST00868,At Risk,Makassar,23,Male,2024-09-01,0,Desktop,Apparel
+CUST00869,Loyal,Jakarta,45,Female,2024-01-25,0,Mobile,Home & Garden
+CUST00870,At Risk,Bandung,47,Female,2024-10-18,1,Mobile,Sports
+CUST00871,Champions,Jakarta,47,Female,2024-04-03,1,Mobile,Sports
+CUST00872,Loyal,Medan,47,Female,2024-08-18,1,Tablet,Books
+CUST00873,Loyal,Jakarta,29,Female,2024-05-12,1,Mobile,Electronics
+CUST00874,Champions,Bandung,28,Female,2024-08-23,0,Tablet,Beauty
+CUST00875,At Risk,Medan,41,Female,2024-07-21,1,Mobile,Electronics
+CUST00876,New,Semarang,30,Female,2024-04-17,1,Mobile,Books
+CUST00877,Lost,Jakarta,52,Female,2024-06-03,1,Mobile,Electronics
+CUST00878,Lost,Palembang,46,Male,2024-08-29,1,Mobile,Apparel
+CUST00879,New,Jakarta,43,Male,2024-01-05,0,Mobile,Home & Garden
+CUST00880,At Risk,Bandung,55,Prefer not to say,2024-10-10,1,Mobile,Home & Garden
+CUST00881,New,Jakarta,49,Female,2024-02-01,1,Mobile,Electronics
+CUST00882,Lost,Semarang,44,Female,2024-02-29,0,Mobile,Sports
+CUST00883,Champions,Medan,36,Male,2024-08-28,1,Mobile,Food & Drink
+CUST00884,Loyal,Jakarta,47,Female,2024-05-30,1,Mobile,Food & Drink
+CUST00885,New,Yogyakarta,41,Female,2024-03-23,1,Desktop,Sports
+CUST00886,Champions,Jakarta,30,Male,2024-09-08,1,Tablet,Apparel
+CUST00887,Loyal,Depok,21,Female,2024-07-02,1,Mobile,Books
+CUST00888,Lost,Yogyakarta,20,Male,2024-06-21,1,Mobile,Apparel
+CUST00889,Loyal,Yogyakarta,39,Female,2024-01-24,1,Desktop,Books
+CUST00890,Lost,Medan,24,Female,2024-08-12,0,Desktop,Food & Drink
+CUST00891,New,Yogyakarta,24,Female,2024-01-22,1,Mobile,Apparel
+CUST00892,Loyal,Medan,36,Female,2024-09-16,0,Mobile,Apparel
+CUST00893,New,Semarang,25,Prefer not to say,2024-08-12,0,Mobile,Books
+CUST00894,At Risk,Surabaya,36,Male,2024-02-13,1,Mobile,Beauty
+CUST00895,Loyal,Surabaya,51,Male,2024-04-26,1,Desktop,Food & Drink
+CUST00896,Lost,Yogyakarta,51,Female,2024-07-04,1,Desktop,Sports
+CUST00897,At Risk,Jakarta,22,Male,2024-06-10,0,Mobile,Home & Garden
+CUST00898,Champions,Makassar,27,Prefer not to say,2024-01-30,0,Desktop,Books
+CUST00899,Lost,Bali,44,Female,2024-10-10,0,Mobile,Apparel
+CUST00900,New,Bandung,51,Female,2024-03-16,1,Mobile,Beauty
+CUST00901,New,Medan,46,Female,2024-07-26,0,Mobile,Beauty
+CUST00902,Loyal,Surabaya,26,Male,2024-10-03,1,Mobile,Beauty
+CUST00903,New,Jakarta,28,Female,2024-10-03,1,Desktop,Sports
+CUST00904,Lost,Medan,25,Male,2024-07-09,1,Mobile,Sports
+CUST00905,Lost,Jakarta,46,Female,2024-01-03,0,Desktop,Food & Drink
+CUST00906,At Risk,Semarang,52,Male,2024-04-29,1,Desktop,Sports
+CUST00907,New,Surabaya,42,Male,2024-05-06,1,Mobile,Books
+CUST00908,At Risk,Medan,27,Male,2024-07-29,1,Desktop,Home & Garden
+CUST00909,At Risk,Bandung,41,Female,2024-07-25,1,Mobile,Apparel
+CUST00910,At Risk,Depok,45,Female,2024-09-07,1,Mobile,Home & Garden
+CUST00911,At Risk,Jakarta,47,Female,2024-09-19,1,Mobile,Home & Garden
+CUST00912,New,Bali,53,Female,2024-03-01,1,Mobile,Beauty
+CUST00913,Champions,Jakarta,27,Prefer not to say,2024-06-05,1,Mobile,Books
+CUST00914,Champions,Surabaya,55,Female,2024-06-05,1,Desktop,Home & Garden
+CUST00915,Champions,Jakarta,40,Male,2024-01-23,1,Mobile,Food & Drink
+CUST00916,New,Yogyakarta,48,Female,2024-03-08,1,Mobile,Home & Garden
+CUST00917,At Risk,Jakarta,38,Male,2024-07-28,0,Mobile,Electronics
+CUST00918,New,Medan,46,Female,2024-02-15,1,Mobile,Books
+CUST00919,New,Bandung,53,Male,2024-10-13,0,Mobile,Sports
+CUST00920,Lost,Jakarta,51,Female,2024-08-31,1,Desktop,Beauty
+CUST00921,Lost,Yogyakarta,35,Female,2024-05-05,0,Mobile,Electronics
+CUST00922,At Risk,Bali,38,Female,2024-01-24,0,Mobile,Electronics
+CUST00923,Champions,Bali,51,Male,2024-05-11,0,Mobile,Apparel
+CUST00924,Loyal,Jakarta,23,Female,2024-07-27,1,Tablet,Electronics
+CUST00925,New,Bali,37,Male,2024-06-12,0,Mobile,Food & Drink
+CUST00926,Lost,Jakarta,21,Male,2024-10-27,1,Mobile,Food & Drink
+CUST00927,Loyal,Surabaya,38,Male,2024-07-27,1,Desktop,Food & Drink
+CUST00928,Champions,Palembang,53,Male,2024-02-21,1,Desktop,Apparel
+CUST00929,At Risk,Semarang,23,Male,2024-09-13,0,Mobile,Food & Drink
+CUST00930,New,Palembang,52,Female,2024-10-11,1,Mobile,Books
+CUST00931,Loyal,Jakarta,28,Male,2024-09-03,1,Desktop,Food & Drink
+CUST00932,New,Bandung,31,Male,2024-09-18,1,Mobile,Electronics
+CUST00933,Champions,Yogyakarta,25,Prefer not to say,2024-10-11,0,Mobile,Home & Garden
+CUST00934,New,Bandung,39,Male,2024-08-19,1,Mobile,Apparel
+CUST00935,Lost,Jakarta,39,Female,2024-03-09,1,Mobile,Food & Drink
+CUST00936,New,Surabaya,44,Female,2024-09-07,1,Desktop,Beauty
+CUST00937,Champions,Semarang,19,Female,2024-08-15,1,Desktop,Books
+CUST00938,Loyal,Yogyakarta,29,Male,2024-01-05,1,Mobile,Electronics
+CUST00939,New,Bandung,35,Male,2024-07-02,0,Desktop,Books
+CUST00940,Loyal,Palembang,49,Male,2024-01-19,0,Desktop,Apparel
+CUST00941,Loyal,Jakarta,43,Female,2024-05-22,1,Mobile,Sports
+CUST00942,At Risk,Jakarta,54,Male,2024-10-28,1,Mobile,Beauty
+CUST00943,Loyal,Medan,51,Male,2024-05-20,1,Tablet,Sports
+CUST00944,At Risk,Bandung,34,Male,2024-08-20,1,Desktop,Sports
+CUST00945,Lost,Surabaya,38,Male,2024-07-27,1,Mobile,Apparel
+CUST00946,New,Jakarta,32,Female,2024-08-03,1,Mobile,Apparel
+CUST00947,Lost,Depok,19,Prefer not to say,2024-04-25,1,Mobile,Apparel
+CUST00948,Loyal,Jakarta,37,Male,2024-02-19,1,Mobile,Books
+CUST00949,Lost,Jakarta,34,Male,2024-08-30,1,Mobile,Apparel
+CUST00950,New,Yogyakarta,22,Female,2024-08-12,1,Mobile,Electronics
+CUST00951,Champions,Bali,20,Female,2024-02-03,1,Desktop,Electronics
+CUST00952,New,Jakarta,45,Female,2024-01-29,1,Mobile,Electronics
+CUST00953,New,Semarang,32,Female,2024-01-06,1,Mobile,Beauty
+CUST00954,Champions,Surabaya,19,Female,2024-06-17,1,Mobile,Sports
+CUST00955,At Risk,Makassar,30,Female,2024-03-05,1,Mobile,Sports
+CUST00956,At Risk,Jakarta,33,Male,2024-01-23,1,Mobile,Food & Drink
+CUST00957,New,Bandung,37,Female,2024-10-04,1,Mobile,Apparel
+CUST00958,Loyal,Surabaya,18,Male,2024-03-15,1,Desktop,Books
+CUST00959,At Risk,Depok,30,Female,2024-04-13,1,Desktop,Sports
+CUST00960,Lost,Semarang,39,Prefer not to say,2024-10-16,1,Mobile,Electronics
+CUST00961,At Risk,Surabaya,20,Female,2024-01-02,1,Mobile,Apparel
+CUST00962,At Risk,Yogyakarta,39,Male,2024-07-11,1,Tablet,Apparel
+CUST00963,Champions,Surabaya,19,Male,2024-03-13,1,Mobile,Sports
+CUST00964,Champions,Jakarta,19,Male,2024-05-25,0,Desktop,Apparel
+CUST00965,At Risk,Jakarta,29,Female,2024-03-31,0,Mobile,Sports
+CUST00966,Loyal,Bali,25,Male,2024-04-17,1,Desktop,Sports
+CUST00967,Lost,Semarang,45,Male,2024-02-03,0,Mobile,Electronics
+CUST00968,At Risk,Bali,41,Prefer not to say,2024-08-07,1,Mobile,Beauty
+CUST00969,Loyal,Jakarta,52,Male,2024-03-17,1,Desktop,Books
+CUST00970,Lost,Semarang,55,Female,2024-04-17,0,Desktop,Beauty
+CUST00971,Loyal,Medan,42,Male,2024-09-17,1,Mobile,Sports
+CUST00972,At Risk,Medan,48,Female,2024-09-10,1,Desktop,Books
+CUST00973,New,Jakarta,31,Female,2024-04-13,1,Mobile,Home & Garden
+CUST00974,Loyal,Makassar,28,Male,2024-07-10,1,Desktop,Apparel
+CUST00975,At Risk,Bandung,32,Female,2024-08-26,1,Mobile,Home & Garden
+CUST00976,Loyal,Bali,49,Male,2024-07-14,1,Mobile,Electronics
+CUST00977,Lost,Semarang,36,Female,2024-09-19,1,Mobile,Apparel
+CUST00978,Champions,Jakarta,41,Male,2024-04-12,1,Mobile,Sports
+CUST00979,New,Jakarta,35,Prefer not to say,2024-03-11,0,Desktop,Food & Drink
+CUST00980,Champions,Jakarta,37,Female,2024-06-26,1,Mobile,Beauty
+CUST00981,New,Bandung,48,Female,2024-03-17,1,Desktop,Apparel
+CUST00982,Loyal,Yogyakarta,55,Female,2024-08-27,1,Desktop,Apparel
+CUST00983,Loyal,Jakarta,44,Female,2024-08-18,1,Mobile,Books
+CUST00984,Loyal,Surabaya,18,Male,2024-06-30,1,Desktop,Home & Garden
+CUST00985,New,Jakarta,52,Male,2024-10-27,0,Tablet,Electronics
+CUST00986,Lost,Surabaya,39,Female,2024-10-20,0,Mobile,Home & Garden
+CUST00987,At Risk,Surabaya,30,Female,2024-06-17,1,Desktop,Electronics
+CUST00988,Champions,Jakarta,53,Male,2024-09-07,1,Desktop,Home & Garden
+CUST00989,Loyal,Bandung,36,Female,2024-02-05,1,Mobile,Apparel
+CUST00990,Lost,Jakarta,43,Male,2024-02-26,1,Desktop,Home & Garden
+CUST00991,Lost,Jakarta,31,Male,2024-04-15,0,Desktop,Electronics
+CUST00992,At Risk,Bandung,37,Female,2024-09-14,1,Mobile,Food & Drink
+CUST00993,At Risk,Bandung,43,Female,2024-05-06,0,Desktop,Home & Garden
+CUST00994,At Risk,Jakarta,23,Male,2024-08-21,0,Desktop,Home & Garden
+CUST00995,New,Bali,29,Female,2024-04-01,0,Mobile,Food & Drink
+CUST00996,Loyal,Jakarta,54,Male,2024-01-23,0,Mobile,Beauty
+CUST00997,Loyal,Medan,22,Female,2024-04-21,1,Desktop,Electronics
+CUST00998,Loyal,Surabaya,24,Male,2024-06-15,1,Mobile,Electronics
+CUST00999,Champions,Bali,47,Female,2024-07-23,1,Mobile,Electronics
+CUST01000,Lost,Bandung,38,Female,2024-08-25,1,Mobile,Apparel
+CUST01001,Lost,Surabaya,26,Female,2024-05-22,1,Mobile,Electronics
+CUST01002,Loyal,Medan,52,Male,2024-03-27,0,Desktop,Electronics
+CUST01003,Loyal,Medan,31,Male,2024-09-29,1,Desktop,Books
+CUST01004,New,Bali,24,Female,2024-06-06,1,Mobile,Apparel
+CUST01005,Loyal,Bali,33,Male,2024-05-02,1,Mobile,Electronics
+CUST01006,New,Jakarta,22,Female,2024-02-19,0,Mobile,Electronics
+CUST01007,At Risk,Yogyakarta,24,Female,2024-06-14,1,Mobile,Beauty
+CUST01008,Lost,Jakarta,25,Male,2024-02-24,1,Mobile,Apparel
+CUST01009,Loyal,Jakarta,47,Female,2024-05-22,1,Mobile,Apparel
+CUST01010,Loyal,Depok,49,Female,2024-02-22,0,Tablet,Beauty
+CUST01011,Loyal,Bandung,24,Female,2024-07-17,0,Desktop,Apparel
+CUST01012,New,Depok,38,Male,2024-09-03,1,Desktop,Home & Garden
+CUST01013,At Risk,Surabaya,32,Male,2024-01-07,1,Desktop,Apparel
+CUST01014,New,Bandung,33,Male,2024-01-31,1,Mobile,Apparel
+CUST01015,New,Makassar,33,Female,2024-08-15,1,Mobile,Beauty
+CUST01016,New,Yogyakarta,51,Female,2024-07-31,1,Mobile,Books
+CUST01017,Loyal,Jakarta,33,Female,2024-01-28,1,Mobile,Sports
+CUST01018,New,Surabaya,42,Female,2024-04-03,1,Desktop,Electronics
+CUST01019,Loyal,Makassar,27,Male,2024-03-05,1,Desktop,Food & Drink
+CUST01020,Loyal,Surabaya,23,Male,2024-08-27,0,Mobile,Electronics
+CUST01021,Loyal,Bandung,36,Male,2024-04-13,0,Mobile,Food & Drink
+CUST01022,Loyal,Surabaya,28,Female,2024-08-04,0,Desktop,Books
+CUST01023,New,Medan,19,Female,2024-08-06,0,Tablet,Beauty
+CUST01024,Loyal,Jakarta,29,Male,2024-08-25,1,Mobile,Home & Garden
+CUST01025,Loyal,Jakarta,48,Male,2024-04-07,0,Desktop,Apparel
+CUST01026,At Risk,Palembang,44,Male,2024-07-10,1,Tablet,Electronics
+CUST01027,Lost,Bali,25,Male,2024-10-16,0,Tablet,Books
+CUST01028,New,Surabaya,40,Female,2024-09-07,1,Mobile,Home & Garden
+CUST01029,At Risk,Jakarta,33,Female,2024-01-18,1,Desktop,Electronics
+CUST01030,New,Jakarta,27,Female,2024-08-21,1,Mobile,Beauty
+CUST01031,New,Jakarta,28,Female,2024-02-17,0,Mobile,Beauty
+CUST01032,Lost,Makassar,51,Male,2024-08-04,1,Desktop,Home & Garden
+CUST01033,At Risk,Bandung,42,Female,2024-07-29,0,Desktop,Electronics
+CUST01034,At Risk,Yogyakarta,40,Female,2024-05-17,0,Mobile,Apparel
+CUST01035,Lost,Jakarta,49,Female,2024-02-05,1,Mobile,Apparel
+CUST01036,At Risk,Bali,29,Male,2024-03-09,1,Tablet,Home & Garden
+CUST01037,New,Jakarta,29,Female,2024-04-03,1,Tablet,Books
+CUST01038,At Risk,Semarang,24,Male,2024-03-26,1,Mobile,Electronics
+CUST01039,Champions,Surabaya,33,Male,2024-02-21,1,Tablet,Sports
+CUST01040,New,Jakarta,20,Female,2024-09-24,1,Mobile,Food & Drink
+CUST01041,Loyal,Surabaya,49,Female,2024-06-21,1,Desktop,Apparel
+CUST01042,Loyal,Palembang,33,Male,2024-07-23,1,Mobile,Apparel
+CUST01043,Champions,Semarang,47,Female,2024-07-24,0,Mobile,Beauty
+CUST01044,Lost,Palembang,35,Male,2024-05-07,1,Desktop,Home & Garden
+CUST01045,At Risk,Jakarta,30,Male,2024-06-13,1,Mobile,Books
+CUST01046,Loyal,Jakarta,46,Male,2024-09-05,1,Mobile,Home & Garden
+CUST01047,Lost,Depok,48,Female,2024-02-21,1,Mobile,Electronics
+CUST01048,At Risk,Yogyakarta,54,Male,2024-09-15,1,Mobile,Books
+CUST01049,Lost,Jakarta,47,Female,2024-08-16,1,Mobile,Apparel
+CUST01050,Loyal,Jakarta,23,Male,2024-01-15,0,Desktop,Sports
+CUST01051,Loyal,Bandung,34,Female,2024-03-04,0,Desktop,Home & Garden
+CUST01052,New,Semarang,39,Female,2024-10-21,1,Desktop,Apparel
+CUST01053,New,Bandung,42,Prefer not to say,2024-10-14,1,Mobile,Apparel
+CUST01054,Loyal,Jakarta,25,Female,2024-10-30,0,Mobile,Apparel
+CUST01055,Lost,Bandung,42,Male,2024-01-01,1,Mobile,Home & Garden
+CUST01056,At Risk,Yogyakarta,41,Female,2024-03-05,1,Mobile,Home & Garden
+CUST01057,At Risk,Bali,47,Female,2024-05-31,1,Mobile,Beauty
+CUST01058,Champions,Bandung,20,Female,2024-06-07,1,Mobile,Books
+CUST01059,At Risk,Surabaya,31,Male,2024-07-11,0,Mobile,Sports
+CUST01060,New,Medan,32,Female,2024-01-27,0,Desktop,Sports
+CUST01061,Loyal,Depok,28,Male,2024-10-07,1,Mobile,Apparel
+CUST01062,Loyal,Surabaya,22,Male,2024-05-24,0,Desktop,Beauty
+CUST01063,Champions,Medan,38,Female,2024-10-24,1,Tablet,Apparel
+CUST01064,New,Jakarta,54,Male,2024-09-04,1,Mobile,Sports
+CUST01065,New,Bali,18,Male,2024-10-21,0,Desktop,Apparel
+CUST01066,Lost,Makassar,28,Male,2024-02-19,1,Tablet,Electronics
+CUST01067,At Risk,Bandung,39,Female,2024-03-17,1,Mobile,Apparel
+CUST01068,At Risk,Bandung,29,Female,2024-07-11,0,Desktop,Electronics
+CUST01069,At Risk,Jakarta,42,Male,2024-08-15,1,Mobile,Home & Garden
+CUST01070,New,Jakarta,50,Female,2024-10-27,1,Mobile,Sports
+CUST01071,New,Bali,29,Male,2024-08-10,1,Mobile,Sports
+CUST01072,Lost,Jakarta,52,Male,2024-01-11,0,Desktop,Beauty
+CUST01073,Champions,Surabaya,55,Female,2024-03-04,1,Desktop,Electronics
+CUST01074,Lost,Jakarta,29,Female,2024-08-16,1,Mobile,Apparel
+CUST01075,Loyal,Jakarta,53,Male,2024-01-18,1,Mobile,Food & Drink
+CUST01076,Loyal,Jakarta,18,Female,2024-01-24,1,Desktop,Sports
+CUST01077,At Risk,Surabaya,54,Female,2024-06-09,0,Mobile,Beauty
+CUST01078,Loyal,Bandung,24,Male,2024-01-23,1,Mobile,Books
+CUST01079,Lost,Jakarta,53,Male,2024-07-02,0,Mobile,Beauty
+CUST01080,Loyal,Bali,28,Female,2024-02-12,1,Tablet,Electronics
+CUST01081,Loyal,Depok,35,Female,2024-04-08,1,Desktop,Home & Garden
+CUST01082,Loyal,Bali,27,Male,2024-08-10,0,Mobile,Apparel
+CUST01083,At Risk,Bali,53,Female,2024-06-17,1,Mobile,Apparel
+CUST01084,Lost,Jakarta,32,Male,2024-02-20,0,Mobile,Electronics
+CUST01085,Lost,Surabaya,29,Female,2024-06-05,0,Mobile,Apparel
+CUST01086,At Risk,Surabaya,36,Female,2024-02-20,1,Tablet,Home & Garden
+CUST01087,Loyal,Surabaya,52,Female,2024-07-25,1,Mobile,Home & Garden
+CUST01088,Loyal,Jakarta,26,Female,2024-10-17,1,Desktop,Food & Drink
+CUST01089,New,Bandung,33,Female,2024-08-02,1,Tablet,Books
+CUST01090,At Risk,Palembang,35,Female,2024-09-23,0,Desktop,Apparel
+CUST01091,Lost,Bali,37,Female,2024-06-09,1,Mobile,Apparel
+CUST01092,Champions,Jakarta,54,Female,2024-05-26,1,Desktop,Food & Drink
+CUST01093,At Risk,Makassar,50,Female,2024-03-10,1,Tablet,Food & Drink
+CUST01094,New,Jakarta,43,Female,2024-04-07,0,Desktop,Sports
+CUST01095,New,Depok,33,Female,2024-09-27,1,Mobile,Electronics
+CUST01096,Lost,Makassar,51,Male,2024-03-30,0,Mobile,Food & Drink
+CUST01097,At Risk,Jakarta,42,Male,2024-02-27,1,Desktop,Books
+CUST01098,Lost,Jakarta,36,Male,2024-05-30,1,Desktop,Home & Garden
+CUST01099,Lost,Yogyakarta,50,Female,2024-01-19,0,Desktop,Electronics
+CUST01100,Champions,Bali,47,Male,2024-06-30,1,Desktop,Home & Garden
+CUST01101,Champions,Surabaya,45,Female,2024-02-13,0,Mobile,Food & Drink
+CUST01102,Champions,Jakarta,34,Male,2024-07-21,1,Desktop,Beauty
+CUST01103,Loyal,Bandung,46,Male,2024-08-12,1,Mobile,Apparel
+CUST01104,Lost,Jakarta,30,Male,2024-05-25,1,Desktop,Food & Drink
+CUST01105,Loyal,Palembang,30,Male,2024-05-16,1,Mobile,Sports
+CUST01106,Champions,Surabaya,43,Male,2024-07-18,0,Desktop,Electronics
+CUST01107,Loyal,Medan,18,Male,2024-05-01,0,Mobile,Beauty
+CUST01108,Champions,Jakarta,48,Male,2024-09-05,1,Mobile,Sports
+CUST01109,Loyal,Medan,35,Prefer not to say,2024-05-14,1,Desktop,Electronics
+CUST01110,New,Medan,24,Female,2024-09-14,1,Desktop,Beauty
+CUST01111,Champions,Jakarta,25,Male,2024-01-20,1,Mobile,Electronics
+CUST01112,Loyal,Bali,21,Male,2024-09-25,1,Mobile,Apparel
+CUST01113,At Risk,Surabaya,50,Male,2024-01-27,1,Mobile,Apparel
+CUST01114,At Risk,Semarang,38,Male,2024-04-03,1,Desktop,Apparel
+CUST01115,At Risk,Surabaya,24,Female,2024-05-09,1,Mobile,Electronics
+CUST01116,Champions,Yogyakarta,53,Male,2024-03-07,0,Mobile,Books
+CUST01117,At Risk,Jakarta,41,Male,2024-05-21,1,Desktop,Electronics
+CUST01118,New,Jakarta,25,Male,2024-04-07,1,Mobile,Food & Drink
+CUST01119,New,Medan,37,Female,2024-04-13,1,Mobile,Home & Garden
+CUST01120,New,Depok,53,Female,2024-07-06,1,Desktop,Electronics
+CUST01121,At Risk,Yogyakarta,50,Female,2024-03-26,1,Mobile,Electronics
+CUST01122,At Risk,Medan,30,Female,2024-07-22,1,Mobile,Electronics
+CUST01123,At Risk,Bali,50,Male,2024-07-18,1,Mobile,Electronics
+CUST01124,Loyal,Semarang,18,Female,2024-09-19,1,Mobile,Apparel
+CUST01125,Loyal,Surabaya,35,Male,2024-03-28,1,Mobile,Beauty
+CUST01126,Lost,Makassar,35,Female,2024-05-18,1,Tablet,Food & Drink
+CUST01127,Loyal,Jakarta,25,Female,2024-06-26,0,Mobile,Food & Drink
+CUST01128,Lost,Medan,34,Female,2024-07-28,1,Tablet,Beauty
+CUST01129,Champions,Jakarta,40,Male,2024-05-23,0,Mobile,Food & Drink
+CUST01130,New,Jakarta,55,Female,2024-07-14,1,Desktop,Beauty
+CUST01131,Loyal,Jakarta,46,Male,2024-05-17,1,Desktop,Home & Garden
+CUST01132,At Risk,Bali,45,Male,2024-09-02,1,Mobile,Books
+CUST01133,Loyal,Palembang,49,Female,2024-04-02,1,Mobile,Electronics
+CUST01134,Loyal,Jakarta,30,Male,2024-02-06,1,Desktop,Home & Garden
+CUST01135,New,Medan,26,Female,2024-01-07,1,Mobile,Books
+CUST01136,New,Jakarta,20,Male,2024-02-12,0,Mobile,Books
+CUST01137,Champions,Surabaya,24,Female,2024-06-22,1,Mobile,Sports
+CUST01138,Lost,Bali,28,Male,2024-09-02,1,Desktop,Beauty
+CUST01139,Champions,Jakarta,20,Male,2024-05-31,0,Mobile,Electronics
+CUST01140,Loyal,Surabaya,32,Male,2024-03-16,1,Tablet,Sports
+CUST01141,New,Surabaya,25,Male,2024-02-26,0,Mobile,Electronics
+CUST01142,Loyal,Makassar,41,Female,2024-02-13,1,Mobile,Beauty
+CUST01143,At Risk,Jakarta,45,Female,2024-06-03,1,Desktop,Apparel
+CUST01144,At Risk,Makassar,41,Female,2024-02-09,0,Tablet,Books
+CUST01145,Champions,Bali,27,Female,2024-09-01,1,Mobile,Sports
+CUST01146,Champions,Depok,38,Female,2024-04-03,1,Mobile,Home & Garden
+CUST01147,Lost,Jakarta,39,Male,2024-05-05,1,Mobile,Home & Garden
+CUST01148,At Risk,Bali,32,Female,2024-10-24,1,Desktop,Books
+CUST01149,Loyal,Jakarta,23,Male,2024-01-02,0,Mobile,Home & Garden
+CUST01150,Champions,Jakarta,25,Male,2024-06-27,0,Desktop,Electronics
+CUST01151,At Risk,Depok,53,Male,2024-08-03,0,Mobile,Electronics
+CUST01152,Lost,Bali,27,Female,2024-01-14,1,Mobile,Electronics
+CUST01153,At Risk,Yogyakarta,48,Male,2024-03-21,1,Mobile,Electronics
+CUST01154,At Risk,Jakarta,44,Female,2024-04-03,1,Mobile,Food & Drink
+CUST01155,At Risk,Surabaya,39,Male,2024-01-07,1,Desktop,Electronics
+CUST01156,New,Jakarta,50,Female,2024-07-21,1,Desktop,Beauty
+CUST01157,New,Surabaya,54,Male,2024-04-26,1,Tablet,Beauty
+CUST01158,Lost,Medan,26,Female,2024-07-24,1,Mobile,Sports
+CUST01159,At Risk,Yogyakarta,22,Female,2024-08-27,1,Mobile,Home & Garden
+CUST01160,Champions,Bandung,41,Male,2024-04-09,1,Mobile,Books
+CUST01161,Loyal,Jakarta,33,Male,2024-10-04,1,Mobile,Food & Drink
+CUST01162,Loyal,Bandung,30,Male,2024-01-17,1,Mobile,Electronics
+CUST01163,Lost,Jakarta,48,Male,2024-06-10,1,Tablet,Sports
+CUST01164,Lost,Jakarta,50,Female,2024-07-19,0,Desktop,Electronics
+CUST01165,At Risk,Jakarta,50,Male,2024-03-17,0,Mobile,Books
+CUST01166,Champions,Jakarta,28,Male,2024-08-25,1,Tablet,Apparel
+CUST01167,Loyal,Medan,27,Prefer not to say,2024-03-23,1,Tablet,Beauty
+CUST01168,At Risk,Surabaya,39,Male,2024-03-08,1,Desktop,Home & Garden
+CUST01169,Lost,Jakarta,42,Female,2024-02-08,1,Tablet,Electronics
+CUST01170,Champions,Surabaya,37,Female,2024-02-14,1,Mobile,Apparel
+CUST01171,Champions,Bali,54,Male,2024-02-15,1,Mobile,Food & Drink
+CUST01172,Lost,Bandung,46,Female,2024-03-12,0,Mobile,Apparel
+CUST01173,Loyal,Semarang,44,Female,2024-03-07,1,Desktop,Apparel
+CUST01174,Champions,Surabaya,44,Female,2024-05-14,0,Mobile,Food & Drink
+CUST01175,Champions,Medan,33,Male,2024-10-14,0,Mobile,Electronics
+CUST01176,Loyal,Jakarta,22,Female,2024-08-24,1,Mobile,Beauty
+CUST01177,New,Jakarta,24,Female,2024-02-25,0,Desktop,Electronics
+CUST01178,Loyal,Bali,38,Male,2024-09-05,0,Mobile,Home & Garden
+CUST01179,At Risk,Jakarta,48,Male,2024-04-19,1,Mobile,Home & Garden
+CUST01180,Lost,Yogyakarta,41,Male,2024-08-30,1,Mobile,Sports
+CUST01181,At Risk,Bandung,34,Male,2024-02-12,1,Mobile,Books
+CUST01182,At Risk,Surabaya,44,Male,2024-05-12,1,Desktop,Home & Garden
+CUST01183,Lost,Jakarta,37,Female,2024-06-27,1,Mobile,Books
+CUST01184,Lost,Bali,45,Male,2024-10-19,1,Desktop,Beauty
+CUST01185,Champions,Bandung,55,Female,2024-06-14,0,Desktop,Books
+CUST01186,New,Jakarta,18,Female,2024-08-22,1,Mobile,Books
+CUST01187,New,Surabaya,34,Prefer not to say,2024-01-02,0,Desktop,Beauty
+CUST01188,New,Jakarta,55,Female,2024-04-21,1,Desktop,Books
+CUST01189,New,Bali,31,Prefer not to say,2024-04-07,1,Mobile,Books
+CUST01190,Champions,Surabaya,37,Female,2024-03-04,1,Mobile,Home & Garden
+CUST01191,Loyal,Surabaya,52,Male,2024-06-20,1,Mobile,Electronics
+CUST01192,At Risk,Surabaya,52,Female,2024-05-25,1,Mobile,Apparel
+CUST01193,New,Depok,24,Male,2024-02-23,1,Tablet,Electronics
+CUST01194,New,Jakarta,52,Female,2024-08-15,0,Desktop,Books
+CUST01195,Loyal,Surabaya,47,Male,2024-02-28,1,Mobile,Food & Drink
+CUST01196,Lost,Makassar,44,Male,2024-07-21,1,Mobile,Apparel
+CUST01197,Lost,Bali,34,Female,2024-07-31,1,Desktop,Electronics
+CUST01198,Champions,Semarang,41,Female,2024-09-22,1,Mobile,Food & Drink
+CUST01199,Lost,Surabaya,33,Male,2024-07-19,1,Desktop,Books
+CUST01200,At Risk,Makassar,26,Prefer not to say,2024-07-18,1,Desktop,Home & Garden
+CUST01201,At Risk,Medan,24,Female,2024-03-05,1,Desktop,Books
+CUST01202,New,Yogyakarta,34,Female,2024-03-22,1,Mobile,Home & Garden
+CUST01203,New,Jakarta,55,Female,2024-10-05,1,Mobile,Sports
+CUST01204,Champions,Bandung,47,Male,2024-07-02,1,Mobile,Electronics
+CUST01205,New,Yogyakarta,42,Male,2024-01-27,0,Desktop,Beauty
+CUST01206,At Risk,Jakarta,24,Male,2024-03-03,1,Desktop,Electronics
+CUST01207,At Risk,Makassar,41,Male,2024-04-16,1,Mobile,Electronics
+CUST01208,Lost,Jakarta,22,Male,2024-08-02,1,Desktop,Books
+CUST01209,Loyal,Makassar,18,Female,2024-10-17,0,Mobile,Apparel
+CUST01210,Loyal,Jakarta,52,Female,2024-09-24,0,Mobile,Electronics
+CUST01211,Champions,Medan,50,Female,2024-04-20,1,Mobile,Apparel
+CUST01212,Loyal,Jakarta,26,Male,2024-09-03,1,Desktop,Sports
+CUST01213,At Risk,Surabaya,49,Female,2024-07-23,1,Mobile,Books
+CUST01214,New,Jakarta,43,Male,2024-10-27,0,Tablet,Home & Garden
+CUST01215,Lost,Bandung,45,Female,2024-05-19,1,Mobile,Home & Garden
+CUST01216,At Risk,Semarang,41,Female,2024-02-02,0,Tablet,Apparel
+CUST01217,At Risk,Bali,51,Male,2024-01-16,0,Mobile,Electronics
+CUST01218,Loyal,Bandung,31,Male,2024-07-09,1,Mobile,Sports
+CUST01219,New,Surabaya,31,Female,2024-06-13,1,Mobile,Beauty
+CUST01220,At Risk,Surabaya,24,Female,2024-02-08,1,Desktop,Home & Garden
+CUST01221,New,Jakarta,30,Female,2024-09-09,0,Mobile,Electronics
+CUST01222,Loyal,Bandung,38,Female,2024-05-01,1,Desktop,Books
+CUST01223,Lost,Jakarta,47,Male,2024-07-25,1,Mobile,Apparel
+CUST01224,Champions,Jakarta,48,Female,2024-07-31,1,Desktop,Home & Garden
+CUST01225,At Risk,Surabaya,38,Male,2024-01-25,1,Mobile,Books
+CUST01226,Lost,Semarang,25,Male,2024-02-22,1,Mobile,Electronics
+CUST01227,Loyal,Jakarta,45,Male,2024-02-15,0,Mobile,Food & Drink
+CUST01228,Lost,Jakarta,21,Male,2024-01-23,0,Mobile,Apparel
+CUST01229,New,Jakarta,42,Female,2024-03-28,1,Mobile,Apparel
+CUST01230,Champions,Semarang,55,Female,2024-07-30,1,Mobile,Apparel
+CUST01231,At Risk,Depok,49,Female,2024-06-13,1,Mobile,Sports
+CUST01232,New,Surabaya,40,Female,2024-05-04,0,Mobile,Electronics
+CUST01233,Lost,Jakarta,21,Female,2024-04-20,1,Mobile,Apparel
+CUST01234,New,Surabaya,51,Female,2024-06-09,1,Mobile,Electronics
+CUST01235,At Risk,Jakarta,26,Male,2024-07-05,1,Desktop,Apparel
+CUST01236,At Risk,Jakarta,22,Female,2024-03-25,0,Mobile,Electronics
+CUST01237,At Risk,Medan,24,Male,2024-05-03,1,Mobile,Home & Garden
+CUST01238,At Risk,Jakarta,40,Male,2024-10-08,1,Mobile,Home & Garden
+CUST01239,At Risk,Surabaya,21,Male,2024-07-08,1,Desktop,Home & Garden
+CUST01240,Loyal,Jakarta,43,Female,2024-05-21,1,Mobile,Sports
+CUST01241,New,Jakarta,25,Female,2024-01-28,1,Mobile,Beauty
+CUST01242,Loyal,Bali,43,Male,2024-02-21,0,Desktop,Home & Garden
+CUST01243,Loyal,Bali,31,Female,2024-05-27,1,Mobile,Electronics
+CUST01244,Lost,Medan,48,Male,2024-05-02,1,Mobile,Apparel
+CUST01245,At Risk,Bandung,18,Male,2024-08-07,1,Mobile,Electronics
+CUST01246,New,Bandung,18,Female,2024-08-30,1,Mobile,Electronics
+CUST01247,New,Bandung,54,Female,2024-05-28,1,Mobile,Electronics
+CUST01248,Champions,Yogyakarta,37,Female,2024-06-20,0,Tablet,Apparel
+CUST01249,At Risk,Surabaya,41,Male,2024-06-29,1,Mobile,Sports
+CUST01250,Lost,Jakarta,48,Female,2024-09-22,1,Tablet,Books
+CUST01251,New,Bali,27,Male,2024-01-16,0,Tablet,Apparel
+CUST01252,New,Makassar,30,Female,2024-07-12,0,Desktop,Sports
+CUST01253,Lost,Depok,46,Male,2024-09-26,0,Mobile,Apparel
+CUST01254,At Risk,Bali,35,Female,2024-01-22,1,Desktop,Electronics
+CUST01255,New,Palembang,54,Male,2024-06-26,0,Mobile,Sports
+CUST01256,At Risk,Surabaya,27,Female,2024-05-28,1,Mobile,Apparel
+CUST01257,New,Surabaya,18,Male,2024-04-21,1,Mobile,Apparel
+CUST01258,At Risk,Jakarta,18,Male,2024-03-11,1,Desktop,Sports
+CUST01259,New,Palembang,27,Male,2024-05-18,0,Mobile,Food & Drink
+CUST01260,Loyal,Surabaya,20,Male,2024-06-30,1,Mobile,Home & Garden
+CUST01261,Lost,Makassar,34,Male,2024-06-08,1,Desktop,Books
+CUST01262,Champions,Jakarta,30,Female,2024-08-01,1,Mobile,Beauty
+CUST01263,New,Jakarta,52,Male,2024-08-11,1,Desktop,Home & Garden
+CUST01264,New,Surabaya,40,Female,2024-08-06,0,Mobile,Food & Drink
+CUST01265,Champions,Jakarta,44,Female,2024-03-12,1,Mobile,Home & Garden
+CUST01266,Champions,Semarang,52,Male,2024-05-30,0,Mobile,Sports
+CUST01267,At Risk,Surabaya,51,Male,2024-01-28,1,Tablet,Electronics
+CUST01268,At Risk,Surabaya,36,Female,2024-06-18,1,Mobile,Home & Garden
+CUST01269,New,Surabaya,31,Female,2024-10-14,1,Mobile,Sports
+CUST01270,Lost,Bandung,37,Female,2024-01-04,1,Mobile,Electronics
+CUST01271,Loyal,Surabaya,25,Male,2024-05-06,1,Desktop,Home & Garden
+CUST01272,Champions,Jakarta,25,Prefer not to say,2024-09-04,0,Desktop,Beauty
+CUST01273,New,Semarang,46,Male,2024-03-04,1,Mobile,Books
+CUST01274,New,Surabaya,28,Male,2024-10-06,1,Mobile,Electronics
+CUST01275,At Risk,Bandung,41,Male,2024-07-19,0,Mobile,Books
+CUST01276,Champions,Surabaya,36,Male,2024-10-15,1,Mobile,Sports
+CUST01277,New,Jakarta,46,Prefer not to say,2024-06-30,1,Desktop,Apparel
+CUST01278,Lost,Surabaya,40,Male,2024-09-14,0,Mobile,Home & Garden
+CUST01279,Loyal,Bali,27,Male,2024-10-15,1,Desktop,Apparel
+CUST01280,New,Makassar,37,Female,2024-02-04,1,Mobile,Home & Garden
+CUST01281,New,Medan,54,Female,2024-09-16,1,Mobile,Apparel
+CUST01282,Lost,Bandung,40,Male,2024-07-25,1,Desktop,Apparel
+CUST01283,New,Makassar,49,Male,2024-08-31,1,Desktop,Food & Drink
+CUST01284,New,Semarang,24,Female,2024-03-30,1,Tablet,Food & Drink
+CUST01285,Champions,Jakarta,34,Female,2024-02-07,1,Desktop,Electronics
+CUST01286,Loyal,Medan,24,Male,2024-07-12,1,Mobile,Electronics
+CUST01287,At Risk,Jakarta,36,Male,2024-03-23,1,Desktop,Electronics
+CUST01288,Champions,Jakarta,24,Female,2024-03-12,1,Mobile,Beauty
+CUST01289,Champions,Bandung,29,Female,2024-09-27,0,Mobile,Home & Garden
+CUST01290,Loyal,Semarang,53,Male,2024-02-04,1,Desktop,Beauty
+CUST01291,Champions,Jakarta,51,Female,2024-03-01,1,Mobile,Electronics
+CUST01292,New,Makassar,36,Male,2024-05-08,1,Desktop,Electronics
+CUST01293,Loyal,Bandung,52,Female,2024-09-22,1,Mobile,Electronics
+CUST01294,New,Bandung,25,Female,2024-05-14,1,Mobile,Apparel
+CUST01295,Lost,Jakarta,21,Female,2024-10-07,1,Desktop,Food & Drink
+CUST01296,Champions,Jakarta,49,Female,2024-10-15,1,Desktop,Electronics
+CUST01297,Lost,Bandung,44,Female,2024-02-11,1,Mobile,Sports
+CUST01298,Champions,Surabaya,49,Male,2024-06-28,1,Desktop,Food & Drink
+CUST01299,Champions,Jakarta,21,Female,2024-04-10,0,Desktop,Sports
+CUST01300,At Risk,Bali,21,Female,2024-07-12,1,Mobile,Electronics
+CUST01301,At Risk,Bali,41,Male,2024-06-24,1,Mobile,Beauty
+CUST01302,Loyal,Surabaya,52,Female,2024-01-08,1,Mobile,Electronics
+CUST01303,At Risk,Jakarta,36,Female,2024-06-28,0,Tablet,Electronics
+CUST01304,Loyal,Bandung,25,Male,2024-02-09,1,Mobile,Sports
+CUST01305,Loyal,Surabaya,32,Female,2024-06-03,0,Mobile,Sports
+CUST01306,At Risk,Bali,35,Female,2024-10-04,1,Desktop,Sports
+CUST01307,New,Jakarta,35,Female,2024-03-11,1,Mobile,Beauty
+CUST01308,Champions,Jakarta,27,Female,2024-04-30,1,Mobile,Electronics
+CUST01309,At Risk,Jakarta,20,Male,2024-10-28,0,Mobile,Apparel
+CUST01310,New,Jakarta,49,Male,2024-07-14,1,Mobile,Electronics
+CUST01311,At Risk,Bandung,21,Female,2024-01-17,1,Mobile,Beauty
+CUST01312,Lost,Yogyakarta,34,Male,2024-10-29,1,Desktop,Beauty
+CUST01313,Lost,Yogyakarta,21,Male,2024-10-10,0,Desktop,Books
+CUST01314,Lost,Surabaya,47,Female,2024-10-17,1,Tablet,Home & Garden
+CUST01315,Lost,Jakarta,33,Male,2024-01-08,1,Mobile,Food & Drink
+CUST01316,New,Bali,36,Male,2024-07-21,1,Mobile,Apparel
+CUST01317,New,Jakarta,18,Female,2024-10-18,0,Desktop,Home & Garden
+CUST01318,Champions,Surabaya,18,Female,2024-07-02,0,Mobile,Electronics
+CUST01319,Lost,Semarang,35,Male,2024-10-09,1,Mobile,Sports
+CUST01320,Loyal,Jakarta,49,Male,2024-03-30,1,Mobile,Electronics
+CUST01321,Champions,Semarang,50,Male,2024-10-23,1,Mobile,Food & Drink
+CUST01322,Lost,Jakarta,34,Female,2024-06-29,1,Mobile,Electronics
+CUST01323,At Risk,Surabaya,25,Male,2024-05-01,1,Desktop,Sports
+CUST01324,Champions,Semarang,45,Male,2024-03-14,1,Mobile,Food & Drink
+CUST01325,Lost,Surabaya,41,Female,2024-05-30,1,Mobile,Food & Drink
+CUST01326,Lost,Jakarta,19,Female,2024-04-18,1,Desktop,Home & Garden
+CUST01327,At Risk,Makassar,40,Female,2024-07-12,1,Desktop,Home & Garden
+CUST01328,Lost,Palembang,23,Female,2024-04-24,0,Desktop,Sports
+CUST01329,At Risk,Semarang,25,Female,2024-09-27,1,Desktop,Beauty
+CUST01330,Loyal,Yogyakarta,30,Female,2024-05-30,1,Desktop,Food & Drink
+CUST01331,Loyal,Medan,38,Female,2024-02-29,1,Tablet,Home & Garden
+CUST01332,Champions,Surabaya,53,Female,2024-07-04,1,Mobile,Home & Garden
+CUST01333,At Risk,Makassar,26,Female,2024-05-05,1,Mobile,Electronics
+CUST01334,Loyal,Bali,36,Male,2024-03-01,1,Tablet,Beauty
+CUST01335,New,Semarang,30,Male,2024-08-20,1,Mobile,Beauty
+CUST01336,Lost,Jakarta,24,Female,2024-01-18,1,Mobile,Electronics
+CUST01337,At Risk,Makassar,51,Male,2024-08-04,1,Mobile,Sports
+CUST01338,Champions,Bandung,39,Prefer not to say,2024-02-25,1,Desktop,Apparel
+CUST01339,At Risk,Bandung,44,Male,2024-08-11,1,Mobile,Electronics
+CUST01340,New,Jakarta,50,Female,2024-01-04,1,Desktop,Apparel
+CUST01341,At Risk,Medan,50,Female,2024-05-23,1,Mobile,Apparel
+CUST01342,At Risk,Bandung,51,Male,2024-08-06,1,Desktop,Food & Drink
+CUST01343,Champions,Surabaya,31,Female,2024-05-22,1,Mobile,Apparel
+CUST01344,Champions,Surabaya,35,Female,2024-04-24,1,Desktop,Food & Drink
+CUST01345,New,Bandung,32,Male,2024-03-13,1,Mobile,Electronics
+CUST01346,At Risk,Palembang,20,Female,2024-10-03,1,Mobile,Books
+CUST01347,Loyal,Palembang,36,Male,2024-10-19,1,Mobile,Home & Garden
+CUST01348,Lost,Surabaya,25,Female,2024-08-09,1,Mobile,Apparel
+CUST01349,New,Yogyakarta,40,Female,2024-04-23,1,Mobile,Apparel
+CUST01350,New,Bandung,50,Female,2024-02-07,1,Tablet,Home & Garden
+CUST01351,Lost,Bali,51,Female,2024-10-12,0,Mobile,Beauty
+CUST01352,Champions,Bandung,26,Female,2024-04-22,1,Mobile,Books
+CUST01353,New,Jakarta,36,Female,2024-02-15,0,Desktop,Electronics
+CUST01354,Champions,Bandung,53,Male,2024-04-01,1,Mobile,Beauty
+CUST01355,Loyal,Surabaya,40,Female,2024-04-02,0,Desktop,Sports
+CUST01356,At Risk,Bandung,43,Female,2024-10-05,1,Mobile,Food & Drink
+CUST01357,New,Bali,36,Male,2024-08-16,1,Mobile,Home & Garden
+CUST01358,Loyal,Bali,25,Female,2024-07-22,0,Mobile,Books
+CUST01359,At Risk,Bandung,44,Male,2024-01-15,1,Desktop,Books
+CUST01360,Champions,Jakarta,38,Male,2024-06-11,0,Mobile,Apparel
+CUST01361,Champions,Medan,49,Female,2024-06-22,1,Mobile,Apparel
+CUST01362,Lost,Jakarta,52,Female,2024-02-26,1,Mobile,Beauty
+CUST01363,Champions,Yogyakarta,19,Female,2024-02-16,1,Mobile,Sports
+CUST01364,Champions,Surabaya,21,Female,2024-07-04,0,Desktop,Home & Garden
+CUST01365,New,Yogyakarta,36,Male,2024-07-10,1,Desktop,Food & Drink
+CUST01366,Champions,Medan,19,Male,2024-09-26,1,Mobile,Electronics
+CUST01367,Loyal,Bandung,32,Male,2024-05-06,0,Desktop,Apparel
+CUST01368,At Risk,Semarang,35,Male,2024-02-09,0,Desktop,Home & Garden
+CUST01369,Champions,Bandung,52,Male,2024-03-18,1,Mobile,Books
+CUST01370,Lost,Surabaya,38,Male,2024-01-12,1,Mobile,Food & Drink
+CUST01371,At Risk,Jakarta,42,Male,2024-02-17,1,Mobile,Apparel
+CUST01372,New,Jakarta,50,Prefer not to say,2024-01-09,0,Tablet,Sports
+CUST01373,New,Jakarta,46,Male,2024-01-13,1,Mobile,Beauty
+CUST01374,New,Jakarta,39,Male,2024-02-12,1,Desktop,Home & Garden
+CUST01375,Loyal,Bali,27,Female,2024-08-30,0,Desktop,Electronics
+CUST01376,At Risk,Bali,44,Female,2024-06-21,1,Desktop,Beauty
+CUST01377,Lost,Medan,35,Female,2024-10-14,1,Mobile,Sports
+CUST01378,Loyal,Surabaya,48,Female,2024-02-11,1,Mobile,Electronics
+CUST01379,Champions,Medan,51,Male,2024-03-26,0,Mobile,Food & Drink
+CUST01380,At Risk,Surabaya,51,Male,2024-10-07,1,Mobile,Food & Drink
+CUST01381,New,Surabaya,35,Female,2024-07-09,1,Mobile,Sports
+CUST01382,New,Surabaya,41,Female,2024-05-08,1,Mobile,Sports
+CUST01383,Lost,Jakarta,26,Male,2024-08-30,1,Mobile,Electronics
+CUST01384,Lost,Medan,37,Female,2024-04-12,1,Mobile,Electronics
+CUST01385,At Risk,Jakarta,28,Female,2024-10-13,1,Mobile,Electronics
+CUST01386,Loyal,Bandung,45,Male,2024-06-05,0,Tablet,Beauty
+CUST01387,New,Jakarta,30,Male,2024-03-19,1,Mobile,Beauty
+CUST01388,Champions,Bandung,51,Male,2024-07-15,0,Mobile,Apparel
+CUST01389,New,Jakarta,48,Female,2024-01-02,0,Mobile,Books
+CUST01390,Champions,Surabaya,28,Male,2024-01-01,0,Mobile,Home & Garden
+CUST01391,At Risk,Bali,48,Female,2024-09-13,1,Mobile,Books
+CUST01392,New,Bali,40,Male,2024-09-24,1,Mobile,Apparel
+CUST01393,Loyal,Medan,35,Female,2024-08-11,1,Desktop,Sports
+CUST01394,At Risk,Bandung,45,Male,2024-04-01,1,Mobile,Sports
+CUST01395,New,Bandung,31,Male,2024-04-07,1,Desktop,Electronics
+CUST01396,At Risk,Jakarta,51,Male,2024-10-27,1,Mobile,Apparel
+CUST01397,Lost,Jakarta,35,Female,2024-05-20,1,Tablet,Sports
+CUST01398,Loyal,Depok,21,Female,2024-01-16,0,Tablet,Beauty
+CUST01399,At Risk,Medan,48,Female,2024-10-06,1,Mobile,Food & Drink
+CUST01400,Loyal,Semarang,29,Male,2024-03-08,0,Mobile,Home & Garden
+CUST01401,New,Jakarta,38,Male,2024-10-05,0,Desktop,Sports
+CUST01402,Loyal,Semarang,38,Female,2024-03-27,1,Tablet,Home & Garden
+CUST01403,Lost,Bali,43,Male,2024-02-01,0,Mobile,Sports
+CUST01404,Champions,Jakarta,46,Female,2024-04-11,1,Desktop,Books
+CUST01405,Lost,Jakarta,37,Male,2024-06-28,1,Desktop,Electronics
+CUST01406,Lost,Jakarta,23,Male,2024-02-16,1,Mobile,Beauty
+CUST01407,Champions,Yogyakarta,28,Female,2024-04-21,1,Desktop,Food & Drink
+CUST01408,Loyal,Medan,30,Male,2024-03-08,1,Mobile,Apparel
+CUST01409,At Risk,Jakarta,44,Male,2024-04-06,1,Tablet,Apparel
+CUST01410,At Risk,Surabaya,23,Male,2024-10-23,0,Mobile,Books
+CUST01411,New,Jakarta,28,Male,2024-10-26,1,Mobile,Sports
+CUST01412,Loyal,Jakarta,36,Female,2024-09-14,0,Mobile,Home & Garden
+CUST01413,Loyal,Surabaya,31,Female,2024-01-17,1,Desktop,Home & Garden
+CUST01414,At Risk,Bali,38,Female,2024-07-12,0,Mobile,Electronics
+CUST01415,Loyal,Jakarta,18,Male,2024-08-31,1,Mobile,Food & Drink
+CUST01416,Loyal,Surabaya,47,Male,2024-01-12,1,Mobile,Sports
+CUST01417,New,Yogyakarta,48,Female,2024-05-09,1,Mobile,Home & Garden
+CUST01418,Champions,Medan,32,Male,2024-09-16,1,Mobile,Beauty
+CUST01419,At Risk,Surabaya,28,Female,2024-06-02,0,Tablet,Electronics
+CUST01420,Lost,Jakarta,26,Female,2024-06-19,1,Mobile,Books
+CUST01421,Champions,Surabaya,40,Female,2024-03-25,1,Mobile,Electronics
+CUST01422,Loyal,Jakarta,29,Male,2024-04-14,0,Mobile,Beauty
+CUST01423,New,Surabaya,18,Male,2024-06-25,1,Mobile,Apparel
+CUST01424,At Risk,Yogyakarta,42,Female,2024-05-04,1,Mobile,Sports
+CUST01425,Champions,Semarang,38,Female,2024-08-05,1,Mobile,Sports
+CUST01426,Lost,Jakarta,19,Female,2024-04-01,1,Mobile,Books
+CUST01427,New,Makassar,43,Male,2024-04-27,1,Mobile,Home & Garden
+CUST01428,Loyal,Surabaya,29,Male,2024-05-25,1,Mobile,Apparel
+CUST01429,Lost,Jakarta,29,Female,2024-09-21,1,Mobile,Sports
+CUST01430,Champions,Yogyakarta,43,Male,2024-01-07,1,Mobile,Sports
+CUST01431,Champions,Surabaya,43,Male,2024-01-28,1,Desktop,Beauty
+CUST01432,New,Surabaya,46,Female,2024-08-30,0,Tablet,Electronics
+CUST01433,Loyal,Surabaya,45,Female,2024-07-15,1,Mobile,Food & Drink
+CUST01434,New,Jakarta,34,Male,2024-08-20,1,Mobile,Books
+CUST01435,At Risk,Semarang,21,Male,2024-07-08,1,Mobile,Books
+CUST01436,At Risk,Jakarta,29,Male,2024-08-01,1,Desktop,Beauty
+CUST01437,Loyal,Surabaya,20,Male,2024-07-21,1,Mobile,Sports
+CUST01438,New,Semarang,45,Prefer not to say,2024-06-25,1,Mobile,Books
+CUST01439,New,Surabaya,51,Male,2024-01-21,1,Mobile,Food & Drink
+CUST01440,New,Bali,24,Male,2024-02-10,1,Mobile,Home & Garden
+CUST01441,Loyal,Medan,34,Female,2024-02-10,1,Mobile,Electronics
+CUST01442,Loyal,Bandung,37,Female,2024-10-03,1,Desktop,Apparel
+CUST01443,At Risk,Jakarta,45,Male,2024-04-05,1,Mobile,Food & Drink
+CUST01444,New,Jakarta,35,Male,2024-04-16,1,Mobile,Apparel
+CUST01445,At Risk,Jakarta,38,Male,2024-04-25,1,Mobile,Apparel
+CUST01446,New,Bandung,47,Male,2024-10-31,1,Tablet,Electronics
+CUST01447,Loyal,Yogyakarta,40,Female,2024-03-18,0,Mobile,Sports
+CUST01448,New,Bali,34,Prefer not to say,2024-10-19,1,Mobile,Apparel
+CUST01449,Loyal,Bali,51,Female,2024-05-29,1,Mobile,Electronics
+CUST01450,At Risk,Surabaya,40,Prefer not to say,2024-07-31,1,Tablet,Beauty
+CUST01451,At Risk,Bali,33,Male,2024-10-02,1,Desktop,Electronics
+CUST01452,Loyal,Bandung,25,Female,2024-04-01,0,Tablet,Food & Drink
+CUST01453,At Risk,Medan,40,Female,2024-08-02,1,Desktop,Beauty
+CUST01454,New,Surabaya,38,Male,2024-09-29,0,Mobile,Home & Garden
+CUST01455,New,Jakarta,46,Male,2024-03-31,1,Desktop,Sports
+CUST01456,New,Bali,24,Prefer not to say,2024-08-02,1,Desktop,Beauty
+CUST01457,Champions,Depok,50,Female,2024-10-19,0,Mobile,Apparel
+CUST01458,At Risk,Bandung,48,Male,2024-07-08,1,Desktop,Home & Garden
+CUST01459,At Risk,Semarang,30,Female,2024-03-23,0,Mobile,Home & Garden
+CUST01460,New,Bali,30,Male,2024-05-30,1,Mobile,Home & Garden
+CUST01461,New,Depok,46,Prefer not to say,2024-03-31,1,Mobile,Beauty
+CUST01462,Loyal,Jakarta,28,Male,2024-02-05,1,Desktop,Books
+CUST01463,Lost,Jakarta,42,Female,2024-08-01,0,Mobile,Sports
+CUST01464,New,Medan,52,Female,2024-08-12,0,Mobile,Home & Garden
+CUST01465,New,Bali,20,Female,2024-09-18,1,Desktop,Electronics
+CUST01466,New,Medan,55,Female,2024-02-27,1,Desktop,Electronics
+CUST01467,Loyal,Jakarta,48,Male,2024-02-19,1,Mobile,Sports
+CUST01468,New,Bali,34,Male,2024-08-15,1,Mobile,Apparel
+CUST01469,Champions,Jakarta,26,Male,2024-05-27,0,Mobile,Sports
+CUST01470,Loyal,Surabaya,28,Female,2024-06-05,1,Mobile,Sports
+CUST01471,New,Bandung,27,Male,2024-07-15,1,Desktop,Beauty
+CUST01472,Champions,Jakarta,18,Female,2024-09-17,0,Mobile,Beauty
+CUST01473,Loyal,Bandung,40,Female,2024-10-27,1,Mobile,Books
+CUST01474,At Risk,Semarang,28,Male,2024-09-03,0,Mobile,Food & Drink
+CUST01475,Loyal,Jakarta,37,Male,2024-03-17,0,Desktop,Beauty
+CUST01476,Loyal,Surabaya,47,Female,2024-01-07,0,Desktop,Beauty
+CUST01477,Loyal,Bali,30,Male,2024-01-17,1,Mobile,Electronics
+CUST01478,At Risk,Semarang,52,Female,2024-10-02,0,Mobile,Beauty
+CUST01479,Loyal,Yogyakarta,34,Female,2024-04-03,1,Mobile,Sports
+CUST01480,At Risk,Depok,20,Female,2024-05-16,1,Mobile,Books
+CUST01481,Champions,Surabaya,26,Male,2024-02-01,1,Desktop,Home & Garden
+CUST01482,Champions,Bali,21,Male,2024-02-07,1,Mobile,Electronics
+CUST01483,At Risk,Bandung,31,Female,2024-06-02,1,Desktop,Electronics
+CUST01484,Lost,Bandung,30,Prefer not to say,2024-08-21,1,Mobile,Apparel
+CUST01485,New,Surabaya,39,Male,2024-09-20,1,Mobile,Beauty
+CUST01486,Loyal,Surabaya,53,Male,2024-08-13,0,Mobile,Electronics
+CUST01487,Lost,Surabaya,50,Male,2024-03-24,0,Desktop,Electronics
+CUST01488,Lost,Bandung,39,Female,2024-10-02,1,Mobile,Apparel
+CUST01489,Loyal,Bali,37,Female,2024-09-28,1,Tablet,Apparel
+CUST01490,New,Jakarta,38,Female,2024-07-21,0,Mobile,Electronics
+CUST01491,Lost,Bandung,48,Female,2024-08-01,1,Tablet,Home & Garden
+CUST01492,Lost,Bali,37,Male,2024-06-05,1,Desktop,Home & Garden
+CUST01493,At Risk,Medan,43,Female,2024-01-03,1,Tablet,Apparel
+CUST01494,New,Medan,47,Female,2024-01-10,1,Desktop,Apparel
+CUST01495,New,Bali,19,Male,2024-07-14,1,Mobile,Apparel
+CUST01496,At Risk,Jakarta,35,Male,2024-05-04,0,Tablet,Beauty
+CUST01497,Lost,Yogyakarta,20,Female,2024-07-18,0,Mobile,Apparel
+CUST01498,New,Jakarta,42,Female,2024-01-29,1,Mobile,Food & Drink
+CUST01499,Champions,Semarang,26,Male,2024-02-07,0,Mobile,Electronics
+CUST01500,Loyal,Bandung,37,Male,2024-10-14,1,Mobile,Sports
+CUST01501,Loyal,Yogyakarta,51,Male,2024-01-12,0,Desktop,Sports
+CUST01502,New,Makassar,41,Female,2024-08-16,1,Mobile,Apparel
+CUST01503,Loyal,Bandung,30,Male,2024-05-12,0,Mobile,Electronics
+CUST01504,At Risk,Yogyakarta,43,Female,2024-01-25,1,Tablet,Apparel
+CUST01505,At Risk,Palembang,20,Female,2024-06-16,1,Mobile,Beauty
+CUST01506,New,Jakarta,54,Female,2024-10-12,1,Desktop,Books
+CUST01507,Champions,Bandung,47,Female,2024-04-07,0,Mobile,Apparel
+CUST01508,At Risk,Bandung,27,Male,2024-02-07,1,Mobile,Books
+CUST01509,New,Semarang,45,Female,2024-07-24,1,Desktop,Electronics
+CUST01510,Loyal,Jakarta,45,Female,2024-04-24,0,Mobile,Sports
+CUST01511,Loyal,Makassar,54,Male,2024-10-22,0,Mobile,Electronics
+CUST01512,Champions,Yogyakarta,20,Male,2024-10-03,1,Desktop,Food & Drink
+CUST01513,New,Bali,30,Prefer not to say,2024-08-05,1,Desktop,Books
+CUST01514,Champions,Jakarta,46,Male,2024-07-11,0,Desktop,Apparel
+CUST01515,Champions,Bali,46,Female,2024-04-15,1,Mobile,Food & Drink
+CUST01516,At Risk,Medan,55,Male,2024-03-03,1,Tablet,Sports
+CUST01517,Loyal,Bali,38,Prefer not to say,2024-04-17,0,Mobile,Apparel
+CUST01518,Champions,Jakarta,47,Female,2024-07-13,1,Desktop,Apparel
+CUST01519,Lost,Surabaya,22,Male,2024-06-02,1,Desktop,Books
+CUST01520,Lost,Palembang,19,Female,2024-05-20,0,Mobile,Books
+CUST01521,Loyal,Jakarta,18,Male,2024-03-20,1,Mobile,Beauty
+CUST01522,Loyal,Bali,36,Female,2024-07-31,1,Mobile,Home & Garden
+CUST01523,Loyal,Bali,29,Female,2024-02-26,1,Mobile,Home & Garden
+CUST01524,Loyal,Bandung,34,Female,2024-01-15,1,Desktop,Electronics
+CUST01525,Lost,Jakarta,44,Female,2024-07-12,0,Mobile,Electronics
+CUST01526,Loyal,Jakarta,32,Male,2024-02-03,1,Tablet,Books
+CUST01527,At Risk,Semarang,26,Male,2024-01-01,1,Desktop,Electronics
+CUST01528,New,Palembang,41,Female,2024-02-19,0,Desktop,Electronics
+CUST01529,Loyal,Yogyakarta,26,Male,2024-03-14,1,Mobile,Home & Garden
+CUST01530,Lost,Jakarta,24,Male,2024-05-08,1,Mobile,Food & Drink
+CUST01531,New,Surabaya,51,Female,2024-05-16,1,Mobile,Sports
+CUST01532,At Risk,Medan,20,Female,2024-07-16,0,Tablet,Electronics
+CUST01533,New,Jakarta,33,Male,2024-06-14,1,Desktop,Electronics
+CUST01534,Lost,Bali,54,Female,2024-04-19,1,Mobile,Sports
+CUST01535,New,Makassar,50,Prefer not to say,2024-06-21,1,Mobile,Books
+CUST01536,New,Bandung,47,Female,2024-06-24,1,Desktop,Home & Garden
+CUST01537,Champions,Jakarta,52,Prefer not to say,2024-04-26,0,Mobile,Sports
+CUST01538,Champions,Bali,40,Female,2024-08-11,0,Tablet,Food & Drink
+CUST01539,Loyal,Jakarta,50,Female,2024-04-23,1,Desktop,Beauty
+CUST01540,New,Semarang,54,Male,2024-09-25,1,Mobile,Sports
+CUST01541,Lost,Bali,28,Female,2024-02-21,1,Desktop,Apparel
+CUST01542,Lost,Surabaya,27,Female,2024-08-05,1,Tablet,Food & Drink
+CUST01543,Loyal,Depok,51,Female,2024-08-31,1,Tablet,Electronics
+CUST01544,Loyal,Bandung,53,Female,2024-04-16,1,Tablet,Electronics
+CUST01545,At Risk,Surabaya,27,Female,2024-03-23,0,Tablet,Apparel
+CUST01546,New,Bali,44,Male,2024-04-09,1,Mobile,Food & Drink
+CUST01547,Champions,Jakarta,43,Female,2024-10-26,1,Mobile,Sports
+CUST01548,New,Bandung,18,Male,2024-09-23,1,Desktop,Home & Garden
+CUST01549,New,Yogyakarta,37,Female,2024-10-04,1,Mobile,Food & Drink
+CUST01550,Lost,Semarang,39,Male,2024-01-21,0,Mobile,Home & Garden
+CUST01551,At Risk,Medan,49,Female,2024-04-25,1,Desktop,Food & Drink
+CUST01552,Lost,Semarang,33,Female,2024-09-10,0,Mobile,Beauty
+CUST01553,Lost,Semarang,35,Female,2024-05-21,1,Mobile,Sports
+CUST01554,Loyal,Jakarta,40,Female,2024-02-21,1,Mobile,Apparel
+CUST01555,At Risk,Jakarta,35,Female,2024-09-06,0,Mobile,Home & Garden
+CUST01556,Lost,Jakarta,42,Female,2024-02-25,0,Tablet,Beauty
+CUST01557,Champions,Bali,33,Female,2024-08-03,1,Mobile,Beauty
+CUST01558,At Risk,Bandung,47,Male,2024-09-24,1,Desktop,Sports
+CUST01559,At Risk,Jakarta,19,Male,2024-04-02,0,Mobile,Food & Drink
+CUST01560,New,Semarang,47,Male,2024-05-09,1,Mobile,Food & Drink
+CUST01561,Loyal,Bali,21,Female,2024-05-14,1,Mobile,Books
+CUST01562,New,Medan,43,Female,2024-03-29,0,Mobile,Beauty
+CUST01563,New,Bali,32,Male,2024-06-05,0,Desktop,Apparel
+CUST01564,At Risk,Medan,29,Male,2024-04-13,1,Mobile,Books
+CUST01565,Lost,Palembang,28,Male,2024-06-14,1,Mobile,Home & Garden
+CUST01566,New,Medan,36,Male,2024-10-02,1,Mobile,Electronics
+CUST01567,New,Semarang,43,Female,2024-03-15,1,Mobile,Food & Drink
+CUST01568,Champions,Bandung,36,Male,2024-02-12,1,Desktop,Apparel
+CUST01569,Loyal,Jakarta,35,Female,2024-04-24,0,Mobile,Apparel
+CUST01570,New,Jakarta,31,Male,2024-05-31,1,Mobile,Books
+CUST01571,At Risk,Depok,53,Male,2024-04-08,0,Mobile,Beauty
+CUST01572,Lost,Medan,42,Female,2024-07-05,1,Mobile,Food & Drink
+CUST01573,Lost,Surabaya,38,Female,2024-02-09,1,Desktop,Food & Drink
+CUST01574,Loyal,Bandung,52,Prefer not to say,2024-02-19,0,Mobile,Home & Garden
+CUST01575,Loyal,Medan,32,Female,2024-10-10,1,Mobile,Books
+CUST01576,At Risk,Surabaya,46,Male,2024-08-11,0,Mobile,Home & Garden
+CUST01577,New,Surabaya,40,Male,2024-03-16,1,Tablet,Apparel
+CUST01578,Loyal,Medan,19,Male,2024-09-08,0,Mobile,Home & Garden
+CUST01579,New,Surabaya,37,Male,2024-06-04,1,Desktop,Food & Drink
+CUST01580,Champions,Depok,52,Male,2024-10-27,1,Mobile,Sports
+CUST01581,Loyal,Yogyakarta,25,Female,2024-02-06,1,Desktop,Sports
+CUST01582,Loyal,Yogyakarta,29,Female,2024-01-16,1,Mobile,Electronics
+CUST01583,Lost,Medan,54,Female,2024-07-17,1,Mobile,Books
+CUST01584,Loyal,Bali,37,Female,2024-08-08,1,Mobile,Home & Garden
+CUST01585,Loyal,Bali,23,Female,2024-02-18,1,Mobile,Food & Drink
+CUST01586,Champions,Jakarta,41,Prefer not to say,2024-01-01,1,Mobile,Home & Garden
+CUST01587,Champions,Surabaya,54,Female,2024-02-05,1,Desktop,Electronics
+CUST01588,Loyal,Jakarta,40,Female,2024-03-20,1,Desktop,Sports
+CUST01589,Lost,Surabaya,29,Male,2024-08-15,1,Mobile,Food & Drink
+CUST01590,Lost,Makassar,37,Male,2024-02-25,1,Mobile,Food & Drink
+CUST01591,At Risk,Depok,27,Female,2024-06-21,0,Mobile,Home & Garden
+CUST01592,At Risk,Bandung,25,Male,2024-02-03,1,Mobile,Books
+CUST01593,Loyal,Jakarta,43,Female,2024-01-31,0,Desktop,Food & Drink
+CUST01594,New,Jakarta,55,Male,2024-09-23,1,Desktop,Beauty
+CUST01595,New,Bali,51,Female,2024-10-06,1,Mobile,Sports
+CUST01596,Loyal,Bali,45,Male,2024-07-12,1,Mobile,Beauty
+CUST01597,New,Surabaya,37,Female,2024-05-27,1,Mobile,Electronics
+CUST01598,Lost,Semarang,37,Female,2024-10-19,1,Desktop,Beauty
+CUST01599,Champions,Bali,37,Prefer not to say,2024-06-29,1,Desktop,Books
+CUST01600,New,Semarang,51,Male,2024-09-17,1,Desktop,Electronics
+CUST01601,Lost,Medan,32,Female,2024-02-07,1,Mobile,Beauty
+CUST01602,Champions,Jakarta,42,Female,2024-02-29,1,Mobile,Books
+CUST01603,New,Depok,29,Male,2024-04-26,0,Mobile,Electronics
+CUST01604,Loyal,Semarang,34,Female,2024-08-04,1,Desktop,Apparel
+CUST01605,Lost,Bali,35,Male,2024-01-06,1,Mobile,Food & Drink
+CUST01606,New,Jakarta,49,Female,2024-01-06,1,Desktop,Home & Garden
+CUST01607,New,Jakarta,32,Male,2024-02-28,0,Mobile,Electronics
+CUST01608,Loyal,Palembang,34,Male,2024-07-22,1,Desktop,Apparel
+CUST01609,New,Yogyakarta,43,Female,2024-04-13,1,Mobile,Electronics
+CUST01610,Lost,Surabaya,48,Male,2024-02-27,0,Mobile,Sports
+CUST01611,New,Surabaya,33,Male,2024-07-08,1,Mobile,Electronics
+CUST01612,Lost,Medan,30,Male,2024-06-11,1,Mobile,Books
+CUST01613,Loyal,Bali,29,Female,2024-04-12,1,Mobile,Food & Drink
+CUST01614,At Risk,Jakarta,32,Male,2024-04-09,0,Mobile,Home & Garden
+CUST01615,New,Jakarta,51,Male,2024-03-23,0,Mobile,Sports
+CUST01616,At Risk,Jakarta,52,Female,2024-03-27,1,Mobile,Food & Drink
+CUST01617,New,Bali,18,Male,2024-10-15,1,Mobile,Books
+CUST01618,New,Surabaya,20,Male,2024-02-07,0,Mobile,Beauty
+CUST01619,Loyal,Surabaya,42,Female,2024-05-01,1,Mobile,Food & Drink
+CUST01620,At Risk,Surabaya,27,Male,2024-07-03,1,Desktop,Food & Drink
+CUST01621,Loyal,Semarang,34,Female,2024-07-07,1,Mobile,Electronics
+CUST01622,At Risk,Semarang,52,Male,2024-07-24,1,Mobile,Home & Garden
+CUST01623,Lost,Medan,47,Female,2024-08-15,1,Mobile,Sports
+CUST01624,Champions,Jakarta,51,Female,2024-04-21,1,Tablet,Sports
+CUST01625,New,Makassar,41,Female,2024-10-07,0,Mobile,Apparel
+CUST01626,Loyal,Jakarta,48,Male,2024-08-19,0,Desktop,Beauty
+CUST01627,Champions,Bali,31,Female,2024-03-21,0,Mobile,Food & Drink
+CUST01628,Champions,Bali,31,Male,2024-03-29,0,Mobile,Electronics
+CUST01629,At Risk,Jakarta,30,Female,2024-06-11,0,Mobile,Food & Drink
+CUST01630,Loyal,Medan,51,Female,2024-01-19,0,Mobile,Electronics
+CUST01631,Lost,Bali,21,Male,2024-02-16,0,Mobile,Electronics
+CUST01632,Loyal,Bali,22,Female,2024-06-10,0,Mobile,Sports
+CUST01633,Loyal,Yogyakarta,24,Female,2024-03-22,1,Mobile,Beauty
+CUST01634,New,Surabaya,28,Female,2024-08-28,1,Desktop,Apparel
+CUST01635,Champions,Makassar,27,Female,2024-02-19,1,Mobile,Apparel
+CUST01636,Loyal,Bandung,19,Female,2024-07-04,1,Mobile,Food & Drink
+CUST01637,Lost,Bali,54,Prefer not to say,2024-06-22,0,Mobile,Electronics
+CUST01638,Loyal,Makassar,43,Prefer not to say,2024-02-26,0,Desktop,Food & Drink
+CUST01639,Loyal,Bali,23,Male,2024-09-10,0,Mobile,Electronics
+CUST01640,Lost,Surabaya,30,Female,2024-09-23,1,Mobile,Electronics
+CUST01641,New,Jakarta,37,Male,2024-08-09,1,Tablet,Sports
+CUST01642,New,Surabaya,39,Female,2024-03-07,0,Mobile,Beauty
+CUST01643,Loyal,Makassar,30,Male,2024-07-13,1,Mobile,Apparel
+CUST01644,Loyal,Semarang,50,Male,2024-08-05,1,Tablet,Sports
+CUST01645,At Risk,Jakarta,49,Female,2024-02-12,0,Mobile,Sports
+CUST01646,Loyal,Semarang,50,Female,2024-01-12,0,Mobile,Electronics
+CUST01647,Loyal,Bandung,27,Female,2024-05-01,0,Mobile,Electronics
+CUST01648,New,Jakarta,22,Female,2024-08-23,1,Desktop,Beauty
+CUST01649,Champions,Jakarta,26,Male,2024-02-11,1,Mobile,Home & Garden
+CUST01650,New,Jakarta,31,Male,2024-02-10,1,Mobile,Books
+CUST01651,New,Bandung,49,Female,2024-04-05,0,Mobile,Books
+CUST01652,At Risk,Jakarta,50,Prefer not to say,2024-03-31,1,Desktop,Beauty
+CUST01653,Loyal,Medan,25,Male,2024-02-08,0,Desktop,Apparel
+CUST01654,Loyal,Jakarta,55,Female,2024-07-30,1,Mobile,Books
+CUST01655,New,Jakarta,51,Male,2024-05-08,1,Mobile,Home & Garden
+CUST01656,Lost,Bandung,21,Male,2024-08-08,0,Desktop,Electronics
+CUST01657,New,Bali,23,Female,2024-07-04,1,Tablet,Beauty
+CUST01658,New,Surabaya,38,Male,2024-09-02,1,Mobile,Beauty
+CUST01659,New,Bandung,32,Female,2024-01-22,1,Desktop,Apparel
+CUST01660,New,Surabaya,43,Female,2024-08-25,1,Desktop,Home & Garden
+CUST01661,Champions,Yogyakarta,26,Prefer not to say,2024-07-14,1,Mobile,Electronics
+CUST01662,New,Jakarta,29,Male,2024-04-04,1,Mobile,Apparel
+CUST01663,Loyal,Bali,49,Female,2024-06-04,0,Mobile,Electronics
+CUST01664,New,Surabaya,49,Female,2024-03-22,1,Mobile,Electronics
+CUST01665,Lost,Bandung,48,Male,2024-03-13,0,Desktop,Home & Garden
+CUST01666,Champions,Bandung,37,Female,2024-06-22,1,Mobile,Electronics
+CUST01667,Champions,Bali,36,Female,2024-07-10,0,Mobile,Food & Drink
+CUST01668,Champions,Bali,46,Male,2024-05-06,1,Mobile,Books
+CUST01669,Loyal,Yogyakarta,48,Male,2024-10-11,0,Desktop,Food & Drink
+CUST01670,Lost,Depok,54,Female,2024-04-27,1,Desktop,Apparel
+CUST01671,At Risk,Bali,19,Male,2024-02-18,1,Mobile,Beauty
+CUST01672,At Risk,Jakarta,35,Female,2024-07-18,0,Mobile,Electronics
+CUST01673,New,Surabaya,21,Female,2024-04-24,1,Desktop,Home & Garden
+CUST01674,Champions,Palembang,35,Prefer not to say,2024-09-05,1,Mobile,Books
+CUST01675,New,Jakarta,25,Female,2024-02-01,1,Desktop,Apparel
+CUST01676,New,Medan,45,Male,2024-01-06,1,Mobile,Electronics
+CUST01677,New,Jakarta,44,Female,2024-08-26,0,Mobile,Home & Garden
+CUST01678,Loyal,Medan,46,Female,2024-02-25,1,Mobile,Beauty
+CUST01679,Loyal,Jakarta,55,Male,2024-01-09,0,Mobile,Apparel
+CUST01680,Loyal,Surabaya,42,Female,2024-08-10,1,Mobile,Books
+CUST01681,Champions,Bali,36,Male,2024-10-18,1,Desktop,Sports
+CUST01682,At Risk,Jakarta,22,Female,2024-02-22,0,Mobile,Sports
+CUST01683,Lost,Jakarta,39,Female,2024-06-24,1,Mobile,Beauty
+CUST01684,New,Medan,43,Female,2024-10-07,0,Mobile,Electronics
+CUST01685,Lost,Jakarta,34,Female,2024-01-29,1,Mobile,Books
+CUST01686,Loyal,Jakarta,20,Female,2024-04-29,0,Mobile,Apparel
+CUST01687,Loyal,Jakarta,43,Female,2024-05-28,1,Desktop,Beauty
+CUST01688,Champions,Jakarta,55,Female,2024-04-27,1,Desktop,Beauty
+CUST01689,Loyal,Bali,28,Female,2024-03-18,0,Desktop,Apparel
+CUST01690,At Risk,Bali,50,Female,2024-04-13,1,Mobile,Food & Drink
+CUST01691,Loyal,Surabaya,36,Female,2024-08-16,1,Mobile,Home & Garden
+CUST01692,Loyal,Bali,20,Female,2024-02-24,0,Mobile,Beauty
+CUST01693,New,Semarang,31,Male,2024-06-04,1,Desktop,Beauty
+CUST01694,Lost,Jakarta,34,Male,2024-01-13,1,Mobile,Apparel
+CUST01695,At Risk,Medan,42,Prefer not to say,2024-08-22,1,Mobile,Home & Garden
+CUST01696,At Risk,Yogyakarta,36,Male,2024-05-07,1,Mobile,Electronics
+CUST01697,Champions,Palembang,18,Male,2024-01-01,1,Mobile,Electronics
+CUST01698,Champions,Bandung,31,Female,2024-08-04,1,Mobile,Sports
+CUST01699,Loyal,Semarang,20,Male,2024-06-03,1,Tablet,Food & Drink
+CUST01700,Lost,Makassar,25,Female,2024-01-16,0,Mobile,Electronics
+CUST01701,New,Semarang,47,Female,2024-10-23,1,Mobile,Beauty
+CUST01702,Champions,Jakarta,27,Female,2024-07-22,1,Mobile,Books
+CUST01703,At Risk,Bandung,18,Female,2024-01-23,0,Desktop,Sports
+CUST01704,New,Yogyakarta,30,Female,2024-01-13,0,Mobile,Sports
+CUST01705,New,Semarang,20,Female,2024-08-10,1,Desktop,Sports
+CUST01706,New,Bali,36,Female,2024-07-07,1,Mobile,Sports
+CUST01707,Loyal,Surabaya,53,Female,2024-06-13,1,Mobile,Home & Garden
+CUST01708,At Risk,Medan,40,Female,2024-03-16,0,Mobile,Beauty
+CUST01709,Loyal,Jakarta,45,Female,2024-05-09,1,Mobile,Home & Garden
+CUST01710,New,Semarang,28,Female,2024-06-24,0,Desktop,Beauty
+CUST01711,At Risk,Semarang,28,Male,2024-10-20,0,Mobile,Sports
+CUST01712,Champions,Semarang,44,Female,2024-09-13,1,Mobile,Apparel
+CUST01713,At Risk,Medan,28,Female,2024-06-20,1,Desktop,Apparel
+CUST01714,Lost,Bandung,51,Male,2024-07-20,1,Mobile,Sports
+CUST01715,Champions,Jakarta,47,Female,2024-04-06,0,Tablet,Books
+CUST01716,At Risk,Medan,22,Male,2024-06-05,1,Desktop,Beauty
+CUST01717,Champions,Jakarta,30,Male,2024-01-16,1,Desktop,Sports
+CUST01718,Champions,Palembang,46,Female,2024-08-04,1,Mobile,Beauty
+CUST01719,Loyal,Jakarta,41,Female,2024-08-07,0,Desktop,Beauty
+CUST01720,New,Surabaya,20,Male,2024-06-28,1,Desktop,Home & Garden
+CUST01721,At Risk,Surabaya,24,Female,2024-10-27,1,Tablet,Home & Garden
+CUST01722,Champions,Palembang,20,Female,2024-02-14,1,Mobile,Sports
+CUST01723,New,Surabaya,24,Male,2024-06-21,0,Mobile,Apparel
+CUST01724,New,Jakarta,46,Male,2024-07-29,1,Mobile,Sports
+CUST01725,Champions,Surabaya,50,Male,2024-09-14,1,Mobile,Books
+CUST01726,At Risk,Jakarta,21,Female,2024-03-01,1,Desktop,Apparel
+CUST01727,Loyal,Bandung,36,Male,2024-08-06,1,Desktop,Electronics
+CUST01728,At Risk,Bali,18,Female,2024-03-31,1,Mobile,Apparel
+CUST01729,New,Jakarta,49,Female,2024-08-15,0,Mobile,Electronics
+CUST01730,Champions,Jakarta,54,Male,2024-09-11,1,Mobile,Beauty
+CUST01731,New,Jakarta,52,Male,2024-08-30,1,Desktop,Electronics
+CUST01732,Champions,Surabaya,40,Female,2024-09-16,0,Desktop,Electronics
+CUST01733,Loyal,Jakarta,54,Female,2024-04-10,0,Mobile,Apparel
+CUST01734,Champions,Bandung,29,Female,2024-02-29,1,Mobile,Electronics
+CUST01735,New,Bali,18,Female,2024-09-18,1,Desktop,Beauty
+CUST01736,Champions,Bali,26,Female,2024-05-04,0,Mobile,Home & Garden
+CUST01737,At Risk,Jakarta,24,Female,2024-10-10,1,Desktop,Electronics
+CUST01738,Champions,Jakarta,50,Female,2024-02-04,0,Mobile,Electronics
+CUST01739,New,Yogyakarta,44,Female,2024-07-04,0,Mobile,Sports
+CUST01740,Champions,Yogyakarta,38,Male,2024-01-15,0,Mobile,Home & Garden
+CUST01741,New,Medan,32,Female,2024-03-06,0,Mobile,Home & Garden
+CUST01742,Lost,Jakarta,28,Male,2024-09-23,0,Mobile,Electronics
+CUST01743,Champions,Medan,23,Female,2024-03-15,1,Mobile,Apparel
+CUST01744,New,Bali,39,Female,2024-10-01,0,Desktop,Home & Garden
+CUST01745,At Risk,Medan,55,Male,2024-10-20,1,Desktop,Food & Drink
+CUST01746,At Risk,Jakarta,22,Female,2024-05-17,0,Mobile,Apparel
+CUST01747,Lost,Makassar,38,Male,2024-10-16,0,Mobile,Apparel
+CUST01748,New,Jakarta,35,Female,2024-08-05,1,Mobile,Books
+CUST01749,New,Jakarta,36,Female,2024-07-04,1,Mobile,Home & Garden
+CUST01750,At Risk,Medan,25,Female,2024-05-29,1,Desktop,Books
+CUST01751,Loyal,Bali,49,Female,2024-07-19,1,Mobile,Beauty
+CUST01752,Champions,Jakarta,22,Female,2024-07-11,0,Mobile,Electronics
+CUST01753,Lost,Surabaya,49,Female,2024-10-08,1,Mobile,Electronics
+CUST01754,Champions,Bandung,45,Female,2024-09-07,1,Mobile,Electronics
+CUST01755,Loyal,Medan,41,Male,2024-01-28,1,Mobile,Beauty
+CUST01756,Champions,Makassar,24,Male,2024-08-04,0,Mobile,Electronics
+CUST01757,Loyal,Jakarta,35,Male,2024-05-03,1,Mobile,Apparel
+CUST01758,At Risk,Jakarta,33,Female,2024-10-10,0,Mobile,Food & Drink
+CUST01759,Loyal,Bandung,52,Male,2024-03-23,0,Tablet,Apparel
+CUST01760,At Risk,Jakarta,24,Male,2024-07-27,1,Mobile,Electronics
+CUST01761,Loyal,Jakarta,24,Male,2024-06-06,0,Desktop,Home & Garden
+CUST01762,Loyal,Bali,23,Female,2024-08-15,0,Mobile,Beauty
+CUST01763,Loyal,Medan,52,Female,2024-04-15,1,Desktop,Beauty
+CUST01764,Loyal,Surabaya,49,Female,2024-07-17,1,Mobile,Sports
+CUST01765,New,Jakarta,42,Male,2024-07-25,1,Mobile,Apparel
+CUST01766,Loyal,Bali,32,Prefer not to say,2024-08-28,1,Mobile,Beauty
+CUST01767,Champions,Bali,19,Male,2024-06-25,1,Mobile,Home & Garden
+CUST01768,At Risk,Jakarta,45,Male,2024-04-27,0,Mobile,Electronics
+CUST01769,Loyal,Bandung,55,Female,2024-09-28,0,Tablet,Apparel
+CUST01770,New,Medan,23,Male,2024-03-22,1,Mobile,Electronics
+CUST01771,Lost,Jakarta,46,Female,2024-03-13,1,Desktop,Apparel
+CUST01772,Loyal,Jakarta,51,Female,2024-02-17,1,Desktop,Books
+CUST01773,Lost,Jakarta,29,Female,2024-08-28,0,Mobile,Books
+CUST01774,Loyal,Jakarta,22,Male,2024-02-21,0,Mobile,Books
+CUST01775,At Risk,Medan,41,Female,2024-03-19,1,Desktop,Apparel
+CUST01776,Loyal,Surabaya,35,Female,2024-01-11,0,Mobile,Electronics
+CUST01777,At Risk,Jakarta,26,Female,2024-07-07,1,Mobile,Electronics
+CUST01778,Champions,Jakarta,33,Male,2024-01-22,1,Mobile,Home & Garden
+CUST01779,New,Surabaya,43,Female,2024-07-25,1,Desktop,Home & Garden
+CUST01780,New,Medan,54,Female,2024-07-26,1,Mobile,Home & Garden
+CUST01781,At Risk,Jakarta,20,Female,2024-07-07,1,Desktop,Home & Garden
+CUST01782,Loyal,Bali,19,Female,2024-04-11,1,Desktop,Sports
+CUST01783,At Risk,Yogyakarta,55,Female,2024-03-12,1,Mobile,Electronics
+CUST01784,Loyal,Jakarta,46,Female,2024-07-23,1,Desktop,Home & Garden
+CUST01785,At Risk,Jakarta,21,Female,2024-03-15,0,Mobile,Electronics
+CUST01786,At Risk,Semarang,42,Male,2024-08-09,1,Desktop,Beauty
+CUST01787,Champions,Jakarta,48,Male,2024-06-18,0,Mobile,Food & Drink
+CUST01788,Champions,Jakarta,53,Female,2024-01-13,1,Mobile,Home & Garden
+CUST01789,Loyal,Bali,47,Male,2024-06-16,1,Mobile,Electronics
+CUST01790,At Risk,Surabaya,49,Male,2024-09-20,0,Desktop,Beauty
+CUST01791,Champions,Makassar,27,Male,2024-07-12,1,Desktop,Beauty
+CUST01792,Champions,Jakarta,30,Male,2024-07-15,1,Mobile,Electronics
+CUST01793,Champions,Surabaya,44,Female,2024-08-01,0,Mobile,Beauty
+CUST01794,Lost,Jakarta,31,Male,2024-02-03,1,Desktop,Books
+CUST01795,Loyal,Makassar,28,Male,2024-09-09,1,Desktop,Apparel
+CUST01796,New,Semarang,41,Female,2024-05-12,1,Desktop,Sports
+CUST01797,New,Surabaya,38,Female,2024-10-28,1,Mobile,Food & Drink
+CUST01798,Loyal,Surabaya,19,Male,2024-05-19,1,Mobile,Sports
+CUST01799,At Risk,Bali,55,Male,2024-05-11,1,Mobile,Books
+CUST01800,Lost,Surabaya,33,Female,2024-03-19,1,Mobile,Home & Garden
+CUST01801,Loyal,Bali,54,Male,2024-02-11,1,Tablet,Sports
+CUST01802,New,Surabaya,21,Male,2024-08-09,1,Mobile,Food & Drink
+CUST01803,Champions,Surabaya,33,Female,2024-09-08,1,Mobile,Home & Garden
+CUST01804,Loyal,Bandung,33,Male,2024-03-25,1,Mobile,Books
+CUST01805,Champions,Yogyakarta,23,Male,2024-01-05,1,Desktop,Food & Drink
+CUST01806,New,Depok,27,Female,2024-01-02,1,Mobile,Books
+CUST01807,New,Bandung,40,Male,2024-02-14,0,Mobile,Electronics
+CUST01808,At Risk,Bandung,20,Female,2024-04-08,0,Desktop,Home & Garden
+CUST01809,Loyal,Bandung,36,Male,2024-09-26,1,Mobile,Home & Garden
+CUST01810,Lost,Bandung,28,Male,2024-09-20,1,Desktop,Electronics
+CUST01811,Lost,Medan,28,Male,2024-08-19,1,Mobile,Sports
+CUST01812,At Risk,Yogyakarta,33,Female,2024-06-07,1,Mobile,Sports
+CUST01813,Champions,Bandung,21,Male,2024-03-01,0,Mobile,Sports
+CUST01814,Loyal,Bandung,39,Male,2024-10-23,1,Mobile,Food & Drink
+CUST01815,New,Medan,53,Female,2024-06-03,1,Mobile,Electronics
+CUST01816,Loyal,Bali,30,Male,2024-01-26,0,Mobile,Electronics
+CUST01817,At Risk,Yogyakarta,43,Female,2024-06-14,0,Desktop,Sports
+CUST01818,New,Semarang,54,Male,2024-04-04,0,Tablet,Home & Garden
+CUST01819,At Risk,Jakarta,39,Male,2024-03-12,1,Tablet,Food & Drink
+CUST01820,New,Jakarta,44,Female,2024-01-05,1,Desktop,Apparel
+CUST01821,Champions,Yogyakarta,48,Male,2024-09-13,1,Desktop,Books
+CUST01822,New,Surabaya,35,Prefer not to say,2024-09-27,1,Mobile,Home & Garden
+CUST01823,Lost,Surabaya,20,Female,2024-10-29,1,Desktop,Electronics
+CUST01824,Loyal,Bandung,44,Female,2024-02-02,0,Tablet,Food & Drink
+CUST01825,New,Makassar,32,Male,2024-10-29,1,Desktop,Books
+CUST01826,New,Jakarta,55,Male,2024-05-15,1,Mobile,Books
+CUST01827,Loyal,Surabaya,18,Female,2024-02-08,1,Desktop,Beauty
+CUST01828,At Risk,Semarang,50,Female,2024-06-05,1,Mobile,Beauty
+CUST01829,At Risk,Jakarta,53,Female,2024-02-29,0,Mobile,Sports
+CUST01830,Loyal,Jakarta,30,Male,2024-08-07,1,Tablet,Electronics
+CUST01831,Champions,Jakarta,34,Female,2024-05-29,1,Desktop,Apparel
+CUST01832,Loyal,Medan,24,Male,2024-05-27,1,Mobile,Electronics
+CUST01833,Lost,Semarang,25,Female,2024-01-02,1,Desktop,Sports
+CUST01834,Loyal,Jakarta,29,Male,2024-08-19,1,Desktop,Beauty
+CUST01835,At Risk,Bandung,48,Female,2024-05-22,1,Mobile,Electronics
+CUST01836,New,Palembang,52,Female,2024-01-10,1,Tablet,Sports
+CUST01837,Lost,Jakarta,28,Female,2024-03-23,1,Mobile,Food & Drink
+CUST01838,New,Jakarta,40,Female,2024-07-18,1,Desktop,Books
+CUST01839,At Risk,Jakarta,28,Female,2024-09-04,0,Mobile,Food & Drink
+CUST01840,Loyal,Surabaya,49,Male,2024-08-22,1,Mobile,Electronics
+CUST01841,At Risk,Bandung,18,Prefer not to say,2024-01-09,0,Desktop,Home & Garden
+CUST01842,New,Semarang,38,Male,2024-02-13,1,Mobile,Sports
+CUST01843,At Risk,Surabaya,48,Female,2024-10-09,1,Desktop,Electronics
+CUST01844,New,Jakarta,38,Female,2024-10-01,1,Desktop,Electronics
+CUST01845,Loyal,Medan,26,Prefer not to say,2024-07-13,1,Desktop,Food & Drink
+CUST01846,Lost,Jakarta,41,Female,2024-06-06,1,Mobile,Apparel
+CUST01847,Loyal,Semarang,23,Female,2024-09-25,0,Mobile,Electronics
+CUST01848,Loyal,Bali,39,Male,2024-03-04,1,Desktop,Apparel
+CUST01849,Loyal,Medan,53,Female,2024-02-10,1,Mobile,Sports
+CUST01850,Loyal,Bandung,53,Female,2024-02-21,0,Mobile,Food & Drink
+CUST01851,At Risk,Jakarta,39,Male,2024-01-27,1,Tablet,Electronics
+CUST01852,Lost,Surabaya,20,Male,2024-07-03,1,Mobile,Food & Drink
+CUST01853,Lost,Jakarta,33,Male,2024-03-27,0,Desktop,Electronics
+CUST01854,New,Jakarta,48,Male,2024-03-05,0,Desktop,Home & Garden
+CUST01855,Lost,Bandung,18,Female,2024-05-19,0,Desktop,Home & Garden
+CUST01856,Loyal,Jakarta,45,Male,2024-07-17,1,Mobile,Home & Garden
+CUST01857,At Risk,Jakarta,55,Female,2024-05-07,0,Desktop,Apparel
+CUST01858,New,Depok,18,Female,2024-07-26,0,Desktop,Beauty
+CUST01859,New,Jakarta,55,Male,2024-05-07,1,Tablet,Sports
+CUST01860,New,Jakarta,43,Male,2024-04-21,1,Mobile,Apparel
+CUST01861,Champions,Bali,18,Male,2024-06-23,1,Desktop,Books
+CUST01862,Lost,Depok,38,Female,2024-07-12,1,Mobile,Apparel
+CUST01863,New,Bali,31,Female,2024-04-06,0,Desktop,Home & Garden
+CUST01864,Lost,Jakarta,45,Male,2024-01-02,1,Desktop,Books
+CUST01865,New,Jakarta,51,Male,2024-07-30,1,Mobile,Electronics
+CUST01866,New,Yogyakarta,48,Male,2024-09-28,1,Mobile,Apparel
+CUST01867,Loyal,Yogyakarta,35,Male,2024-07-18,1,Mobile,Electronics
+CUST01868,New,Bali,49,Female,2024-10-09,0,Mobile,Sports
+CUST01869,At Risk,Jakarta,24,Female,2024-09-21,0,Mobile,Beauty
+CUST01870,Lost,Semarang,33,Female,2024-05-09,0,Desktop,Beauty
+CUST01871,New,Makassar,51,Prefer not to say,2024-09-11,1,Tablet,Apparel
+CUST01872,New,Bali,53,Male,2024-06-23,1,Mobile,Apparel
+CUST01873,New,Medan,34,Female,2024-05-19,1,Desktop,Food & Drink
+CUST01874,At Risk,Jakarta,40,Female,2024-08-29,0,Mobile,Books
+CUST01875,Loyal,Surabaya,33,Male,2024-09-09,0,Mobile,Electronics
+CUST01876,At Risk,Jakarta,26,Male,2024-01-23,1,Tablet,Electronics
+CUST01877,New,Surabaya,53,Male,2024-03-10,1,Mobile,Electronics
+CUST01878,Champions,Bali,55,Female,2024-05-23,0,Desktop,Electronics
+CUST01879,Lost,Jakarta,25,Female,2024-05-08,1,Desktop,Sports
+CUST01880,Champions,Surabaya,35,Female,2024-01-04,1,Tablet,Books
+CUST01881,Lost,Jakarta,24,Male,2024-10-25,1,Mobile,Sports
+CUST01882,Lost,Surabaya,46,Male,2024-03-25,1,Desktop,Electronics
+CUST01883,Loyal,Yogyakarta,29,Female,2024-04-29,0,Mobile,Apparel
+CUST01884,Champions,Jakarta,47,Male,2024-08-18,1,Mobile,Food & Drink
+CUST01885,Loyal,Yogyakarta,37,Male,2024-08-09,1,Desktop,Home & Garden
+CUST01886,Champions,Jakarta,41,Female,2024-03-30,0,Mobile,Sports
+CUST01887,Loyal,Bali,27,Male,2024-08-10,0,Mobile,Beauty
+CUST01888,At Risk,Palembang,51,Female,2024-10-29,0,Tablet,Food & Drink
+CUST01889,Loyal,Bandung,52,Female,2024-04-20,1,Mobile,Books
+CUST01890,Loyal,Bandung,34,Male,2024-01-11,1,Desktop,Home & Garden
+CUST01891,Champions,Jakarta,55,Female,2024-03-05,1,Desktop,Food & Drink
+CUST01892,Champions,Bali,48,Female,2024-10-24,0,Mobile,Electronics
+CUST01893,Lost,Jakarta,26,Female,2024-01-26,1,Desktop,Apparel
+CUST01894,At Risk,Surabaya,39,Male,2024-02-17,1,Mobile,Electronics
+CUST01895,At Risk,Jakarta,31,Female,2024-04-22,1,Mobile,Home & Garden
+CUST01896,At Risk,Jakarta,52,Female,2024-06-13,1,Tablet,Apparel
+CUST01897,Champions,Yogyakarta,18,Female,2024-01-13,0,Mobile,Electronics
+CUST01898,New,Jakarta,55,Female,2024-04-07,0,Mobile,Food & Drink
+CUST01899,New,Yogyakarta,21,Female,2024-01-14,0,Mobile,Sports
+CUST01900,New,Bandung,50,Male,2024-05-29,1,Desktop,Beauty
+CUST01901,At Risk,Jakarta,48,Female,2024-09-24,1,Mobile,Sports
+CUST01902,At Risk,Bali,20,Male,2024-08-28,1,Mobile,Beauty
+CUST01903,Champions,Semarang,34,Male,2024-07-12,1,Mobile,Home & Garden
+CUST01904,At Risk,Bali,43,Male,2024-03-03,1,Mobile,Apparel
+CUST01905,Loyal,Bali,21,Female,2024-03-28,1,Mobile,Sports
+CUST01906,New,Bali,21,Male,2024-05-03,0,Mobile,Beauty
+CUST01907,New,Yogyakarta,19,Male,2024-09-26,1,Mobile,Electronics
+CUST01908,Champions,Jakarta,43,Male,2024-09-27,1,Mobile,Electronics
+CUST01909,New,Palembang,34,Female,2024-03-31,1,Desktop,Apparel
+CUST01910,Loyal,Surabaya,30,Male,2024-02-02,1,Desktop,Electronics
+CUST01911,At Risk,Medan,36,Female,2024-09-24,1,Desktop,Home & Garden
+CUST01912,Loyal,Semarang,33,Male,2024-03-07,0,Mobile,Apparel
+CUST01913,Loyal,Jakarta,34,Female,2024-01-21,1,Tablet,Home & Garden
+CUST01914,Loyal,Medan,41,Male,2024-01-22,0,Desktop,Apparel
+CUST01915,At Risk,Jakarta,29,Female,2024-01-12,1,Mobile,Books
+CUST01916,Lost,Bandung,50,Female,2024-09-28,0,Desktop,Sports
+CUST01917,Loyal,Medan,53,Male,2024-09-22,0,Mobile,Food & Drink
+CUST01918,At Risk,Bandung,21,Male,2024-06-23,1,Mobile,Books
+CUST01919,Loyal,Jakarta,31,Male,2024-06-30,1,Mobile,Food & Drink
+CUST01920,Champions,Yogyakarta,32,Male,2024-02-22,1,Mobile,Home & Garden
+CUST01921,Lost,Surabaya,25,Male,2024-04-11,1,Desktop,Home & Garden
+CUST01922,Champions,Depok,38,Female,2024-01-21,0,Desktop,Food & Drink
+CUST01923,Lost,Surabaya,50,Prefer not to say,2024-06-16,1,Tablet,Books
+CUST01924,New,Semarang,51,Female,2024-01-06,1,Mobile,Books
+CUST01925,At Risk,Yogyakarta,39,Female,2024-02-27,0,Mobile,Electronics
+CUST01926,New,Surabaya,39,Male,2024-09-11,1,Tablet,Electronics
+CUST01927,New,Makassar,44,Male,2024-04-19,1,Mobile,Food & Drink
+CUST01928,Champions,Yogyakarta,22,Female,2024-09-26,1,Mobile,Apparel
+CUST01929,Loyal,Surabaya,51,Female,2024-01-14,0,Mobile,Electronics
+CUST01930,New,Bandung,31,Male,2024-09-15,1,Mobile,Apparel
+CUST01931,Champions,Makassar,34,Male,2024-05-30,1,Tablet,Electronics
+CUST01932,Loyal,Yogyakarta,19,Male,2024-06-21,0,Mobile,Food & Drink
+CUST01933,New,Medan,51,Female,2024-02-29,1,Desktop,Food & Drink
+CUST01934,Lost,Surabaya,21,Male,2024-04-14,1,Mobile,Books
+CUST01935,New,Jakarta,42,Male,2024-08-21,0,Mobile,Food & Drink
+CUST01936,New,Semarang,34,Male,2024-07-01,1,Mobile,Home & Garden
+CUST01937,Champions,Surabaya,49,Female,2024-10-14,1,Mobile,Beauty
+CUST01938,Loyal,Jakarta,20,Female,2024-06-04,1,Mobile,Home & Garden
+CUST01939,Loyal,Jakarta,37,Female,2024-10-08,1,Mobile,Apparel
+CUST01940,New,Jakarta,25,Female,2024-07-08,1,Mobile,Electronics
+CUST01941,Loyal,Bandung,54,Female,2024-02-03,1,Mobile,Electronics
+CUST01942,Lost,Bandung,34,Male,2024-03-25,1,Mobile,Food & Drink
+CUST01943,At Risk,Yogyakarta,54,Female,2024-05-31,1,Desktop,Sports
+CUST01944,New,Jakarta,47,Male,2024-09-24,1,Mobile,Home & Garden
+CUST01945,Lost,Jakarta,33,Male,2024-10-16,1,Mobile,Apparel
+CUST01946,New,Palembang,30,Male,2024-04-07,0,Desktop,Apparel
+CUST01947,New,Bali,45,Prefer not to say,2024-10-13,1,Desktop,Electronics
+CUST01948,At Risk,Bali,27,Female,2024-03-01,1,Desktop,Beauty
+CUST01949,Loyal,Bali,31,Female,2024-04-26,1,Desktop,Beauty
+CUST01950,Loyal,Semarang,33,Male,2024-09-23,0,Desktop,Books
+CUST01951,Lost,Semarang,18,Female,2024-07-27,1,Mobile,Sports
+CUST01952,New,Jakarta,39,Male,2024-03-16,0,Mobile,Electronics
+CUST01953,New,Yogyakarta,23,Female,2024-07-14,1,Desktop,Food & Drink
+CUST01954,Loyal,Surabaya,53,Male,2024-08-06,0,Desktop,Sports
+CUST01955,New,Bandung,38,Male,2024-03-02,1,Mobile,Beauty
+CUST01956,Loyal,Semarang,37,Female,2024-05-19,1,Mobile,Food & Drink
+CUST01957,At Risk,Jakarta,32,Male,2024-09-20,1,Desktop,Electronics
+CUST01958,Champions,Surabaya,42,Male,2024-02-08,1,Mobile,Books
+CUST01959,New,Jakarta,19,Male,2024-02-03,1,Desktop,Electronics
+CUST01960,New,Semarang,22,Male,2024-06-13,1,Mobile,Beauty
+CUST01961,Loyal,Palembang,55,Female,2024-07-29,1,Mobile,Beauty
+CUST01962,Loyal,Surabaya,49,Male,2024-05-24,1,Tablet,Food & Drink
+CUST01963,New,Bandung,44,Male,2024-03-11,1,Mobile,Books
+CUST01964,New,Makassar,48,Prefer not to say,2024-01-25,1,Tablet,Electronics
+CUST01965,New,Bali,19,Female,2024-09-25,1,Tablet,Electronics
+CUST01966,At Risk,Makassar,23,Male,2024-06-09,0,Mobile,Food & Drink
+CUST01967,At Risk,Surabaya,47,Female,2024-02-10,1,Tablet,Food & Drink
+CUST01968,New,Bandung,23,Male,2024-01-01,1,Mobile,Books
+CUST01969,Lost,Jakarta,38,Female,2024-09-10,0,Mobile,Electronics
+CUST01970,At Risk,Jakarta,52,Female,2024-05-15,0,Mobile,Beauty
+CUST01971,Champions,Jakarta,43,Prefer not to say,2024-01-23,1,Mobile,Food & Drink
+CUST01972,Loyal,Bandung,31,Male,2024-02-22,1,Tablet,Food & Drink
+CUST01973,New,Bandung,49,Female,2024-03-28,1,Desktop,Beauty
+CUST01974,Lost,Surabaya,55,Male,2024-04-03,1,Mobile,Food & Drink
+CUST01975,Loyal,Bali,52,Female,2024-09-08,1,Mobile,Sports
+CUST01976,Lost,Semarang,32,Male,2024-10-03,1,Mobile,Beauty
+CUST01977,Lost,Jakarta,44,Female,2024-04-27,1,Desktop,Home & Garden
+CUST01978,New,Medan,52,Male,2024-08-07,0,Mobile,Home & Garden
+CUST01979,Champions,Jakarta,49,Female,2024-07-26,0,Desktop,Electronics
+CUST01980,New,Surabaya,42,Female,2024-02-13,1,Mobile,Apparel
+CUST01981,New,Depok,23,Male,2024-07-06,1,Tablet,Food & Drink
+CUST01982,New,Surabaya,43,Female,2024-02-07,0,Mobile,Food & Drink
+CUST01983,Champions,Bali,54,Female,2024-08-21,0,Mobile,Beauty
+CUST01984,New,Surabaya,33,Male,2024-10-04,1,Mobile,Electronics
+CUST01985,Lost,Semarang,20,Female,2024-01-18,1,Mobile,Books
+CUST01986,At Risk,Surabaya,34,Female,2024-05-29,1,Mobile,Books
+CUST01987,New,Bandung,53,Male,2024-02-13,1,Mobile,Home & Garden
+CUST01988,New,Medan,20,Male,2024-08-13,0,Mobile,Beauty
+CUST01989,At Risk,Jakarta,48,Male,2024-04-05,1,Mobile,Books
+CUST01990,Lost,Medan,22,Female,2024-08-24,1,Mobile,Electronics
+CUST01991,New,Surabaya,45,Female,2024-03-19,1,Mobile,Electronics
+CUST01992,Lost,Yogyakarta,20,Male,2024-09-29,1,Mobile,Electronics
+CUST01993,New,Bali,33,Female,2024-05-17,1,Desktop,Sports
+CUST01994,Loyal,Bandung,39,Male,2024-10-18,1,Mobile,Food & Drink
+CUST01995,Loyal,Semarang,39,Male,2024-05-17,0,Mobile,Beauty
+CUST01996,Loyal,Yogyakarta,40,Male,2024-05-30,1,Tablet,Sports
+CUST01997,New,Yogyakarta,35,Female,2024-04-23,1,Tablet,Food & Drink
+CUST01998,Lost,Bali,39,Male,2024-05-13,1,Mobile,Beauty
+CUST01999,Loyal,Jakarta,48,Male,2024-06-24,0,Mobile,Food & Drink
+CUST02000,Loyal,Bali,32,Male,2024-07-08,0,Tablet,Electronics

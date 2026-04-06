@@ -1,0 +1,51 @@
+city,segment,customer_count,avg_ltv,avg_order_value,churn_rate,share_of_city
+Jakarta,Champions,120,641.41,41.43,0.0166,0.2
+Jakarta,Loyal,166,365.55,64.28,0.0302,0.28
+Jakarta,At Risk,108,157.15,35.98,0.1001,0.18
+Jakarta,New,132,93.33,59.86,0.0632,0.22
+Jakarta,Lost,70,41.38,33.2,0.1637,0.12
+Bali,Champions,42,522.24,52.67,0.0126,0.18
+Bali,Loyal,67,325.24,43.44,0.0219,0.3
+Bali,At Risk,33,159.92,33.22,0.0786,0.15
+Bali,New,54,76.71,37.58,0.0472,0.24
+Bali,Lost,31,42.66,48.97,0.1249,0.13
+Surabaya,Champions,40,469.5,28.64,0.0197,0.14
+Surabaya,Loyal,77,219.32,36.54,0.0307,0.25
+Surabaya,At Risk,61,128.15,35.65,0.1181,0.21
+Surabaya,New,78,80.63,41.26,0.0726,0.26
+Surabaya,Lost,43,39.84,36.57,0.1919,0.14
+Bandung,Champions,29,450.36,41.47,0.0181,0.13
+Bandung,Loyal,56,213.98,24.09,0.0287,0.24
+Bandung,At Risk,53,98.96,32.56,0.0982,0.22
+Bandung,New,68,57.07,27.83,0.0745,0.28
+Bandung,Lost,31,25.72,20.1,0.1649,0.13
+Medan,Champions,17,364.59,28.9,0.0195,0.11
+Medan,Loyal,35,193.19,24.43,0.0364,0.22
+Medan,At Risk,38,119.07,41.67,0.1188,0.24
+Medan,New,44,48.3,19.13,0.088,0.27
+Medan,Lost,26,26.91,20.66,0.1938,0.16
+Yogyakarta,Champions,16,302.66,20.72,0.0147,0.12
+Yogyakarta,Loyal,37,205.29,22.9,0.0225,0.26
+Yogyakarta,At Risk,27,102.07,21.27,0.0794,0.2
+Yogyakarta,New,37,51.53,26.36,0.0526,0.28
+Yogyakarta,Lost,19,27.56,29.77,0.1335,0.14
+Semarang,Champions,16,353.01,26.14,0.0181,0.13
+Semarang,Loyal,29,231.71,38.74,0.0314,0.24
+Semarang,At Risk,26,131.04,34.36,0.1121,0.22
+Semarang,New,34,71.46,38.74,0.0736,0.27
+Semarang,Lost,16,30.64,22.75,0.1747,0.14
+Makassar,Champions,7,363.39,27.02,0.0231,0.1
+Makassar,Loyal,16,181.76,22.22,0.0391,0.21
+Makassar,At Risk,21,84.21,30.05,0.1384,0.25
+Makassar,New,21,63.2,25.7,0.099,0.28
+Makassar,Lost,12,26.35,24.26,0.2312,0.16
+Palembang,Champions,4,298.06,25.61,0.0248,0.09
+Palembang,Loyal,11,194.07,28.02,0.0351,0.2
+Palembang,At Risk,16,91.22,21.0,0.1437,0.26
+Palembang,New,16,46.57,24.55,0.0906,0.29
+Palembang,Lost,9,30.4,24.75,0.2408,0.16
+Depok,Champions,9,481.07,29.55,0.0157,0.16
+Depok,Loyal,15,293.69,40.11,0.0273,0.27
+Depok,At Risk,12,123.39,28.4,0.0901,0.19
+Depok,New,15,64.9,27.94,0.0661,0.25
+Depok,Lost,8,34.37,25.81,0.1492,0.13

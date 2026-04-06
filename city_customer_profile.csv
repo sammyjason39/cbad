@@ -1,0 +1,11 @@
+city,total_customers,avg_order_value,avg_ltv,monthly_churn_rate,repeat_purchase_rate,top_category,top_acquisition_source,preferred_device,peak_shopping_day,ig_ads_cvr,email_cvr,paid_search_cvr,organic_cvr,mobile_share,description
+Jakarta,600,158.04,484.35,0.0526,0.6745,Electronics,Social Media,Desktop,Friday,0.14,0.18,0.1356,0.0796,0.3333,"High-spend, brand-conscious, responds well to Social & Paid Search, peaks Friday"
+Bali,240,172.79,400.35,0.0429,0.432,Home & Garden,Referral,Mobile,Sunday,0.09,0.08,0.0764,0.1254,0.375,"Lifestyle-driven, organic discovery, referral heavy, low paid channel response"
+Surabaya,300,166.48,383.47,0.0563,0.6825,Food & Drink,Email,Mobile,Saturday,0.11,0.16,0.1256,0.0938,0.4,"Practical buyers, email-responsive, electronics & food skew"
+Bandung,240,165.74,365.18,0.0626,0.3675,Apparel,Social Media,Mobile,Saturday,0.13,0.1,0.1063,0.1037,0.4333,"Fashion & lifestyle hub, high social engagement, strong apparel skew"
+Medan,160,127.08,280.94,0.0738,0.3638,Food & Drink,Organic,Mobile,Sunday,0.08,0.11,0.0966,0.1084,0.4828,"Mobile-first, food & daily needs focus, organic discovery dominant"
+Yogyakarta,140,115.63,341.44,0.0511,0.4009,Books,Organic,Mobile,Sunday,0.1,0.13,0.0688,0.1297,0.3871,"Student city, books & culture skew, low paid channel ROI, high organic"
+Semarang,120,114.81,281.81,0.0639,0.5814,Food & Drink,Email,Mobile,Saturday,0.1,0.15,0.1157,0.1063,0.3667,"Balanced profile, email performs well, food & home skew"
+Makassar,80,124.16,335.7,0.0699,0.4129,Food & Drink,Social Media,Mobile,Sunday,0.12,0.09,0.0901,0.1001,0.5172,"Very mobile-first, social responsive, food dominant"
+Palembang,60,137.24,319.35,0.0707,0.3564,Food & Drink,Organic,Mobile,Saturday,0.09,0.1,0.096,0.1249,0.4828,"Value-conscious, mobile-first, organic reach works"
+Depok,60,156.15,346.42,0.0563,0.6815,Electronics,Social Media,Mobile,Friday,0.13,0.16,0.1146,0.0958,0.375,"Satellite city of Jakarta, similar profile but slightly lower spend"

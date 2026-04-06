@@ -1,0 +1,51 @@
+city,segment,customer_count,avg_ltv,avg_order_value,churn_rate,share_of_city
+Jakarta,Champions,70,971.19,258.72,0.0191,0.22
+Jakarta,Loyal,90,573.43,217.95,0.0414,0.28
+Jakarta,At Risk,58,340.08,149.43,0.0984,0.18
+Jakarta,New,64,166.46,124.15,0.0701,0.2
+Jakarta,Lost,38,83.18,95.18,0.206,0.12
+Bali,Champions,22,956.83,267.48,0.0204,0.14
+Bali,Loyal,34,629.71,193.42,0.0424,0.22
+Bali,At Risk,34,330.14,155.91,0.0931,0.22
+Bali,New,40,193.17,126.6,0.0643,0.26
+Bali,Lost,25,84.19,105.56,0.2041,0.16
+Bandung,Champions,32,996.68,290.29,0.0201,0.16
+Bandung,Loyal,48,645.42,205.92,0.0404,0.24
+Bandung,At Risk,40,336.87,163.03,0.1072,0.2
+Bandung,New,48,182.23,134.26,0.0636,0.24
+Bandung,Lost,32,86.08,96.63,0.1832,0.16
+Surabaya,Champions,42,909.38,262.12,0.0191,0.2
+Surabaya,Loyal,63,613.03,205.46,0.039,0.3
+Surabaya,At Risk,34,305.13,154.03,0.1087,0.16
+Surabaya,New,42,184.26,132.27,0.0654,0.2
+Surabaya,Lost,29,93.3,94.61,0.1952,0.14
+Medan,Champions,21,1024.41,286.27,0.0202,0.12
+Medan,Loyal,32,617.72,221.52,0.0422,0.18
+Medan,At Risk,42,306.13,148.02,0.0963,0.24
+Medan,New,46,173.31,123.99,0.0762,0.26
+Medan,Lost,35,95.42,97.03,0.2062,0.2
+Yogyakarta,Champions,17,934.14,298.57,0.0198,0.12
+Yogyakarta,Loyal,29,577.43,201.49,0.0405,0.2
+Yogyakarta,At Risk,32,307.85,162.17,0.108,0.22
+Yogyakarta,New,41,177.1,124.16,0.077,0.28
+Yogyakarta,Lost,26,90.14,93.45,0.1819,0.18
+Makassar,Champions,20,890.67,285.71,0.0212,0.14
+Makassar,Loyal,31,592.53,195.33,0.0391,0.22
+Makassar,At Risk,31,345.4,160.75,0.1094,0.22
+Makassar,New,37,190.39,119.84,0.0731,0.26
+Makassar,Lost,23,92.62,100.59,0.1907,0.16
+Semarang,Champions,37,971.43,262.6,0.0197,0.22
+Semarang,Loyal,50,595.56,225.25,0.043,0.3
+Semarang,At Risk,27,307.89,160.02,0.0936,0.16
+Semarang,New,30,191.88,137.71,0.0672,0.18
+Semarang,Lost,24,92.0,101.74,0.1861,0.14
+Depok,Champions,49,989.9,281.76,0.0211,0.2
+Depok,Loyal,63,602.91,193.22,0.0386,0.26
+Depok,At Risk,44,295.4,170.98,0.1076,0.18
+Depok,New,53,189.55,126.0,0.0638,0.22
+Depok,Lost,34,95.44,107.15,0.1834,0.14
+Tangerang,Champions,51,947.87,260.7,0.021,0.21
+Tangerang,Loyal,66,625.52,197.51,0.0398,0.27
+Tangerang,At Risk,41,322.55,153.99,0.1074,0.17
+Tangerang,New,51,177.79,124.01,0.0706,0.21
+Tangerang,Lost,34,93.31,95.22,0.1925,0.14

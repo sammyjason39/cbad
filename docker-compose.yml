@@ -1,0 +1,17 @@
+services:
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        # Coolify injects this from your service's environment variables
+        VITE_OPENROUTER_API_KEY: ${VITE_OPENROUTER_API_KEY}
+    image: cbad-dashboard
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    environment:
+      - VITE_OPENROUTER_API_KEY=${VITE_OPENROUTER_API_KEY}
+    labels:
+      # Coolify uses these labels for reverse-proxy routing
+      - "coolify.managed=true"
