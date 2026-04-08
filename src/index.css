@@ -16,3 +16,32 @@ body {
 .chat-scroll::-webkit-scrollbar-thumb {
   @apply bg-gray-300 rounded;
 }
+
+/* Analyze button pulse */
+@keyframes pulse-purple {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(127, 119, 221, 0.5); }
+  50%       { box-shadow: 0 0 0 12px rgba(127, 119, 221, 0); }
+}
+.btn-pulse {
+  animation: pulse-purple 2s ease-in-out infinite;
+}
+
+/* Typing dots bounce */
+@keyframes bounce {
+  0%, 80%, 100% { transform: translateY(0); }
+  40%           { transform: translateY(-5px); }
+}
+
+/* Dark screen scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.12);
+  border-radius: 2px;
+}
+
