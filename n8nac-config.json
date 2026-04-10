@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "activeInstanceId": "instance-551fde8f",
+  "instances": [
+    {
+      "id": "instance-551fde8f",
+      "name": "n8n.indonesiabelajarai.com · Belajar indonesiabelajarai@gmail.com",
+      "host": "https://n8n.indonesiabelajarai.com",
+      "syncFolder": "workflows",
+      "projectId": "personal",
+      "projectName": "Personal",
+      "instanceIdentifier": "n8n_indonesiabelajarai_belajar_i",
+      "verification": {
+        "status": "verified",
+        "normalizedHost": "https://n8n.indonesiabelajarai.com",
+        "userId": "1920b95b-a8a2-4c31-8c87-da57a9e1ec61",
+        "userName": "Belajar indonesiabelajarai@gmail.com",
+        "userEmail": "indonesiabelajarai@gmail.com",
+        "lastCheckedAt": "2026-04-08T15:54:05.913Z"
+      }
+    }
+  ],
+  "host": "https://n8n.indonesiabelajarai.com",
+  "syncFolder": "workflows",
+  "projectId": "personal",
+  "projectName": "Personal",
+  "instanceIdentifier": "n8n_indonesiabelajarai_belajar_i"
+}

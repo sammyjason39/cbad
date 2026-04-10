@@ -76,7 +76,7 @@ function deriveCityProfiles(orders, customers) {
       preferred_device: 'Mobile', peak_shopping_day: peakDay,
       mobile_share: mobileShare,
       ig_ads_cvr: null, email_cvr: null, paid_search_cvr: null, organic_cvr: null,
-      description: `${city}: ${fmtNumber(custCount)} customers · Top category: ${topCat} · Peak: ${peakDay} · AOV: ${fmtCurrency(avgOrderValue, 0)}`,
+      description: `${city}: ${fmtNumber(custCount)} pelanggan · Kategori teratas: ${topCat} · Puncak: ${peakDay} · RNP: ${fmtCurrency(avgOrderValue, 0)}`,
     }
   })
 }
@@ -144,15 +144,15 @@ function buildInsights(profile) {
   const insights = []
   if (!profile) return insights
   if (profile.ig_ads_cvr !== null) {
-    if (+profile.ig_ads_cvr > 0.12) insights.push({ text: 'IG Ads: High ROI — increase budget', type: 'positive' })
-    else if (+profile.ig_ads_cvr < 0.10) insights.push({ text: 'IG Ads: Low ROI — shift to organic', type: 'negative' })
+    if (+profile.ig_ads_cvr > 0.12) insights.push({ text: 'IG Ads: ROI Tinggi — tambah anggaran', type: 'positive' })
+    else if (+profile.ig_ads_cvr < 0.10) insights.push({ text: 'IG Ads: ROI Rendah — alihkan ke organik', type: 'negative' })
   }
   if (profile.email_cvr !== null && +profile.email_cvr > 0.15)
-    insights.push({ text: 'Email: Strong — prioritize list building', type: 'positive' })
+    insights.push({ text: 'Email: Kuat — prioritaskan pembangunan daftar', type: 'positive' })
   if (+profile.monthly_churn_rate > 0.06)
-    insights.push({ text: 'Churn risk: High — launch retention campaign', type: 'warning' })
+    insights.push({ text: 'Risiko Churn: Tinggi — luncurkan kampanye retensi', type: 'warning' })
   if (+profile.mobile_share > 0.60)
-    insights.push({ text: 'Mobile-first — optimize mobile UX', type: 'positive' })
+    insights.push({ text: 'Mobile-first — optimalkan UX mobile', type: 'positive' })
   return insights
 }
 
@@ -282,26 +282,26 @@ export default function LocationTab({ data }) {
           )}
         </div>
         <div className="flex flex-wrap gap-4 mt-3 text-xs" style={{ color: '#4338ca' }}>
-          <span>Top category: <strong>{profile.top_category}</strong></span>
-          <span>Top source: <strong>{profile.top_acquisition_source}</strong></span>
-          <span>Peak day: <strong>{profile.peak_shopping_day}</strong></span>
-          <span>Device: <strong>{profile.preferred_device}</strong></span>
+          <span>Kategori teratas: <strong>{profile.top_category}</strong></span>
+          <span>Sumber teratas: <strong>{profile.top_acquisition_source}</strong></span>
+          <span>Hari puncak: <strong>{profile.peak_shopping_day}</strong></span>
+          <span>Perangkat: <strong>{profile.preferred_device}</strong></span>
         </div>
       </div>
 
       {/* KPI row */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <MetricCard title="Avg Order Value"  value={fmtCurrency(+profile.avg_order_value, 0)} />
-        <MetricCard title="Avg LTV"          value={fmtCurrency(+profile.avg_ltv, 0)} />
-        <MetricCard title="Monthly Churn"    value={fmtPct(+profile.monthly_churn_rate)}
+        <MetricCard title="Rata-rata Nilai Pesanan" value={fmtCurrency(+profile.avg_order_value, 0)} />
+        <MetricCard title="Rata-rata LTV"           value={fmtCurrency(+profile.avg_ltv, 0)} />
+        <MetricCard title="Churn Bulanan"           value={fmtPct(+profile.monthly_churn_rate)}
           color={+profile.monthly_churn_rate > 0.06 ? '#E24B4A' : undefined} />
-        <MetricCard title="Mobile Share"     value={fmtPct(+profile.mobile_share)}
+        <MetricCard title="Porsi Mobile"            value={fmtPct(+profile.mobile_share)}
           color={+profile.mobile_share > 0.65 ? '#1D9E75' : undefined} />
       </div>
 
       {/* Channel CVR comparison */}
       {channelCVRData.length > 0 && (
-        <ChartCard title={`Channel Conversion Rate — ${selectedCity} vs Overall Average`}>
+        <ChartCard title={`Tingkat Konversi Channel — ${selectedCity} vs Rata-rata Keseluruhan`}>
           <ResponsiveContainer width="100%" height={220}>
             <BarChart data={channelCVRData} layout="vertical" margin={{ left: 90 }}>
               <XAxis type="number" tickFormatter={v => `${v}%`} tick={{ fontSize: 11 }} />
@@ -319,7 +319,7 @@ export default function LocationTab({ data }) {
 
       {/* Revenue by channel over time */}
       {channelOverTimeData.length > 0 && (
-        <ChartCard title={`Revenue by Acquisition Channel — ${selectedCity}`}>
+        <ChartCard title={`Pendapatan per Channel Akuisisi — ${selectedCity}`}>
           <ResponsiveContainer width="100%" height={240}>
             <AreaChart data={channelOverTimeData}>
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
@@ -338,7 +338,7 @@ export default function LocationTab({ data }) {
 
       {/* Category + Segment row */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <ChartCard title={`Category Revenue — ${selectedCity}`}>
+        <ChartCard title={`Pendapatan per Kategori — ${selectedCity}`}>
           <ResponsiveContainer width="100%" height={220}>
             <BarChart data={categoryData} layout="vertical" margin={{ left: 100 }}>
               <XAxis type="number" tickFormatter={v => `$${(v / 1000).toFixed(0)}K`} tick={{ fontSize: 11 }} />
@@ -349,7 +349,7 @@ export default function LocationTab({ data }) {
           </ResponsiveContainer>
         </ChartCard>
 
-        <ChartCard title={`Segment Mix — ${selectedCity}`}>
+        <ChartCard title={`Komposisi Segmen — ${selectedCity}`}>
           <ResponsiveContainer width="100%" height={220}>
             <PieChart>
               <Pie data={segmentMixData} cx="50%" cy="50%" innerRadius={50} outerRadius={85}
@@ -365,7 +365,7 @@ export default function LocationTab({ data }) {
       </div>
 
       {/* City vs city comparison */}
-      <ChartCard title="City vs City — Avg Order Value & IG Ads CVR">
+      <ChartCard title="Perbandingan Kota — Rata-rata Nilai Pesanan & CVR IG Ads">
         <ResponsiveContainer width="100%" height={260}>
           <ComposedChart data={cityComparisonData}>
             <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />

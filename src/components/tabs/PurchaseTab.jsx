@@ -76,21 +76,21 @@ export default function PurchaseTab({ data }) {
   return (
     <div className="space-y-6">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <MetricCard title="Total Orders" value={fmtNumber(metrics.totalOrders)} />
-        <MetricCard title="Repeat Buyer Rate" value={fmtPct(metrics.rr)} />
+        <MetricCard title="Total Pesanan" value={fmtNumber(metrics.totalOrders)} />
+        <MetricCard title="Tingkat Pembelian Ulang" value={fmtPct(metrics.rr)} />
         <MetricCard
-          title="Top Category"
+          title="Kategori Teratas"
           value={metrics.topCat?.[0] ?? '—'}
-          sub={metrics.topCat ? fmtK(metrics.topCat[1]) + ' revenue' : undefined}
+          sub={metrics.topCat ? fmtK(metrics.topCat[1]) + ' pendapatan' : undefined}
         />
         <MetricCard
-          title="Peak Shopping Day"
+          title="Hari Belanja Puncak"
           value={metrics.peakDow ? fmtDOW(+metrics.peakDow[0]) : '—'}
         />
       </div>
 
       {/* Orders per month + AOV */}
-      <ChartCard title="Orders per Month & Avg Order Value">
+      <ChartCard title="Pesanan per Bulan & Rata-rata Nilai Pesanan">
         <ResponsiveContainer width="100%" height={220}>
           <ComposedChart data={ordersMonthlyData}>
             <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
@@ -106,7 +106,7 @@ export default function PurchaseTab({ data }) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Purchase frequency */}
-        <ChartCard title="Purchase Frequency Distribution">
+        <ChartCard title="Distribusi Frekuensi Pembelian">
           <ResponsiveContainer width="100%" height={200}>
             <BarChart data={freqData}>
               <XAxis dataKey="name" tick={{ fontSize: 11 }} />
@@ -118,7 +118,7 @@ export default function PurchaseTab({ data }) {
         </ChartCard>
 
         {/* Revenue by DOW */}
-        <ChartCard title="Revenue by Day of Week">
+        <ChartCard title="Pendapatan per Hari dalam Seminggu">
           <ResponsiveContainer width="100%" height={200}>
             <BarChart data={dowData}>
               <XAxis dataKey="day" tick={{ fontSize: 11 }} />
@@ -135,7 +135,7 @@ export default function PurchaseTab({ data }) {
       </div>
 
       {/* Top 10 products horizontal */}
-      <ChartCard title="Top 10 Products by Revenue">
+      <ChartCard title="10 Produk Teratas berdasarkan Pendapatan">
         <ResponsiveContainer width="100%" height={280}>
           <BarChart data={top10Products} layout="vertical" margin={{ left: 110 }}>
             <XAxis type="number" tickFormatter={v => `$${(v / 1000).toFixed(0)}K`} tick={{ fontSize: 11 }} />

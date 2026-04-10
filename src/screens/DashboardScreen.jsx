@@ -7,11 +7,11 @@ import LocationTab   from '../components/tabs/LocationTab'
 import AIAnalyst     from '../components/AIAnalyst'
 
 const TABS = [
-  { id: 'overview',   label: 'Overview' },
-  { id: 'purchase',   label: 'Purchase Patterns' },
-  { id: 'retention',  label: 'Retention' },
-  { id: 'segments',   label: 'Segments' },
-  { id: 'location',   label: 'By Location' },
+  { id: 'overview',   label: 'Ringkasan' },
+  { id: 'purchase',   label: 'Pola Pembelian' },
+  { id: 'retention',  label: 'Retensi' },
+  { id: 'segments',   label: 'Segmen' },
+  { id: 'location',   label: 'Per Lokasi' },
 ]
 
 export default function DashboardScreen({ data, ollamaOnline }) {
@@ -65,7 +65,7 @@ export default function DashboardScreen({ data, ollamaOnline }) {
             style={{ background: ollamaOnline ? '#1D9E75' : '#E24B4A' }}
           />
           <span className="text-xs" style={{ color: 'rgba(255,255,255,0.35)' }}>
-            AI Analyst: {ollamaOnline ? 'Online' : 'Offline'}
+            AI Analis: {ollamaOnline ? 'Aktif' : 'Nonaktif'}
           </span>
         </div>
       </header>

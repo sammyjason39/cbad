@@ -64,14 +64,14 @@ export default function OverviewTab({ data }) {
     <div className="space-y-6">
       {/* KPI row */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <MetricCard title="Total Revenue" value={fmtK(metrics.totalRevenue)} />
-        <MetricCard title="Active Customers" value={fmtNumber(metrics.activeCustomers)} sub={`of ${fmtNumber(customers.length)} total`} />
-        <MetricCard title="Avg Order Value" value={fmtCurrency(metrics.aov, 2)} />
-        <MetricCard title="Conversion Rate" value={fmtPct(metrics.convRate)} />
+        <MetricCard title="Total Pendapatan" value={fmtK(metrics.totalRevenue)} />
+        <MetricCard title="Pelanggan Aktif" value={fmtNumber(metrics.activeCustomers)} sub={`dari ${fmtNumber(customers.length)} total`} />
+        <MetricCard title="Rata-rata Nilai Pesanan" value={fmtCurrency(metrics.aov, 2)} />
+        <MetricCard title="Tingkat Konversi" value={fmtPct(metrics.convRate)} />
       </div>
 
       {/* Charts row 1 */}
-      <ChartCard title="Monthly Revenue">
+      <ChartCard title="Pendapatan Bulanan">
         <ResponsiveContainer width="100%" height={220}>
           <BarChart data={monthlyChartData}>
             <XAxis dataKey="month" tick={{ fontSize: 11 }} />
@@ -84,7 +84,7 @@ export default function OverviewTab({ data }) {
 
       {/* Charts row 2 */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <ChartCard title="Revenue by Category">
+        <ChartCard title="Pendapatan per Kategori">
           <ResponsiveContainer width="100%" height={240}>
             <PieChart>
               <Pie
@@ -107,7 +107,7 @@ export default function OverviewTab({ data }) {
           </ResponsiveContainer>
         </ChartCard>
 
-        <ChartCard title="Customer Segment Distribution">
+        <ChartCard title="Distribusi Segmen Pelanggan">
           <ResponsiveContainer width="100%" height={240}>
             <PieChart>
               <Pie

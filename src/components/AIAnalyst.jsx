@@ -3,14 +3,14 @@ import { buildSystemPrompt } from '../utils/buildSystemPrompt'
 import { streamChat } from '../utils/ollamaClient'
 
 const QUICK_QUESTIONS = [
-  'Which segment should I focus on first?',
-  'Why might my churn be high?',
-  'Where am I losing customers?',
-  'What does my best customer look like?',
-  'Which category should I double down on?',
-  'How do I retain my Champions?',
-  'Should I run the same IG campaign in Bali as Jakarta?',
-  'Which city has the best ROI potential?',
+  'Segmen mana yang harus saya prioritaskan?',
+  'Mengapa churn saya mungkin tinggi?',
+  'Di mana saya kehilangan pelanggan?',
+  'Seperti apa profil pelanggan terbaik saya?',
+  'Kategori mana yang harus saya fokuskan?',
+  'Bagaimana cara mempertahankan Champions saya?',
+  'Haruskah kampanye IG di Bali sama dengan Jakarta?',
+  'Kota mana yang punya potensi ROI terbaik?',
 ]
 
 /** Animated typing dots */
@@ -99,22 +99,22 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
     <div className="bg-white border border-gray-200 rounded-lg p-4 mt-6">
       {/* Header */}
       <div className="flex items-center gap-2 mb-3">
-        <span className="font-semibold text-gray-800 text-sm">AI Analyst</span>
+        <span className="font-semibold text-gray-800 text-sm">AI Analis</span>
         <span
           className="w-2 h-2 rounded-full"
           style={{ background: ollamaOnline ? '#1D9E75' : '#888780' }}
         />
         <span className="text-xs text-gray-500">
-          {ollamaOnline ? 'Ask anything about your customer data' : 'Ollama offline — start Ollama to enable'}
+          {ollamaOnline ? 'Tanyakan apa saja tentang data pelanggan kamu' : 'Ollama nonaktif — jalankan Ollama untuk mengaktifkan'}
         </span>
       </div>
 
       {/* Offline warning */}
       {!ollamaOnline && (
         <div className="mb-3 rounded-lg px-3 py-2 text-xs bg-amber-50 text-amber-700 border border-amber-200">
-          Ollama is not running. Start it with{' '}
-          <code className="font-mono bg-amber-100 px-1 rounded">ollama serve</code> then reload.
-          If you see a CORS error, set{' '}
+          Ollama tidak berjalan. Jalankan dengan{' '}
+          <code className="font-mono bg-amber-100 px-1 rounded">ollama serve</code> lalu muat ulang.
+          Jika ada error CORS, atur{' '}
           <code className="font-mono bg-amber-100 px-1 rounded">OLLAMA_ORIGINS=*</code>.
         </div>
       )}
@@ -138,8 +138,8 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
         {messages.length === 0 && (
           <p className="text-xs text-gray-400 text-center mt-16">
             {ollamaOnline
-              ? 'Select a quick question or type below to start'
-              : 'Start Ollama to enable the AI Analyst'}
+              ? 'Pilih pertanyaan cepat atau ketik di bawah untuk mulai'
+              : 'Jalankan Ollama untuk mengaktifkan AI Analis'}
           </p>
         )}
 
@@ -183,7 +183,7 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
           value={input}
           onChange={e => setInput(e.target.value)}
           onKeyDown={handleKey}
-          placeholder={ollamaOnline ? 'Ask about your customers…' : 'Ollama offline'}
+          placeholder={ollamaOnline ? 'Tanya tentang pelanggan kamu…' : 'Ollama nonaktif'}
           disabled={streaming || !ollamaOnline}
           className="flex-1 text-xs border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-1 disabled:bg-gray-50 disabled:cursor-not-allowed"
           style={{ '--tw-ring-color': '#7F77DD' }}

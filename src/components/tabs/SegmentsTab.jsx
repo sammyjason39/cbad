@@ -18,11 +18,11 @@ const SEG_COLORS = {
 const SEGMENTS = ['Champions', 'Loyal', 'At Risk', 'New', 'Lost']
 
 const ACTIONS = [
-  { segment: 'Champions', color: '#1D9E75', action: 'Reward & upsell — loyalty program, exclusive offers' },
-  { segment: 'Loyal', color: '#378ADD', action: 'Cross-sell — recommend adjacent categories' },
-  { segment: 'At Risk', color: '#E24B4A', action: 'Re-engage now — send win-back email within 7 days' },
-  { segment: 'New', color: '#7F77DD', action: 'Welcome & onboard — first purchase incentive' },
-  { segment: 'Lost', color: '#888780', action: 'Win-back campaign — deep discount, last chance' },
+  { segment: 'Champions', color: '#1D9E75', action: 'Beri reward & upsell — program loyalitas, penawaran eksklusif' },
+  { segment: 'Loyal', color: '#378ADD', action: 'Cross-sell — rekomendasikan kategori yang relevan' },
+  { segment: 'At Risk', color: '#E24B4A', action: 'Re-engage sekarang — kirim email win-back dalam 7 hari' },
+  { segment: 'New', color: '#7F77DD', action: 'Sambut & onboard — insentif pembelian pertama' },
+  { segment: 'Lost', color: '#888780', action: 'Kampanye win-back — diskon besar, kesempatan terakhir' },
 ]
 
 export default function SegmentsTab({ data }) {
@@ -73,14 +73,14 @@ export default function SegmentsTab({ data }) {
             key={s.segment}
             title={s.segment}
             value={fmtNumber(s.customers)}
-            sub={`Avg LTV: ${fmtCurrency(s.ltv, 0)}`}
+            sub={`Rata-rata LTV: ${fmtCurrency(s.ltv, 0)}`}
             color={SEG_COLORS[s.segment]}
           />
         ))}
       </div>
 
       {/* Segment order volume over time */}
-      <ChartCard title="Segment Order Volume Over Time">
+      <ChartCard title="Volume Pesanan per Segmen dari Waktu ke Waktu">
         <ResponsiveContainer width="100%" height={240}>
           <LineChart data={segOverTime}>
             <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
@@ -104,7 +104,7 @@ export default function SegmentsTab({ data }) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Revenue by segment */}
-        <ChartCard title="Revenue Contribution by Segment">
+        <ChartCard title="Kontribusi Pendapatan per Segmen">
           <ResponsiveContainer width="100%" height={220}>
             <BarChart data={segmentStats}>
               <XAxis dataKey="segment" tick={{ fontSize: 11 }} />
@@ -120,7 +120,7 @@ export default function SegmentsTab({ data }) {
         </ChartCard>
 
         {/* City distribution */}
-        <ChartCard title="Segments by City">
+        <ChartCard title="Segmen per Kota">
           <ResponsiveContainer width="100%" height={220}>
             <BarChart data={citySegData}>
               <XAxis dataKey="city" tick={{ fontSize: 10 }} />
@@ -136,13 +136,13 @@ export default function SegmentsTab({ data }) {
       </div>
 
       {/* Action table */}
-      <ChartCard title="Recommended Actions by Segment">
+      <ChartCard title="Rekomendasi Aksi per Segmen">
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-gray-100">
-                <th className="text-left py-2 pr-6 font-semibold text-gray-600 w-32">Segment</th>
-                <th className="text-left py-2 font-semibold text-gray-600">Recommended Action</th>
+                <th className="text-left py-2 pr-6 font-semibold text-gray-600 w-32">Segmen</th>
+                <th className="text-left py-2 font-semibold text-gray-600">Rekomendasi Aksi</th>
               </tr>
             </thead>
             <tbody>

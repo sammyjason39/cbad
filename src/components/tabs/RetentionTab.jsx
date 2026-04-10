@@ -79,14 +79,14 @@ export default function RetentionTab({ data }) {
   return (
     <div className="space-y-6">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <MetricCard title="Avg Monthly Churn" value={fmtPct(metrics.churnEst)} sub="estimated" />
-        <MetricCard title="Champion LTV" value={fmtCurrency(metrics.champLTV, 0)} color="#1D9E75" />
-        <MetricCard title="At-Risk Customers" value={fmtNumber(metrics.atRisk)} color="#E24B4A" />
-        <MetricCard title="Lost Customers" value={fmtNumber(metrics.lost)} color="#888780" />
+        <MetricCard title="Rata-rata Churn Bulanan" value={fmtPct(metrics.churnEst)} sub="estimasi" />
+        <MetricCard title="LTV Champions" value={fmtCurrency(metrics.champLTV, 0)} color="#1D9E75" />
+        <MetricCard title="Pelanggan Berisiko" value={fmtNumber(metrics.atRisk)} color="#E24B4A" />
+        <MetricCard title="Pelanggan Hilang" value={fmtNumber(metrics.lost)} color="#888780" />
       </div>
 
       {/* Cohort retention */}
-      <ChartCard title="Cohort Retention (% retained by month)">
+      <ChartCard title="Retensi Kohort (% dipertahankan per bulan)">
         <ResponsiveContainer width="100%" height={240}>
           <LineChart data={cohortChartData.rows}>
             <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
@@ -111,7 +111,7 @@ export default function RetentionTab({ data }) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Monthly churn */}
-        <ChartCard title="Monthly Churned Customers (estimate)">
+        <ChartCard title="Pelanggan Churn per Bulan (estimasi)">
           <ResponsiveContainer width="100%" height={200}>
             <LineChart data={monthlyChurnData}>
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
@@ -124,7 +124,7 @@ export default function RetentionTab({ data }) {
         </ChartCard>
 
         {/* LTV by segment */}
-        <ChartCard title="Avg LTV by Segment">
+        <ChartCard title="Rata-rata LTV per Segmen">
           <ResponsiveContainer width="100%" height={200}>
             <BarChart data={ltvBySegment}>
               <XAxis dataKey="segment" tick={{ fontSize: 11 }} />
@@ -141,7 +141,7 @@ export default function RetentionTab({ data }) {
       </div>
 
       {/* Recency histogram */}
-      <ChartCard title="Days Since Last Order (Recency Distribution)">
+      <ChartCard title="Hari Sejak Pesanan Terakhir (Distribusi Recency)">
         <ResponsiveContainer width="100%" height={200}>
           <BarChart data={recencyData}>
             <XAxis dataKey="label" tick={{ fontSize: 11 }} />

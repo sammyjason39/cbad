@@ -8,21 +8,21 @@ const RADIUS   = 88
 const CIRC     = 2 * Math.PI * RADIUS  // ≈ 552.9
 
 const STAGES = [
-  { from:  0, to: 10, label: 'Parsing customer records...' },
-  { from: 10, to: 20, label: 'Loading order history...' },
-  { from: 20, to: 30, label: 'Processing transaction items...' },
-  { from: 30, to: 40, label: 'Indexing session events...' },
-  { from: 40, to: 50, label: 'Computing RFM segments...' },
-  { from: 50, to: 60, label: 'Building cohort retention curves...' },
-  { from: 60, to: 70, label: 'Mapping geographic behavior...' },
-  { from: 70, to: 80, label: 'Calculating channel performance...' },
-  { from: 80, to: 90, label: 'Training AI analyst context...' },
-  { from: 90, to: 100, label: 'Preparing dashboard...' },
+  { from:  0, to: 10, label: 'Memuat data pelanggan...' },
+  { from: 10, to: 20, label: 'Memuat riwayat pesanan...' },
+  { from: 20, to: 30, label: 'Memproses item transaksi...' },
+  { from: 30, to: 40, label: 'Mengindeks sesi pengguna...' },
+  { from: 40, to: 50, label: 'Menghitung segmen RFM...' },
+  { from: 50, to: 60, label: 'Membangun kurva retensi kohort...' },
+  { from: 60, to: 70, label: 'Memetakan perilaku geografis...' },
+  { from: 70, to: 80, label: 'Menghitung performa channel...' },
+  { from: 80, to: 90, label: 'Menyiapkan konteks AI analis...' },
+  { from: 90, to: 100, label: 'Menyiapkan dashboard...' },
 ]
 
 function getStageLabel(pct) {
   const s = STAGES.find(s => pct >= s.from && pct < s.to)
-  return s?.label ?? 'Analysis complete.'
+  return s?.label ?? 'Analisis selesai.'
 }
 
 /** Animated integer count-up */
@@ -119,15 +119,15 @@ export default function LoadingScreen({ files, onDone }) {
         {/* ── Title ──────────────────────────────────────────────────────── */}
         <div className="text-center">
           <h1 className="text-white font-semibold" style={{ fontSize: 30 }}>
-            Analyzing customer behavior
+            Menganalisis perilaku pelanggan
           </h1>
           <p className="mt-2 text-sm" style={{ color: 'rgba(255,255,255,0.4)' }}>
-            Processing{' '}
-            <span className="text-white font-medium">{displayCustomers.toLocaleString()}</span> customers
+            Memproses{' '}
+            <span className="text-white font-medium">{displayCustomers.toLocaleString()}</span> pelanggan
             {' '}·{' '}
-            <span className="text-white font-medium">{displayOrders.toLocaleString()}</span> orders
+            <span className="text-white font-medium">{displayOrders.toLocaleString()}</span> pesanan
             {' '}·{' '}
-            <span className="text-white font-medium">{displaySessions.toLocaleString()}</span> sessions
+            <span className="text-white font-medium">{displaySessions.toLocaleString()}</span> sesi
           </p>
         </div>
 

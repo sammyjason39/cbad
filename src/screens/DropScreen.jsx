@@ -82,14 +82,14 @@ export default function DropScreen({ onReady }) {
             <GridIcon />
             <div className="text-center">
               <p className="text-white font-medium" style={{ fontSize: 26 }}>
-                Drop your CSV files here
+                Letakkan file CSV kamu di sini
               </p>
               <p className="mt-2 text-sm" style={{ color: 'rgba(255,255,255,0.4)' }}>
-                Drop all your files at once — the more you include, the richer the analysis
+                Masukkan semua file sekaligus — semakin lengkap, semakin kaya analisisnya
               </p>
             </div>
             <p className="text-xs" style={{ color: 'rgba(255,255,255,0.25)' }}>
-              Click to browse · or drag &amp; drop
+              Klik untuk pilih file · atau seret &amp; lepas
             </p>
           </div>
 
@@ -130,13 +130,13 @@ export default function DropScreen({ onReady }) {
                 className="w-full py-3.5 rounded-xl text-white font-semibold text-sm btn-pulse transition-all"
                 style={{ background: '#7F77DD' }}
               >
-                Analyze Data →
+                Analisis Data →
               </button>
             ) : (
               <div className="w-full py-3.5 rounded-xl text-center text-sm" style={{ color: 'rgba(255,255,255,0.15)' }}>
                 {Object.keys(files).length === 0
-                  ? 'Drop your CSV files above to begin'
-                  : `${Object.keys(files).length} file${Object.keys(files).length > 1 ? 's' : ''} detected — need customers, orders, order_items, sessions, cohort_retention, monthly_summary`}
+                  ? 'Letakkan file CSV di atas untuk memulai'
+                  : `${Object.keys(files).length} file terdeteksi — butuh: customers, orders, order_items, sessions, cohort_retention, monthly_summary`}
               </div>
             )}
           </div>
