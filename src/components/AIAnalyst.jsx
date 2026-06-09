@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useMemo } from 'react'
 import { buildSystemPrompt } from '../utils/buildSystemPrompt'
-import { streamChat } from '../utils/ollamaClient'
+import { streamChat } from '../utils/aiClient'
 import { brand } from '../brand/tokens'
 
 const QUICK_QUESTIONS = [
@@ -28,7 +28,7 @@ function TypingDots() {
   )
 }
 
-export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
+export default function AIAnalyst({ data, aiOnline, aiModel, activeTab }) {
   const [messages, setMessages]   = useState([])
   const [input, setInput]         = useState('')
   const [streaming, setStreaming] = useState(false)
@@ -46,7 +46,7 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
 
   async function sendMessage(text) {
     const userMsg = text.trim()
-    if (!userMsg || streaming || !ollamaOnline) return
+    if (!userMsg || streaming || !aiOnline) return
 
     const history = [...messages, { role: 'user', content: userMsg }]
     setMessages(history)
@@ -94,6 +94,8 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
     }
   }
 
+  const modelLabel = aiModel || 'Qwen'
+
   return (
     <div
       className="p-5 mt-8"
@@ -109,24 +111,25 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
         <span
           className="w-2 h-2 rounded-full"
           style={{
-            background: ollamaOnline ? brand.blue : brand.muted2,
-            boxShadow: ollamaOnline ? '0 0 0 4px rgba(22,82,240,0.16)' : 'none',
+            background: aiOnline ? brand.blue : brand.muted2,
+            boxShadow: aiOnline ? '0 0 0 4px rgba(22,82,240,0.16)' : 'none',
           }}
         />
         <span className="text-xs" style={{ color: brand.muted }}>
-          {ollamaOnline ? 'Tanyakan apa saja tentang data pelanggan kamu' : 'Ollama nonaktif — jalankan Ollama untuk mengaktifkan'}
+          {aiOnline
+            ? `Didukung ${modelLabel} — tanyakan apa saja tentang data pelanggan kamu`
+            : 'AI tidak tersedia — periksa konfigurasi Qwen API'}
         </span>
       </div>
 
-      {!ollamaOnline && (
+      {!aiOnline && (
         <div
           className="mb-4 rounded-xl px-3 py-2 text-xs"
           style={{ background: brand.blueSoft, color: brand.blue, border: `1px solid rgba(22,82,240,0.2)` }}
         >
-          Ollama tidak berjalan. Jalankan dengan{' '}
-          <code className="font-mono px-1 rounded" style={{ background: 'rgba(22,82,240,0.1)' }}>ollama serve</code> lalu muat ulang.
-          Jika ada error CORS, atur{' '}
-          <code className="font-mono px-1 rounded" style={{ background: 'rgba(22,82,240,0.1)' }}>OLLAMA_ORIGINS=*</code>.
+          Koneksi ke Qwen gagal. Pastikan{' '}
+          <code className="font-mono px-1 rounded" style={{ background: 'rgba(22,82,240,0.1)' }}>QWEN_API_KEY</code>{' '}
+          sudah diatur di environment (lokal: <code className="font-mono">.env</code>, production: Vercel env vars).
         </div>
       )}
 
@@ -135,7 +138,7 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
           <button
             key={q}
             onClick={() => sendMessage(q)}
-            disabled={streaming || !ollamaOnline}
+            disabled={streaming || !aiOnline}
             className="text-xs px-3 py-1.5 rounded-full transition-colors disabled:opacity-40 disabled:cursor-not-allowed font-medium"
             style={{
               background: brand.mist,
@@ -143,7 +146,7 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
               border: `1px solid ${brand.hairline}`,
             }}
             onMouseEnter={e => {
-              if (!streaming && ollamaOnline) {
+              if (!streaming && aiOnline) {
                 e.currentTarget.style.background = brand.blueSoft
                 e.currentTarget.style.color = brand.blue
                 e.currentTarget.style.borderColor = 'rgba(22,82,240,0.25)'
@@ -166,9 +169,9 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
       >
         {messages.length === 0 && (
           <p className="text-xs text-center mt-16" style={{ color: brand.muted2 }}>
-            {ollamaOnline
+            {aiOnline
               ? 'Pilih pertanyaan cepat atau ketik di bawah untuk mulai'
-              : 'Jalankan Ollama untuk mengaktifkan AI Analis'}
+              : 'AI Analis membutuhkan koneksi Qwen yang aktif'}
           </p>
         )}
 
@@ -209,17 +212,17 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
           value={input}
           onChange={e => setInput(e.target.value)}
           onKeyDown={handleKey}
-          placeholder={ollamaOnline ? 'Tanya tentang pelanggan kamu…' : 'Ollama nonaktif'}
-          disabled={streaming || !ollamaOnline}
+          placeholder={aiOnline ? 'Tanya tentang pelanggan kamu…' : 'AI tidak tersedia'}
+          disabled={streaming || !aiOnline}
           className="flex-1 text-xs rounded-full px-4 py-2.5 focus:outline-none disabled:cursor-not-allowed"
           style={{
             border: `1px solid ${brand.hairline}`,
-            background: ollamaOnline ? brand.surface : brand.mist,
+            background: aiOnline ? brand.surface : brand.mist,
           }}
         />
         <button
           onClick={() => sendMessage(input)}
-          disabled={streaming || !input.trim() || !ollamaOnline}
+          disabled={streaming || !input.trim() || !aiOnline}
           className="text-white text-xs px-5 py-2.5 rounded-full transition-colors disabled:opacity-40 disabled:cursor-not-allowed font-semibold"
           style={{ background: brand.ink }}
         >

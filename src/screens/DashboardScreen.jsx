@@ -16,7 +16,7 @@ const TABS = [
   { id: 'location',   label: 'Per Lokasi' },
 ]
 
-export default function DashboardScreen({ data, ollamaOnline }) {
+export default function DashboardScreen({ data, aiOnline, aiModel }) {
   const [activeTab, setActiveTab] = useState('overview')
 
   const tabContent = {
@@ -64,12 +64,12 @@ export default function DashboardScreen({ data, ollamaOnline }) {
           <span
             className="w-2 h-2 rounded-full"
             style={{
-              background: ollamaOnline ? brand.blue : brand.muted2,
-              boxShadow: ollamaOnline ? '0 0 0 4px rgba(22,82,240,0.16)' : 'none',
+              background: aiOnline ? brand.blue : brand.muted2,
+              boxShadow: aiOnline ? '0 0 0 4px rgba(22,82,240,0.16)' : 'none',
             }}
           />
           <span className="text-xs font-mono uppercase tracking-wider" style={{ color: brand.muted }}>
-            AI Analis: {ollamaOnline ? 'Aktif' : 'Nonaktif'}
+            AI Analis: {aiOnline ? (aiModel || 'Qwen') : 'Nonaktif'}
           </span>
         </div>
       </header>
@@ -88,7 +88,8 @@ export default function DashboardScreen({ data, ollamaOnline }) {
 
         <AIAnalyst
           data={data}
-          ollamaOnline={ollamaOnline}
+          aiOnline={aiOnline}
+          aiModel={aiModel}
           activeTab={activeTab}
         />
       </main>

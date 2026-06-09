@@ -2,13 +2,13 @@ import { useState } from 'react'
 import DropScreen      from './screens/DropScreen'
 import LoadingScreen   from './screens/LoadingScreen'
 import DashboardScreen from './screens/DashboardScreen'
-import { useOllamaStatus } from './hooks/useOllamaStatus'
+import { useAIStatus } from './hooks/useAIStatus'
 
 export default function App() {
   const [screen, setScreen] = useState('drop')   // 'drop' | 'loading' | 'dashboard'
   const [files, setFiles]   = useState({})
   const [data, setData]     = useState(null)
-  const { online: ollamaOnline } = useOllamaStatus()
+  const { online: aiOnline, model: aiModel } = useAIStatus()
 
   function handleReady(droppedFiles) {
     setFiles(droppedFiles)
@@ -28,5 +28,5 @@ export default function App() {
     return <LoadingScreen files={files} onDone={handleDone} />
   }
 
-  return <DashboardScreen data={data} ollamaOnline={ollamaOnline} />
+  return <DashboardScreen data={data} aiOnline={aiOnline} aiModel={aiModel} />
 }
