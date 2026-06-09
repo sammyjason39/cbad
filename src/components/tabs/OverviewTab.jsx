@@ -7,16 +7,7 @@ import MetricCard from '../MetricCard'
 import ChartCard from '../ChartCard'
 import { completedOrders, groupBy, sumBy } from '../../utils/dataUtils'
 import { fmtK, fmtCurrency, fmtPct, fmtNumber, fmtMonth } from '../../utils/formatters'
-
-const SEGMENT_COLORS = {
-  Champions: '#1D9E75',
-  Loyal: '#378ADD',
-  'At Risk': '#E24B4A',
-  New: '#7F77DD',
-  Lost: '#888780',
-}
-
-const CAT_COLORS = ['#7F77DD', '#1D9E75', '#378ADD', '#D85A30', '#BA7517', '#888780', '#639922']
+import { SEGMENT_COLORS, CAT_COLORS, brand } from '../../brand/tokens'
 
 export default function OverviewTab({ data }) {
   const { orders, customers, sessions, monthlySummary } = data
@@ -77,7 +68,7 @@ export default function OverviewTab({ data }) {
             <XAxis dataKey="month" tick={{ fontSize: 11 }} />
             <YAxis tickFormatter={v => `$${(v / 1000).toFixed(0)}K`} tick={{ fontSize: 11 }} />
             <Tooltip formatter={v => fmtK(v)} />
-            <Bar dataKey="revenue" fill="#378ADD" radius={[3, 3, 0, 0]} />
+            <Bar dataKey="revenue" fill={brand.blue} radius={[3, 3, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </ChartCard>

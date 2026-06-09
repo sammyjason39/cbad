@@ -2,8 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --ink: #0A0A0A;
+  --slate: #1E293B;
+  --blue: #1652F0;
+  --blue-soft: #DCE5FE;
+  --surface: #FFFFFF;
+  --mist: #F8FAFC;
+  --hairline: #E5E7EB;
+  --hairline-2: #D1D5DB;
+  --muted: #6B7280;
+  --muted-2: #9CA3AF;
+}
+
 body {
-  @apply bg-gray-50 text-gray-900;
+  font-family: 'Geist', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--mist);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.55;
 }
 
 /* Custom scrollbar for chat area */
@@ -11,19 +29,21 @@ body {
   width: 4px;
 }
 .chat-scroll::-webkit-scrollbar-track {
-  @apply bg-gray-100 rounded;
+  background: var(--mist);
+  border-radius: 4px;
 }
 .chat-scroll::-webkit-scrollbar-thumb {
-  @apply bg-gray-300 rounded;
+  background: var(--hairline-2);
+  border-radius: 4px;
 }
 
-/* Analyze button pulse */
-@keyframes pulse-purple {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(127, 119, 221, 0.5); }
-  50%       { box-shadow: 0 0 0 12px rgba(127, 119, 221, 0); }
+/* Primary CTA pulse */
+@keyframes pulse-blue {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(22, 82, 240, 0.45); }
+  50%       { box-shadow: 0 0 0 12px rgba(22, 82, 240, 0); }
 }
 .btn-pulse {
-  animation: pulse-purple 2s ease-in-out infinite;
+  animation: pulse-blue 2s ease-in-out infinite;
 }
 
 /* Typing dots bounce */
@@ -32,16 +52,15 @@ body {
   40%           { transform: translateY(-5px); }
 }
 
-/* Dark screen scrollbar */
+/* Global scrollbar */
 ::-webkit-scrollbar {
-  width: 4px;
-  height: 4px;
+  width: 6px;
+  height: 6px;
 }
 ::-webkit-scrollbar-track {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255,255,255,0.12);
-  border-radius: 2px;
+  background: var(--hairline-2);
+  border-radius: 3px;
 }
-

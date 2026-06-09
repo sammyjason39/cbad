@@ -7,22 +7,17 @@ import MetricCard from '../MetricCard'
 import ChartCard from '../ChartCard'
 import { completedOrders, groupBy, sumBy, toMonth } from '../../utils/dataUtils'
 import { fmtK, fmtCurrency, fmtNumber, fmtMonth } from '../../utils/formatters'
+import { SEGMENT_COLORS, brand } from '../../brand/tokens'
 
-const SEG_COLORS = {
-  Champions: '#1D9E75',
-  Loyal: '#378ADD',
-  'At Risk': '#E24B4A',
-  New: '#7F77DD',
-  Lost: '#888780',
-}
+const SEG_COLORS = SEGMENT_COLORS
 const SEGMENTS = ['Champions', 'Loyal', 'At Risk', 'New', 'Lost']
 
 const ACTIONS = [
-  { segment: 'Champions', color: '#1D9E75', action: 'Beri reward & upsell — program loyalitas, penawaran eksklusif' },
-  { segment: 'Loyal', color: '#378ADD', action: 'Cross-sell — rekomendasikan kategori yang relevan' },
-  { segment: 'At Risk', color: '#E24B4A', action: 'Re-engage sekarang — kirim email win-back dalam 7 hari' },
-  { segment: 'New', color: '#7F77DD', action: 'Sambut & onboard — insentif pembelian pertama' },
-  { segment: 'Lost', color: '#888780', action: 'Kampanye win-back — diskon besar, kesempatan terakhir' },
+  { segment: 'Champions', color: SEGMENT_COLORS.Champions, action: 'Beri reward & upsell — program loyalitas, penawaran eksklusif' },
+  { segment: 'Loyal', color: SEGMENT_COLORS.Loyal, action: 'Cross-sell — rekomendasikan kategori yang relevan' },
+  { segment: 'At Risk', color: SEGMENT_COLORS['At Risk'], action: 'Re-engage sekarang — kirim email win-back dalam 7 hari' },
+  { segment: 'New', color: SEGMENT_COLORS.New, action: 'Sambut & onboard — insentif pembelian pertama' },
+  { segment: 'Lost', color: SEGMENT_COLORS.Lost, action: 'Kampanye win-back — diskon besar, kesempatan terakhir' },
 ]
 
 export default function SegmentsTab({ data }) {
@@ -83,7 +78,7 @@ export default function SegmentsTab({ data }) {
       <ChartCard title="Volume Pesanan per Segmen dari Waktu ke Waktu">
         <ResponsiveContainer width="100%" height={240}>
           <LineChart data={segOverTime}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+            <CartesianGrid strokeDasharray="3 3" stroke={brand.hairline} />
             <XAxis dataKey="month" tick={{ fontSize: 11 }} />
             <YAxis tick={{ fontSize: 11 }} />
             <Tooltip />
@@ -140,14 +135,14 @@ export default function SegmentsTab({ data }) {
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-gray-100">
-                <th className="text-left py-2 pr-6 font-semibold text-gray-600 w-32">Segmen</th>
-                <th className="text-left py-2 font-semibold text-gray-600">Rekomendasi Aksi</th>
+              <tr style={{ borderBottom: `1px solid ${brand.hairline}` }}>
+                <th className="text-left py-2 pr-6 font-semibold w-32 font-mono uppercase text-xs tracking-wider" style={{ color: brand.muted }}>Segmen</th>
+                <th className="text-left py-2 font-semibold font-mono uppercase text-xs tracking-wider" style={{ color: brand.muted }}>Rekomendasi Aksi</th>
               </tr>
             </thead>
             <tbody>
               {ACTIONS.map(({ segment, color, action }) => (
-                <tr key={segment} className="border-b border-gray-50">
+                <tr key={segment} style={{ borderBottom: `1px solid ${brand.mist}` }}>
                   <td className="py-2.5 pr-6">
                     <span
                       className="inline-block px-2 py-0.5 rounded-full text-white text-xs font-semibold"
@@ -156,7 +151,7 @@ export default function SegmentsTab({ data }) {
                       {segment}
                     </span>
                   </td>
-                  <td className="py-2.5 text-gray-700">{action}</td>
+                  <td className="py-2.5" style={{ color: brand.ink }}>{action}</td>
                 </tr>
               ))}
             </tbody>

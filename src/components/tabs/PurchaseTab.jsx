@@ -10,8 +10,7 @@ import {
   purchaseFreqBuckets, repeatBuyerRate, toMonth, toDOW,
 } from '../../utils/dataUtils'
 import { fmtK, fmtCurrency, fmtPct, fmtNumber, fmtMonth, fmtDOW } from '../../utils/formatters'
-
-const CAT_COLORS = ['#7F77DD', '#1D9E75', '#378ADD', '#D85A30', '#BA7517', '#888780', '#639922']
+import { brand } from '../../brand/tokens'
 
 export default function PurchaseTab({ data }) {
   const { orders, orderItems } = data
@@ -93,13 +92,13 @@ export default function PurchaseTab({ data }) {
       <ChartCard title="Pesanan per Bulan & Rata-rata Nilai Pesanan">
         <ResponsiveContainer width="100%" height={220}>
           <ComposedChart data={ordersMonthlyData}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+            <CartesianGrid strokeDasharray="3 3" stroke={brand.hairline} />
             <XAxis dataKey="month" tick={{ fontSize: 11 }} />
             <YAxis yAxisId="left" tick={{ fontSize: 11 }} />
             <YAxis yAxisId="right" orientation="right" tickFormatter={v => `$${v}`} tick={{ fontSize: 11 }} />
             <Tooltip />
-            <Bar yAxisId="left" dataKey="orders" fill="#378ADD" radius={[3, 3, 0, 0]} name="Orders" />
-            <Line yAxisId="right" type="monotone" dataKey="aov" stroke="#D85A30" dot={false} name="AOV ($)" strokeWidth={2} />
+            <Bar yAxisId="left" dataKey="orders" fill={brand.blue} radius={[3, 3, 0, 0]} name="Orders" />
+            <Line yAxisId="right" type="monotone" dataKey="aov" stroke={brand.slate} dot={false} name="AOV ($)" strokeWidth={2} />
           </ComposedChart>
         </ResponsiveContainer>
       </ChartCard>
@@ -112,7 +111,7 @@ export default function PurchaseTab({ data }) {
               <XAxis dataKey="name" tick={{ fontSize: 11 }} />
               <YAxis tick={{ fontSize: 11 }} />
               <Tooltip />
-              <Bar dataKey="customers" fill="#1D9E75" radius={[3, 3, 0, 0]} />
+              <Bar dataKey="customers" fill={brand.blue} radius={[3, 3, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </ChartCard>
@@ -126,7 +125,7 @@ export default function PurchaseTab({ data }) {
               <Tooltip formatter={v => fmtK(v)} />
               <Bar dataKey="revenue" radius={[3, 3, 0, 0]}>
                 {dowData.map((entry, i) => (
-                  <Cell key={i} fill={entry.isPeak ? '#D85A30' : '#7F77DD'} />
+                  <Cell key={i} fill={entry.isPeak ? brand.slate : brand.blue} />
                 ))}
               </Bar>
             </BarChart>
@@ -141,7 +140,7 @@ export default function PurchaseTab({ data }) {
             <XAxis type="number" tickFormatter={v => `$${(v / 1000).toFixed(0)}K`} tick={{ fontSize: 11 }} />
             <YAxis type="category" dataKey="name" tick={{ fontSize: 11 }} width={110} />
             <Tooltip formatter={v => fmtK(v)} />
-            <Bar dataKey="revenue" fill="#BA7517" radius={[0, 3, 3, 0]} />
+            <Bar dataKey="revenue" fill={brand.slate} radius={[0, 3, 3, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </ChartCard>

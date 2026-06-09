@@ -10,14 +10,9 @@ import {
   estimateMonthlyChurn, recencyHistogram,
 } from '../../utils/dataUtils'
 import { fmtK, fmtCurrency, fmtNumber, fmtPct, fmtMonth } from '../../utils/formatters'
+import { SEGMENT_COLORS, COHORT_COLORS, brand } from '../../brand/tokens'
 
-const SEG_COLORS = {
-  Champions: '#1D9E75',
-  Loyal: '#378ADD',
-  'At Risk': '#E24B4A',
-  New: '#7F77DD',
-  Lost: '#888780',
-}
+const SEG_COLORS = SEGMENT_COLORS
 
 export default function RetentionTab({ data }) {
   const { orders, customers, cohortRetention } = data
@@ -74,22 +69,20 @@ export default function RetentionTab({ data }) {
 
   const recencyData = useMemo(() => recencyHistogram(orders), [orders])
 
-  const COHORT_COLORS = ['#378ADD', '#1D9E75', '#7F77DD', '#D85A30', '#BA7517', '#E24B4A']
-
   return (
     <div className="space-y-6">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <MetricCard title="Rata-rata Churn Bulanan" value={fmtPct(metrics.churnEst)} sub="estimasi" />
-        <MetricCard title="LTV Champions" value={fmtCurrency(metrics.champLTV, 0)} color="#1D9E75" />
-        <MetricCard title="Pelanggan Berisiko" value={fmtNumber(metrics.atRisk)} color="#E24B4A" />
-        <MetricCard title="Pelanggan Hilang" value={fmtNumber(metrics.lost)} color="#888780" />
+        <MetricCard title="LTV Champions" value={fmtCurrency(metrics.champLTV, 0)} color={brand.blue} />
+        <MetricCard title="Pelanggan Berisiko" value={fmtNumber(metrics.atRisk)} color={brand.danger} />
+        <MetricCard title="Pelanggan Hilang" value={fmtNumber(metrics.lost)} color={brand.muted2} />
       </div>
 
       {/* Cohort retention */}
       <ChartCard title="Retensi Kohort (% dipertahankan per bulan)">
         <ResponsiveContainer width="100%" height={240}>
           <LineChart data={cohortChartData.rows}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+            <CartesianGrid strokeDasharray="3 3" stroke={brand.hairline} />
             <XAxis dataKey="months" label={{ value: 'Months since join', position: 'insideBottom', offset: -2, fontSize: 11 }} tick={{ fontSize: 11 }} />
             <YAxis tickFormatter={v => `${v}%`} domain={[0, 100]} tick={{ fontSize: 11 }} />
             <Tooltip formatter={v => v !== null ? `${v}%` : 'N/A'} />
@@ -114,11 +107,11 @@ export default function RetentionTab({ data }) {
         <ChartCard title="Pelanggan Churn per Bulan (estimasi)">
           <ResponsiveContainer width="100%" height={200}>
             <LineChart data={monthlyChurnData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+              <CartesianGrid strokeDasharray="3 3" stroke={brand.hairline} />
               <XAxis dataKey="month" tick={{ fontSize: 11 }} />
               <YAxis tick={{ fontSize: 11 }} />
               <Tooltip />
-              <Line type="monotone" dataKey="churned" stroke="#E24B4A" dot={false} strokeWidth={2} name="Churned" />
+              <Line type="monotone" dataKey="churned" stroke={brand.danger} dot={false} strokeWidth={2} name="Churned" />
             </LineChart>
           </ResponsiveContainer>
         </ChartCard>
@@ -147,7 +140,7 @@ export default function RetentionTab({ data }) {
             <XAxis dataKey="label" tick={{ fontSize: 11 }} />
             <YAxis tick={{ fontSize: 11 }} />
             <Tooltip />
-            <Bar dataKey="customers" fill="#378ADD" radius={[3, 3, 0, 0]} />
+            <Bar dataKey="customers" fill={brand.blue} radius={[3, 3, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </ChartCard>

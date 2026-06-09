@@ -8,19 +8,12 @@ import MetricCard from '../MetricCard'
 import ChartCard from '../ChartCard'
 import { groupBy, sumBy, completedOrders, toMonth, toDOW } from '../../utils/dataUtils'
 import { fmtK, fmtCurrency, fmtPct, fmtNumber, fmtMonth } from '../../utils/formatters'
+import { SEGMENT_COLORS, CHANNEL_COLORS, brand } from '../../brand/tokens'
 
 const CITIES = [
   'Jakarta', 'Bali', 'Bandung', 'Surabaya', 'Medan',
   'Yogyakarta', 'Makassar', 'Semarang', 'Depok', 'Tangerang',
 ]
-const SEGMENT_COLORS = {
-  Champions: '#1D9E75', Loyal: '#378ADD', 'At Risk': '#E24B4A',
-  New: '#7F77DD', Lost: '#888780',
-}
-const CHANNEL_COLORS = {
-  Organic: '#1D9E75', 'Paid Search': '#378ADD', 'Social Media': '#7F77DD',
-  Email: '#D85A30', Direct: '#BA7517', Referral: '#639922',
-}
 const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
 // ── Derive city profiles from core CSV data ──────────────────────────────────
@@ -133,11 +126,15 @@ function deriveCitySegmentMix(customers, cities) {
 
 function InsightBadge({ text, type }) {
   const styles = {
-    positive: 'bg-green-50 text-green-800 border border-green-200',
-    warning:  'bg-amber-50 text-amber-800 border border-amber-200',
-    negative: 'bg-red-50 text-red-800 border border-red-200',
+    positive: { background: brand.blueSoft, color: brand.blue, border: `1px solid rgba(22,82,240,0.2)` },
+    warning:  { background: brand.mist, color: brand.slate, border: `1px solid ${brand.hairline}` },
+    negative: { background: '#FEF2F2', color: brand.danger, border: '1px solid #FECACA' },
   }
-  return <span className={`inline-block text-xs px-2.5 py-1 rounded-full font-medium ${styles[type]}`}>{text}</span>
+  return (
+    <span className="inline-block text-xs px-2.5 py-1 rounded-full font-medium" style={styles[type]}>
+      {text}
+    </span>
+  )
 }
 
 function buildInsights(profile) {
@@ -246,8 +243,8 @@ export default function LocationTab({ data }) {
   const insights = useMemo(() => buildInsights(profile), [profile])
 
   if (!profile) return (
-    <p className="text-gray-500 text-sm py-8 text-center">
-      No data found for {selectedCity}. Check your CSV files.
+    <p className="text-sm py-8 text-center" style={{ color: brand.muted }}>
+      Tidak ada data untuk {selectedCity}. Periksa file CSV kamu.
     </p>
   )
 
@@ -259,8 +256,9 @@ export default function LocationTab({ data }) {
           <button key={city} onClick={() => setSelectedCity(city)}
             className="px-3 py-1.5 rounded-full text-sm font-medium transition-colors"
             style={{
-              background: selectedCity === city ? '#7F77DD' : '#f3f4f6',
-              color: selectedCity === city ? '#fff' : '#4b5563',
+              background: selectedCity === city ? brand.ink : brand.mist,
+              color: selectedCity === city ? brand.surface : brand.muted,
+              border: `1px solid ${selectedCity === city ? brand.ink : brand.hairline}`,
             }}
           >
             {city}
@@ -269,11 +267,11 @@ export default function LocationTab({ data }) {
       </div>
 
       {/* City insight card */}
-      <div className="rounded-lg p-4" style={{ background: '#f0eeff', border: '1px solid #e0dbff' }}>
+      <div className="p-5" style={{ background: brand.blueSoft, border: `1px solid rgba(22,82,240,0.2)`, borderRadius: 16 }}>
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div className="flex-1 min-w-0">
-            <h2 className="font-bold mb-1" style={{ color: '#3730a3', fontSize: 15 }}>{selectedCity}</h2>
-            <p className="text-sm leading-relaxed" style={{ color: '#4338ca' }}>{profile.description}</p>
+            <h2 className="font-bold mb-1 tracking-tight" style={{ color: brand.ink, fontSize: 18 }}>{selectedCity}</h2>
+            <p className="text-sm leading-relaxed" style={{ color: brand.slate }}>{profile.description}</p>
           </div>
           {insights.length > 0 && (
             <div className="flex flex-wrap gap-1.5 mt-1">
@@ -281,7 +279,7 @@ export default function LocationTab({ data }) {
             </div>
           )}
         </div>
-        <div className="flex flex-wrap gap-4 mt-3 text-xs" style={{ color: '#4338ca' }}>
+        <div className="flex flex-wrap gap-4 mt-3 text-xs font-mono" style={{ color: brand.muted }}>
           <span>Kategori teratas: <strong>{profile.top_category}</strong></span>
           <span>Sumber teratas: <strong>{profile.top_acquisition_source}</strong></span>
           <span>Hari puncak: <strong>{profile.peak_shopping_day}</strong></span>
@@ -294,9 +292,9 @@ export default function LocationTab({ data }) {
         <MetricCard title="Rata-rata Nilai Pesanan" value={fmtCurrency(+profile.avg_order_value, 0)} />
         <MetricCard title="Rata-rata LTV"           value={fmtCurrency(+profile.avg_ltv, 0)} />
         <MetricCard title="Churn Bulanan"           value={fmtPct(+profile.monthly_churn_rate)}
-          color={+profile.monthly_churn_rate > 0.06 ? '#E24B4A' : undefined} />
+          color={+profile.monthly_churn_rate > 0.06 ? brand.danger : undefined} />
         <MetricCard title="Porsi Mobile"            value={fmtPct(+profile.mobile_share)}
-          color={+profile.mobile_share > 0.65 ? '#1D9E75' : undefined} />
+          color={+profile.mobile_share > 0.65 ? brand.blue : undefined} />
       </div>
 
       {/* Channel CVR comparison */}
@@ -309,9 +307,9 @@ export default function LocationTab({ data }) {
               <Tooltip formatter={v => `${v}%`} />
               <Legend wrapperStyle={{ fontSize: 11 }} />
               <Bar dataKey="cityCVR" name={selectedCity} radius={[0, 3, 3, 0]}>
-                {channelCVRData.map((e, i) => <Cell key={i} fill={e.isAbove ? '#1D9E75' : '#E24B4A'} />)}
+                {channelCVRData.map((e, i) => <Cell key={i} fill={e.isAbove ? brand.blue : brand.danger} />)}
               </Bar>
-              <Bar dataKey="globalCVR" name="Overall avg" fill="#d1d5db" radius={[0, 3, 3, 0]} />
+              <Bar dataKey="globalCVR" name="Overall avg" fill={brand.hairline2} radius={[0, 3, 3, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </ChartCard>
@@ -322,7 +320,7 @@ export default function LocationTab({ data }) {
         <ChartCard title={`Pendapatan per Channel Akuisisi — ${selectedCity}`}>
           <ResponsiveContainer width="100%" height={240}>
             <AreaChart data={channelOverTimeData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+              <CartesianGrid strokeDasharray="3 3" stroke={brand.hairline} />
               <XAxis dataKey="month" tick={{ fontSize: 11 }} />
               <YAxis tickFormatter={v => `$${(v / 1000).toFixed(0)}K`} tick={{ fontSize: 11 }} />
               <Tooltip formatter={v => fmtK(v)} />
@@ -344,7 +342,7 @@ export default function LocationTab({ data }) {
               <XAxis type="number" tickFormatter={v => `$${(v / 1000).toFixed(0)}K`} tick={{ fontSize: 11 }} />
               <YAxis type="category" dataKey="name" tick={{ fontSize: 11 }} width={100} />
               <Tooltip formatter={v => fmtK(v)} />
-              <Bar dataKey="revenue" fill="#378ADD" radius={[0, 3, 3, 0]} />
+              <Bar dataKey="revenue" fill={brand.blue} radius={[0, 3, 3, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </ChartCard>
@@ -368,7 +366,7 @@ export default function LocationTab({ data }) {
       <ChartCard title="Perbandingan Kota — Rata-rata Nilai Pesanan & CVR IG Ads">
         <ResponsiveContainer width="100%" height={260}>
           <ComposedChart data={cityComparisonData}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+            <CartesianGrid strokeDasharray="3 3" stroke={brand.hairline} />
             <XAxis dataKey="city" tick={{ fontSize: 10 }} />
             <YAxis yAxisId="left"  tickFormatter={v => `$${v}`} tick={{ fontSize: 11 }} />
             <YAxis yAxisId="right" orientation="right" tickFormatter={v => `${v}%`} tick={{ fontSize: 11 }} />
@@ -376,12 +374,12 @@ export default function LocationTab({ data }) {
             <Legend wrapperStyle={{ fontSize: 11 }} />
             <Bar yAxisId="left" dataKey="aov" name="Avg Order Value ($)" radius={[3, 3, 0, 0]}>
               {cityComparisonData.map((e, i) => (
-                <Cell key={i} fill={e.city === selectedCity ? '#1D9E75' : '#378ADD'} />
+                <Cell key={i} fill={e.city === selectedCity ? brand.blue : brand.slate} />
               ))}
             </Bar>
             {cityComparisonData.some(d => d.ig_cvr !== null) && (
               <Line yAxisId="right" type="monotone" dataKey="ig_cvr"
-                name="IG Ads CVR (%)" stroke="#7F77DD" strokeWidth={2} dot={{ r: 3 }} />
+                name="IG Ads CVR (%)" stroke={brand.blue} strokeWidth={2} dot={{ r: 3 }} />
             )}
           </ComposedChart>
         </ResponsiveContainer>

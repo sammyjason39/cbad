@@ -5,6 +5,8 @@ import RetentionTab  from '../components/tabs/RetentionTab'
 import SegmentsTab   from '../components/tabs/SegmentsTab'
 import LocationTab   from '../components/tabs/LocationTab'
 import AIAnalyst     from '../components/AIAnalyst'
+import BrandLogo from '../components/BrandLogo'
+import { brand } from '../brand/tokens'
 
 const TABS = [
   { id: 'overview',   label: 'Ringkasan' },
@@ -26,31 +28,31 @@ export default function DashboardScreen({ data, ollamaOnline }) {
   }
 
   return (
-    <div className="min-h-screen" style={{ background: '#f8f8f6' }}>
+    <div className="min-h-screen" style={{ background: brand.mist }}>
 
-      {/* ── Dark header ─────────────────────────────────────────────────── */}
       <header
         className="sticky top-0 z-40 flex items-center px-6"
-        style={{ background: '#0f0f18', height: 52, borderBottom: '1px solid rgba(255,255,255,0.06)' }}
+        style={{
+          height: 56,
+          background: 'rgba(255, 255, 255, 0.92)',
+          backdropFilter: 'saturate(180%) blur(14px)',
+          WebkitBackdropFilter: 'saturate(180%) blur(14px)',
+          borderBottom: `1px solid ${brand.hairline}`,
+        }}
       >
-        {/* Wordmark */}
-        <span
-          className="font-semibold flex-shrink-0 mr-8"
-          style={{ color: '#7F77DD', fontSize: 13, letterSpacing: '0.05em' }}
-        >
-          ConextLab
-        </span>
+        <div className="flex-shrink-0 mr-8">
+          <BrandLogo size="sm" theme="light" />
+        </div>
 
-        {/* Tabs — centered */}
         <nav className="flex-1 flex items-center justify-center gap-1 overflow-x-auto">
           {TABS.map(tab => (
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className="px-3.5 py-1.5 rounded-md text-xs font-medium whitespace-nowrap transition-colors"
+              className="px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-colors"
               style={{
-                color:      activeTab === tab.id ? '#fff'                       : 'rgba(255,255,255,0.45)',
-                background: activeTab === tab.id ? 'rgba(127,119,221,0.25)'    : 'transparent',
+                color: activeTab === tab.id ? brand.ink : brand.muted,
+                background: activeTab === tab.id ? brand.blueSoft : 'transparent',
               }}
             >
               {tab.label}
@@ -58,23 +60,32 @@ export default function DashboardScreen({ data, ollamaOnline }) {
           ))}
         </nav>
 
-        {/* Ollama status */}
-        <div className="flex items-center gap-1.5 flex-shrink-0 ml-8">
+        <div className="flex items-center gap-2 flex-shrink-0 ml-8">
           <span
-            className="w-1.5 h-1.5 rounded-full"
-            style={{ background: ollamaOnline ? '#1D9E75' : '#E24B4A' }}
+            className="w-2 h-2 rounded-full"
+            style={{
+              background: ollamaOnline ? brand.blue : brand.muted2,
+              boxShadow: ollamaOnline ? '0 0 0 4px rgba(22,82,240,0.16)' : 'none',
+            }}
           />
-          <span className="text-xs" style={{ color: 'rgba(255,255,255,0.35)' }}>
+          <span className="text-xs font-mono uppercase tracking-wider" style={{ color: brand.muted }}>
             AI Analis: {ollamaOnline ? 'Aktif' : 'Nonaktif'}
           </span>
         </div>
       </header>
 
-      {/* ── Tab content ─────────────────────────────────────────────────── */}
-      <main className="max-w-6xl mx-auto px-4 py-6">
+      <main className="max-w-6xl mx-auto px-4 py-8">
+        <div className="mb-8">
+          <p className="font-mono uppercase text-xs font-semibold tracking-widest mb-2" style={{ color: brand.blue }}>
+            Dashboard · E-commerce Indonesia
+          </p>
+          <h1 className="font-extrabold tracking-tight" style={{ fontSize: 'clamp(24px, 3vw, 36px)', color: brand.ink, letterSpacing: '-0.03em' }}>
+            Analisis Perilaku <span style={{ color: brand.blue }}>Pelanggan</span>
+          </h1>
+        </div>
+
         {tabContent[activeTab]}
 
-        {/* AI Analyst — always visible */}
         <AIAnalyst
           data={data}
           ollamaOnline={ollamaOnline}

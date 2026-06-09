@@ -24,6 +24,9 @@ pnpm-debug.log*
 lerna-debug.log*
 *.log
 
+# Vercel
+.vercel/
+
 # Editor / IDE
 .vscode/*
 !.vscode/extensions.json

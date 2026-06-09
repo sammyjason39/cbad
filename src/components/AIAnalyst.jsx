@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect, useMemo } from 'react'
 import { buildSystemPrompt } from '../utils/buildSystemPrompt'
 import { streamChat } from '../utils/ollamaClient'
+import { brand } from '../brand/tokens'
 
 const QUICK_QUESTIONS = [
   'Segmen mana yang harus saya prioritaskan?',
@@ -13,15 +14,14 @@ const QUICK_QUESTIONS = [
   'Kota mana yang punya potensi ROI terbaik?',
 ]
 
-/** Animated typing dots */
 function TypingDots() {
   return (
     <div className="flex items-center gap-1 px-3 py-2.5">
       {[0, 1, 2].map(i => (
         <span
           key={i}
-          className="w-1.5 h-1.5 rounded-full bg-gray-400"
-          style={{ animation: `bounce 1.2s ease-in-out ${i * 0.2}s infinite` }}
+          className="w-1.5 h-1.5 rounded-full"
+          style={{ background: brand.muted2, animation: `bounce 1.2s ease-in-out ${i * 0.2}s infinite` }}
         />
       ))}
     </div>
@@ -29,7 +29,7 @@ function TypingDots() {
 }
 
 export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
-  const [messages, setMessages]   = useState([])   // { role, content, streaming? }
+  const [messages, setMessages]   = useState([])
   const [input, setInput]         = useState('')
   const [streaming, setStreaming] = useState(false)
   const chatEndRef = useRef(null)
@@ -53,7 +53,6 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
     setInput('')
     setStreaming(true)
 
-    // Add a placeholder assistant message that we'll update token by token
     const assistantIdx = history.length
     setMessages(prev => [...prev, { role: 'assistant', content: '', streaming: true }])
 
@@ -96,47 +95,77 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
   }
 
   return (
-    <div className="bg-white border border-gray-200 rounded-lg p-4 mt-6">
-      {/* Header */}
-      <div className="flex items-center gap-2 mb-3">
-        <span className="font-semibold text-gray-800 text-sm">AI Analis</span>
+    <div
+      className="p-5 mt-8"
+      style={{
+        background: brand.surface,
+        border: `1px solid ${brand.hairline}`,
+        borderRadius: 20,
+        boxShadow: '0 16px 50px -20px rgba(10, 10, 10, 0.1)',
+      }}
+    >
+      <div className="flex items-center gap-2 mb-4">
+        <span className="font-semibold text-sm" style={{ color: brand.ink }}>AI Analis</span>
         <span
           className="w-2 h-2 rounded-full"
-          style={{ background: ollamaOnline ? '#1D9E75' : '#888780' }}
+          style={{
+            background: ollamaOnline ? brand.blue : brand.muted2,
+            boxShadow: ollamaOnline ? '0 0 0 4px rgba(22,82,240,0.16)' : 'none',
+          }}
         />
-        <span className="text-xs text-gray-500">
+        <span className="text-xs" style={{ color: brand.muted }}>
           {ollamaOnline ? 'Tanyakan apa saja tentang data pelanggan kamu' : 'Ollama nonaktif — jalankan Ollama untuk mengaktifkan'}
         </span>
       </div>
 
-      {/* Offline warning */}
       {!ollamaOnline && (
-        <div className="mb-3 rounded-lg px-3 py-2 text-xs bg-amber-50 text-amber-700 border border-amber-200">
+        <div
+          className="mb-4 rounded-xl px-3 py-2 text-xs"
+          style={{ background: brand.blueSoft, color: brand.blue, border: `1px solid rgba(22,82,240,0.2)` }}
+        >
           Ollama tidak berjalan. Jalankan dengan{' '}
-          <code className="font-mono bg-amber-100 px-1 rounded">ollama serve</code> lalu muat ulang.
+          <code className="font-mono px-1 rounded" style={{ background: 'rgba(22,82,240,0.1)' }}>ollama serve</code> lalu muat ulang.
           Jika ada error CORS, atur{' '}
-          <code className="font-mono bg-amber-100 px-1 rounded">OLLAMA_ORIGINS=*</code>.
+          <code className="font-mono px-1 rounded" style={{ background: 'rgba(22,82,240,0.1)' }}>OLLAMA_ORIGINS=*</code>.
         </div>
       )}
 
-      {/* Quick questions */}
-      <div className="flex flex-wrap gap-1.5 mb-3">
+      <div className="flex flex-wrap gap-2 mb-4">
         {QUICK_QUESTIONS.map(q => (
           <button
             key={q}
             onClick={() => sendMessage(q)}
             disabled={streaming || !ollamaOnline}
-            className="text-xs bg-gray-100 hover:bg-purple-50 hover:text-purple-700 text-gray-600 px-2.5 py-1 rounded-full transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+            className="text-xs px-3 py-1.5 rounded-full transition-colors disabled:opacity-40 disabled:cursor-not-allowed font-medium"
+            style={{
+              background: brand.mist,
+              color: brand.muted,
+              border: `1px solid ${brand.hairline}`,
+            }}
+            onMouseEnter={e => {
+              if (!streaming && ollamaOnline) {
+                e.currentTarget.style.background = brand.blueSoft
+                e.currentTarget.style.color = brand.blue
+                e.currentTarget.style.borderColor = 'rgba(22,82,240,0.25)'
+              }
+            }}
+            onMouseLeave={e => {
+              e.currentTarget.style.background = brand.mist
+              e.currentTarget.style.color = brand.muted
+              e.currentTarget.style.borderColor = brand.hairline
+            }}
           >
             {q}
           </button>
         ))}
       </div>
 
-      {/* Chat area */}
-      <div className="chat-scroll h-56 overflow-y-auto space-y-3 mb-3 border border-gray-100 rounded-lg p-3 bg-gray-50">
+      <div
+        className="chat-scroll h-56 overflow-y-auto space-y-3 mb-4 p-4"
+        style={{ background: brand.mist, border: `1px solid ${brand.hairline}`, borderRadius: 12 }}
+      >
         {messages.length === 0 && (
-          <p className="text-xs text-gray-400 text-center mt-16">
+          <p className="text-xs text-center mt-16" style={{ color: brand.muted2 }}>
             {ollamaOnline
               ? 'Pilih pertanyaan cepat atau ketik di bawah untuk mulai'
               : 'Jalankan Ollama untuk mengaktifkan AI Analis'}
@@ -146,28 +175,26 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
         {messages.map((m, i) => (
           <div key={i} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
             <div
-              className={`max-w-[82%] rounded-lg px-3 py-2 text-xs leading-relaxed whitespace-pre-wrap ${
+              className="max-w-[82%] rounded-xl px-3 py-2 text-xs leading-relaxed whitespace-pre-wrap"
+              style={
                 m.role === 'user'
-                  ? 'text-white'
+                  ? { background: brand.ink, color: brand.surface }
                   : m.isError
-                  ? 'bg-red-50 text-red-700 border border-red-200'
-                  : 'bg-white text-gray-800 border border-gray-200 shadow-sm'
-              }`}
-              style={m.role === 'user' ? { background: '#7F77DD' } : undefined}
+                  ? { background: '#FEF2F2', color: brand.danger, border: '1px solid #FECACA' }
+                  : { background: brand.surface, color: brand.ink, border: `1px solid ${brand.hairline}` }
+              }
             >
               {m.content}
-              {/* streaming cursor */}
               {m.streaming && (
-                <span className="animate-pulse ml-0.5" style={{ color: '#7F77DD' }}>▋</span>
+                <span className="animate-pulse ml-0.5" style={{ color: brand.blue }}>▋</span>
               )}
             </div>
           </div>
         ))}
 
-        {/* Typing dots (while streaming but before first token) */}
         {streaming && messages[messages.length - 1]?.content === '' && (
           <div className="flex justify-start">
-            <div className="bg-white border border-gray-200 rounded-lg shadow-sm">
+            <div style={{ background: brand.surface, border: `1px solid ${brand.hairline}`, borderRadius: 12 }}>
               <TypingDots />
             </div>
           </div>
@@ -176,7 +203,6 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
         <div ref={chatEndRef} />
       </div>
 
-      {/* Input */}
       <div className="flex gap-2">
         <input
           type="text"
@@ -185,16 +211,19 @@ export default function AIAnalyst({ data, ollamaOnline, activeTab }) {
           onKeyDown={handleKey}
           placeholder={ollamaOnline ? 'Tanya tentang pelanggan kamu…' : 'Ollama nonaktif'}
           disabled={streaming || !ollamaOnline}
-          className="flex-1 text-xs border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-1 disabled:bg-gray-50 disabled:cursor-not-allowed"
-          style={{ '--tw-ring-color': '#7F77DD' }}
+          className="flex-1 text-xs rounded-full px-4 py-2.5 focus:outline-none disabled:cursor-not-allowed"
+          style={{
+            border: `1px solid ${brand.hairline}`,
+            background: ollamaOnline ? brand.surface : brand.mist,
+          }}
         />
         <button
           onClick={() => sendMessage(input)}
           disabled={streaming || !input.trim() || !ollamaOnline}
-          className="text-white text-xs px-4 py-2 rounded-lg transition-colors disabled:opacity-40 disabled:cursor-not-allowed font-medium"
-          style={{ background: '#7F77DD' }}
+          className="text-white text-xs px-5 py-2.5 rounded-full transition-colors disabled:opacity-40 disabled:cursor-not-allowed font-semibold"
+          style={{ background: brand.ink }}
         >
-          {streaming ? '…' : 'Send'}
+          {streaming ? '…' : 'Kirim'}
         </button>
       </div>
     </div>
