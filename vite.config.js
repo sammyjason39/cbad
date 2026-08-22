@@ -1,6 +1,12 @@
 import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
 import { getQwenConfig, pingQwen, createChatCompletionStream } from './api/_lib/qwen.js'
+import {
+  getN8nBackendConfig,
+  proxyHealthViaN8n,
+  proxyChatViaN8n,
+  completionToSse,
+} from './api/_lib/n8nBackend.js'
 
 function readJsonBody(req) {
   return new Promise((resolve, reject) => {
@@ -32,9 +38,27 @@ function qwenDevApiPlugin(env) {
           res.end(JSON.stringify({ error: 'Method not allowed' }))
           return
         }
+        const n8n = getN8nBackendConfig()
+        res.setHeader('Content-Type', 'application/json')
+        if (n8n.enabled) {
+          try {
+            const json = await proxyHealthViaN8n(n8n)
+            res.end(JSON.stringify(json))
+          } catch (err) {
+            res.statusCode = 502
+            res.end(JSON.stringify({
+              online: false,
+              models: [],
+              model: env.QWEN_MODEL || 'qwen3.7-plus',
+              provider: 'qwen',
+              error: err.message,
+              backend: 'n8n',
+            }))
+          }
+          return
+        }
         const config = getQwenConfig()
         const result = await pingQwen(config)
-        res.setHeader('Content-Type', 'application/json')
         res.end(JSON.stringify({
           online: result.online,
           models: result.models,
@@ -52,6 +76,17 @@ function qwenDevApiPlugin(env) {
         }
         try {
           const body = await readJsonBody(req)
+          const n8n = getN8nBackendConfig()
+          if (n8n.enabled) {
+            const json = await proxyChatViaN8n(body.messages || [], n8n)
+            const content = json.content ?? ''
+            if (!content) throw new Error('Empty response from n8n backend')
+            res.setHeader('Content-Type', 'text/event-stream; charset=utf-8')
+            res.setHeader('Cache-Control', 'no-cache, no-transform')
+            res.setHeader('Connection', 'keep-alive')
+            res.end(completionToSse(content))
+            return
+          }
           const config = getQwenConfig()
           const upstream = await createChatCompletionStream(config, body.messages || [])
           res.setHeader('Content-Type', 'text/event-stream; charset=utf-8')
